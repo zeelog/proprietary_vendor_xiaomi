@@ -22,6 +22,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aries/proprietary/bin/diag_mdlog:system/bin/diag_mdlog \
     vendor/xiaomi/aries/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
     vendor/xiaomi/aries/proprietary/bin/efsks:system/bin/efsks \
+    vendor/xiaomi/aries/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
+    vendor/xiaomi/aries/proprietary/bin/fmconfig:system/bin/fmconfig \
     vendor/xiaomi/aries/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/xiaomi/aries/proprietary/bin/ks:system/bin/ks \
     vendor/xiaomi/aries/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
