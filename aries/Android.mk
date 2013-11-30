@@ -36,4 +36,27 @@ LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 include $(BUILD_PREBUILT)
 
+LOCAL_PATH := $(PRODUCT_OUT)
+
+include $(CLEAR_VARS)
+CLASS_DIR := $(PRODUCT_OUT)/obj/RADIO_IMAGE
+RADIO_IMG_SIZE := 174080
+VENDOR_RADIO_DIR := $(shell pwd)/vendor/xiaomi/aries/radio
+
+$(PRODUCT_OUT)/obj/RADIO_IMAGE/radio.img:
+	$(call pretty,"[ARIES] Target radio image: $@")
+	echo $(VENDOR_RADIO_DIR)
+	mkdir -p $(CLASS_DIR)/image
+	bash $(VENDOR_RADIO_DIR)/scripts/copy_files $(VENDOR_RADIO_DIR) $(CLASS_DIR)/image $(VENDOR_RADIO_DIR)/firmware_files.txt
+	dd if=/dev/zero of=$@ bs=512 count=$(RADIO_IMG_SIZE)
+	mkdosfs -F16 $@
+	mcopy -i $@ $(CLASS_DIR)/image ::/
+
+LOCAL_MODULE       := radio.img
+LOCAL_MODULE_TAGS  := optional
+LOCAL_MODULE_CLASS := RADIO_IMAGE
+LOCAL_SRC_FILES    := obj/RADIO_IMAGE/radio.img
+LOCAL_MODULE_PATH  := $(PRODUCT_OUT)
+include $(BUILD_PREBUILT)
+
 endif

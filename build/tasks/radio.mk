@@ -1,0 +1,1 @@
+-include $(sort $(wildcard vendor/xiaomi/*/radio/radio.mk))
