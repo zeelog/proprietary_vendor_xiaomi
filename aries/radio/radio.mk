@@ -1,4 +1,0 @@
-ifeq ($(TARGET_DEVICE),aries)
-INSTALLED_RADIOIMAGE_TARGET += $(PRODUCT_OUT)/radio.img
-endif
-

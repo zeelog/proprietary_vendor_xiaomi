@@ -20,8 +20,7 @@ PRODUCT_PACKAGES := \
     LiveWallpapersPicker \
     MagicSmokeWallpapers \
     VisualizationWallpapers \
-    librs_jni \
-    radio.img
+    librs_jni
 
 # Publish that we support the live wallpaper feature.
 PRODUCT_COPY_FILES := \

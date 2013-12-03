@@ -1,9 +1,0 @@
-#!/bin/sh
-
-SOURCE="$1"
-TARGET="$2"
-LIST="$3"
-
-for FILE in `cat $LIST | grep -v ^# | grep -v ^$`; do
-	cp $SOURCE/$FILE $TARGET/$(basename $FILE)
-done
