@@ -161,26 +161,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aries/proprietary/lib/libxml.so:system/lib/libxml.so \
     vendor/xiaomi/aries/proprietary/vendor/firmware/a300_pfp.fw:system/vendor/firmware/a300_pfp.fw \
     vendor/xiaomi/aries/proprietary/vendor/firmware/a300_pm4.fw:system/vendor/firmware/a300_pm4.fw \
-    vendor/xiaomi/aries/proprietary/vendor/firmware/dsps.b00:system/vendor/firmware/dsps.b00 \
-    vendor/xiaomi/aries/proprietary/vendor/firmware/dsps.b01:system/vendor/firmware/dsps.b01 \
-    vendor/xiaomi/aries/proprietary/vendor/firmware/dsps.b02:system/vendor/firmware/dsps.b02 \
-    vendor/xiaomi/aries/proprietary/vendor/firmware/dsps.b03:system/vendor/firmware/dsps.b03 \
-    vendor/xiaomi/aries/proprietary/vendor/firmware/dsps.b04:system/vendor/firmware/dsps.b04 \
-    vendor/xiaomi/aries/proprietary/vendor/firmware/dsps.b05:system/vendor/firmware/dsps.b05 \
-    vendor/xiaomi/aries/proprietary/vendor/firmware/dsps.mdt:system/vendor/firmware/dsps.mdt \
-    vendor/xiaomi/aries/proprietary/vendor/firmware/q6.b00:system/vendor/firmware/q6.b00 \
-    vendor/xiaomi/aries/proprietary/vendor/firmware/q6.b01:system/vendor/firmware/q6.b01 \
-    vendor/xiaomi/aries/proprietary/vendor/firmware/q6.b03:system/vendor/firmware/q6.b03 \
-    vendor/xiaomi/aries/proprietary/vendor/firmware/q6.b04:system/vendor/firmware/q6.b04 \
-    vendor/xiaomi/aries/proprietary/vendor/firmware/q6.b05:system/vendor/firmware/q6.b05 \
-    vendor/xiaomi/aries/proprietary/vendor/firmware/q6.b06:system/vendor/firmware/q6.b06 \
-    vendor/xiaomi/aries/proprietary/vendor/firmware/q6.mdt:system/vendor/firmware/q6.mdt \
-    vendor/xiaomi/aries/proprietary/vendor/firmware/wcnss.b00:system/vendor/firmware/wcnss.b00 \
-    vendor/xiaomi/aries/proprietary/vendor/firmware/wcnss.b01:system/vendor/firmware/wcnss.b01 \
-    vendor/xiaomi/aries/proprietary/vendor/firmware/wcnss.b02:system/vendor/firmware/wcnss.b02 \
-    vendor/xiaomi/aries/proprietary/vendor/firmware/wcnss.b04:system/vendor/firmware/wcnss.b04 \
-    vendor/xiaomi/aries/proprietary/vendor/firmware/wcnss.b05:system/vendor/firmware/wcnss.b05 \
-    vendor/xiaomi/aries/proprietary/vendor/firmware/wcnss.mdt:system/vendor/firmware/wcnss.mdt \
     vendor/xiaomi/aries/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
     vendor/xiaomi/aries/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/xiaomi/aries/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
