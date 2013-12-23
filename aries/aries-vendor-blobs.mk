@@ -175,4 +175,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aries/proprietary/vendor/firmware/keymaster/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
     vendor/xiaomi/aries/proprietary/vendor/firmware/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
     vendor/xiaomi/aries/proprietary/vendor/firmware/keymaster/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03 \
-    vendor/xiaomi/aries/proprietary/vendor/firmware/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt
+    vendor/xiaomi/aries/proprietary/vendor/firmware/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt \
+    vendor/xiaomi/aries/proprietary/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
+    vendor/xiaomi/aries/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
+    vendor/xiaomi/aries/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
+    vendor/xiaomi/aries/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
+    vendor/xiaomi/aries/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
+    vendor/xiaomi/aries/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
