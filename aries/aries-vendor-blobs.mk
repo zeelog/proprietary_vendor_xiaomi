@@ -51,18 +51,21 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aries/proprietary/etc/firmware/vidc.b03:system/etc/firmware/vidc.b03 \
     vendor/xiaomi/aries/proprietary/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
     vendor/xiaomi/aries/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
-    vendor/xiaomi/aries/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
-    vendor/xiaomi/aries/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
-    vendor/xiaomi/aries/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
-    vendor/xiaomi/aries/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
+    vendor/xiaomi/aries/proprietary/lib/egl/libEGL_adreno.so:system/lib/egl/libEGL_adreno.so \
+    vendor/xiaomi/aries/proprietary/lib/egl/libGLESv1_CM_adreno.so:system/lib/egl/libGLESv1_CM_adreno.so \
+    vendor/xiaomi/aries/proprietary/lib/egl/libGLESv2_adreno.so:system/lib/egl/libGLESv2_adreno.so \
+    vendor/xiaomi/aries/proprietary/lib/egl/libplayback_adreno.so:system/lib/egl/libplayback_adreno.so \
+    vendor/xiaomi/aries/proprietary/lib/egl/libq3dtools_adreno.so:system/lib/egl/libq3dtools_adreno.so \
     vendor/xiaomi/aries/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
     vendor/xiaomi/aries/proprietary/lib/hw/flp.msm8960.so:system/lib/hw/flp.msm8960.so \
     vendor/xiaomi/aries/proprietary/lib/hw/gps.msm8960.so:system/lib/hw/gps.msm8960.so \
     vendor/xiaomi/aries/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
+    vendor/xiaomi/aries/proprietary/lib/libadreno_utils.so:system/lib/libadreno_utils.so \
     vendor/xiaomi/aries/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/xiaomi/aries/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/xiaomi/aries/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
-    vendor/xiaomi/aries/proprietary/lib/libc2d2_a3xx.so:system/lib/libc2d2_a3xx.so \
+    vendor/xiaomi/aries/proprietary/lib/libc2d30-a3xx.so:system/lib/libc2d30-a3xx.so \
+    vendor/xiaomi/aries/proprietary/lib/libc2d30.so:system/lib/libc2d30.so \
     vendor/xiaomi/aries/proprietary/lib/libCB.so:system/lib/libCB.so \
     vendor/xiaomi/aries/proprietary/lib/libchromatix_imx175_zsl.so:system/lib/libchromatix_imx175_zsl.so \
     vendor/xiaomi/aries/proprietary/lib/libchromatix_imx175_hfr_120fps.so:system/lib/libchromatix_imx175_hfr_120fps.so \
@@ -147,6 +150,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aries/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
     vendor/xiaomi/aries/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     vendor/xiaomi/aries/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
+    vendor/xiaomi/aries/proprietary/lib/librs_adreno_sha1.so:system/lib/librs_adreno_sha1.so \
+    vendor/xiaomi/aries/proprietary/lib/librs_adreno.so:system/lib/librs_adreno.so \
+    vendor/xiaomi/aries/proprietary/lib/libRSDriver_adreno.so:system/lib/libRSDriver_adreno.so \
     vendor/xiaomi/aries/proprietary/lib/libsc-a3xx.so:system/lib/libsc-a3xx.so \
     vendor/xiaomi/aries/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
     vendor/xiaomi/aries/proprietary/lib/libsensor_reg.so:system/lib/libsensor_reg.so \
