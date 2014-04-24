@@ -171,6 +171,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aries/proprietary/vendor/firmware/bcm2079x_firmware.ncd:system/vendor/firmware/bcm2079x_firmware.ncd \
     vendor/xiaomi/aries/proprietary/vendor/firmware/bcm2079x_pre_firmware.ncd:system/vendor/firmware/bcm2079x_pre_firmware.ncd \
     vendor/xiaomi/aries/proprietary/lib/libacdbdata.so:system/lib/libacdbdata.so \
+    vendor/xiaomi/aries/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
+    vendor/xiaomi/aries/proprietary/lib/libqminvapi.so:system/lib/libqminvapi.so \
     vendor/xiaomi/aries/proprietary/lib/libAKM.so:system/lib/libAKM.so \
     vendor/xiaomi/aries/proprietary/lib/libmorpho_noise_reduction.so:system/lib/libmorpho_noise_reduction.so \
     vendor/xiaomi/aries/proprietary/vendor/firmware/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
