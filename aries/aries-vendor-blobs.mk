@@ -41,6 +41,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aries/proprietary/bin/usbhub:system/bin/usbhub \
     vendor/xiaomi/aries/proprietary/bin/usbhub_init:system/bin/usbhub_init \
     vendor/xiaomi/aries/proprietary/bin/v4l2-qcamera-app:system/bin/v4l2-qcamera-app \
+    vendor/xiaomi/aries/proprietary/etc/DxHDCP.cfg:system/etc/DxHDCP.cfg \
     vendor/xiaomi/aries/proprietary/etc/firmware/tzapps.b00:system/etc/firmware/tzapps.b00 \
     vendor/xiaomi/aries/proprietary/etc/firmware/tzapps.b01:system/etc/firmware/tzapps.b01 \
     vendor/xiaomi/aries/proprietary/etc/firmware/tzapps.b02:system/etc/firmware/tzapps.b02 \
@@ -109,6 +110,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aries/proprietary/lib/libdss.so:system/lib/libdss.so \
     vendor/xiaomi/aries/proprietary/lib/libdsucsd.so:system/lib/libdsucsd.so \
     vendor/xiaomi/aries/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
+    vendor/xiaomi/aries/proprietary/lib/libDxHdcp.so:system/lib/libDxHdcp.so \
     vendor/xiaomi/aries/proprietary/lib/libgemini.so:system/lib/libgemini.so \
     vendor/xiaomi/aries/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/xiaomi/aries/proprietary/lib/libgsl.so:system/lib/libgsl.so \
@@ -170,6 +172,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aries/proprietary/vendor/lib/libloc_ds_api.so:system/vendor/lib/libloc_ds_api.so \
     vendor/xiaomi/aries/proprietary/vendor/firmware/bcm2079x_firmware.ncd:system/vendor/firmware/bcm2079x_firmware.ncd \
     vendor/xiaomi/aries/proprietary/vendor/firmware/bcm2079x_pre_firmware.ncd:system/vendor/firmware/bcm2079x_pre_firmware.ncd \
+    vendor/xiaomi/aries/proprietary/vendor/firmware/discretix/dxhdcp2.b00:system/vendor/firmware/discretix/dxhdcp2.b00 \
+    vendor/xiaomi/aries/proprietary/vendor/firmware/discretix/dxhdcp2.b01:system/vendor/firmware/discretix/dxhdcp2.b01 \
+    vendor/xiaomi/aries/proprietary/vendor/firmware/discretix/dxhdcp2.b02:system/vendor/firmware/discretix/dxhdcp2.b02 \
+    vendor/xiaomi/aries/proprietary/vendor/firmware/discretix/dxhdcp2.b03:system/vendor/firmware/discretix/dxhdcp2.b03 \
+    vendor/xiaomi/aries/proprietary/vendor/firmware/discretix/dxhdcp2.mdt:system/vendor/firmware/discretix/dxhdcp2.mdt \
     vendor/xiaomi/aries/proprietary/lib/libacdbdata.so:system/lib/libacdbdata.so \
     vendor/xiaomi/aries/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/xiaomi/aries/proprietary/lib/libqminvapi.so:system/lib/libqminvapi.so \
