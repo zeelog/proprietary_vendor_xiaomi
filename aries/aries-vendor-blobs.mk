@@ -192,4 +192,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aries/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/xiaomi/aries/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/xiaomi/aries/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-    vendor/xiaomi/aries/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
+    vendor/xiaomi/aries/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+    vendor/xiaomi/aries/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
+    vendor/xiaomi/aries/proprietary/lib/libmm-abl.so:system/lib/libmm-abl.so \
+    vendor/xiaomi/aries/proprietary/lib/libmm-abl-oem.so:system/lib/libmm-abl-oem.so
