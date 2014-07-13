@@ -18,6 +18,7 @@
 DEVICE_PACKAGE_OVERLAYS := vendor/xiaomi/aries/overlay
 
 PRODUCT_PACKAGES += \
-    libqminvapi
+    libqminvapi \
+    PPPreference
 
 $(call inherit-product, vendor/xiaomi/aries/aries-vendor-blobs.mk)
