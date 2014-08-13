@@ -438,9 +438,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cancro/proprietary/vendor/lib/liblisten.so:system/vendor/lib/liblisten.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/liblistensoundmodel2.so:system/vendor/lib/liblistensoundmodel2.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/liblistensoundmodel.so:system/vendor/lib/liblistensoundmodel.so \
-    vendor/xiaomi/cancro/proprietary/lib/hw/audio_policy.msm8974.so:system/lib/hw/audio_policy.msm8974.so \
-    vendor/xiaomi/cancro/proprietary/lib/hw/audio.primary.msm8974.so:system/lib/hw/audio.primary.msm8974.so \
-    vendor/xiaomi/cancro/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
     vendor/xiaomi/cancro/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
     vendor/xiaomi/cancro/proprietary/bin/wcnss_service:system/bin/wcnss_service \
     vendor/xiaomi/cancro/proprietary/bin/fmconfig:system/bin/fmconfig \
