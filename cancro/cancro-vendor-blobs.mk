@@ -413,7 +413,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cancro/proprietary/lib/libnfctester_jni.so:system/lib/libnfctester_jni.so \
     vendor/xiaomi/cancro/proprietary/bin/dumpe2fs:system/bin/dumpe2fs \
     vendor/xiaomi/cancro/proprietary/bin/e2fsck:system/bin/e2fsck \
-    vendor/xiaomi/cancro/proprietary/vendor/lib/hw/power.qcom.so:system/vendor/lib/hw/power.qcom.so \
     vendor/xiaomi/cancro/proprietary/bin/changepowermode.sh:system/bin/changepowermode.sh \
     vendor/xiaomi/cancro/proprietary/bin/ssr_diag:system/bin/ssr_diag \
     vendor/xiaomi/cancro/proprietary/bin/qcom-system-daemon:system/bin/qcom-system-daemon \
