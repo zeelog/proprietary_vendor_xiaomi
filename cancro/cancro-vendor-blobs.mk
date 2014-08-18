@@ -377,6 +377,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/xiaomi/cancro/proprietary/bin/netmgrd:system/bin/netmgrd \
+    vendor/xiaomi/cancro/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
     vendor/xiaomi/cancro/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/xiaomi/cancro/proprietary/bin/radish:system/bin/radish \
     vendor/xiaomi/cancro/proprietary/bin/rfs_access:system/bin/rfs_access \
