@@ -409,9 +409,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cancro/proprietary/lib/hw/nfc_nci_nfca.default.so:system/lib/hw/nfc_nci_nfca.default.so \
     vendor/xiaomi/cancro/proprietary/vendor/firmware/BCM20791B5_002.006.013.0011.0087_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20791B5_002.006.013.0011.0087_Generic_I2C_NCD_Unsigned_configdata.ncd \
     vendor/xiaomi/cancro/proprietary/vendor/firmware/BCM20791B5_002.006.013.0011.0087_Generic_PreI2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20791B5_002.006.013.0011.0087_Generic_PreI2C_NCD_Unsigned_configdata.ncd \
-    vendor/xiaomi/cancro/proprietary/lib/libnfc_nci_jni.so:system/lib/libnfc_nci_jni.so \
-    vendor/xiaomi/cancro/proprietary/lib/libnfc-nci.so:system/lib/libnfc-nci.so \
-    vendor/xiaomi/cancro/proprietary/lib/libnfctester_jni.so:system/lib/libnfctester_jni.so \
     vendor/xiaomi/cancro/proprietary/bin/dumpe2fs:system/bin/dumpe2fs \
     vendor/xiaomi/cancro/proprietary/bin/ssr_diag:system/bin/ssr_diag \
     vendor/xiaomi/cancro/proprietary/bin/qcom-system-daemon:system/bin/qcom-system-daemon \
