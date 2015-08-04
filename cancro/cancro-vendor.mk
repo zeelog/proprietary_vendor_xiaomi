@@ -26,10 +26,11 @@ PRODUCT_PACKAGES += \
     libtime_genoff
 
 PRODUCT_PACKAGES += \
-    com.qualcomm.location \
     qcrilmsgtunnel \
     QuickBoot \
     shutdownlistener \
     TimeService
+
+#com.qualcomm.location
 
 $(call inherit-product, vendor/xiaomi/cancro/cancro-vendor-blobs.mk)
