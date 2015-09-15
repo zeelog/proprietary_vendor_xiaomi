@@ -461,6 +461,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cancro/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/lib-rtpdaemoninterface.so:system/vendor/lib/lib-rtpdaemoninterface.so \
     vendor/xiaomi/cancro/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
+    vendor/xiaomi/cancro/proprietary/lib/libqcomfm_jni.so:system//lib/libqcomfm_jni.so \
     vendor/xiaomi/cancro/proprietary/bin/wcnss_service:system/bin/wcnss_service \
     vendor/xiaomi/cancro/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
