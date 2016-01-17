@@ -172,6 +172,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libsensor_user_cal.so:system/vendor/lib/libsensor_user_cal.so \
     vendor/xiaomi/cancro/proprietary/etc/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf \
     vendor/xiaomi/cancro/proprietary/bin/hvdcp:system/bin/hvdcp \
+    vendor/xiaomi/cancro/proprietary/bin/charger_monitor:system/bin/charger_monitor \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libmm-hdcpmgr.so:system/vendor/lib/libmm-hdcpmgr.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libmmQSM.so:system/vendor/lib/libmmQSM.so \
     vendor/xiaomi/cancro/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
@@ -235,4 +236,3 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cancro/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so:system/lib/rfsa/adsp/libfastcvadsp.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so:system/lib/rfsa/adsp/libscveT2T_skel.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libsrsprocessing.so:system/vendor/lib/libsrsprocessing.so
-
