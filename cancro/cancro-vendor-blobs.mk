@@ -81,6 +81,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cancro/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
+    vendor/xiaomi/cancro/proprietary/lib/soundfx/libdirac.so:system/vendor/lib/soundfx/libdirac.so \
+    vendor/xiaomi/cancro/proprietary/lib/libDiracAPI_SHARED.so:system/vendor/lib/libDiracAPI_SHARED.so \
     vendor/xiaomi/cancro/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
     vendor/xiaomi/cancro/proprietary/bin/quipc_main:system/bin/quipc_main \
     vendor/xiaomi/cancro/proprietary/bin/quipc_igsn:system/bin/quipc_igsn \
