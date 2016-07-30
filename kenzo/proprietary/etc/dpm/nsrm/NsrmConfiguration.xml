@@ -52,8 +52,9 @@
          Default 4 hours (14400s). Range: [1 - 86,400] -->
     <TConnect>14400</TConnect>
 
-    <!-- Time period of days which a decision is learning for an app.
-         Default 30 days (2592000s). Range: [1 - 31,536,000] -->
+    <!-- Time period of days for which a previous made decesion is valid.
+         with a margin of 1 day which is the Min allowed value.
+         Default 30 days (2592000s). Range: [86400 - 31,536,000] -->
     <TDecisionMade>2592000</TDecisionMade>
 
     <!-- Minimum connect counts. Range: [0 - 100] -->
@@ -70,6 +71,9 @@
 
     <!-- Decision made time threshold. Default 5 days (432000s). Range: [1 - 31,536,000] -->
     <TDmThreshold>432000</TDmThreshold>
+
+    <!-- Recheck threshold. Default 1.1 Range: [1.0 - 10.0] -->
+    <RecheckThr>1.1</RecheckThr>
 
     <!-- Decision made. 0 false, 1 true -->
     <DNsrmEnable>0</DNsrmEnable>
