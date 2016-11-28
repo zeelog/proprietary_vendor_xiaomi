@@ -32,9 +32,4 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libtime_genoff
 
-PRODUCT_PACKAGES += \
-    CNEService \
-    com.qualcomm.location \
-    dpmserviceapp
-
 $(call inherit-product, vendor/xiaomi/ido/ido-vendor-blobs.mk)
