@@ -38,6 +38,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/hydrogen/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/xiaomi/hydrogen/proprietary/bin/tftp_server:system/bin/tftp_server \
     vendor/xiaomi/hydrogen/proprietary/bin/time_daemon:system/bin/time_daemon \
+    vendor/xiaomi/hydrogen/proprietary/bin/wcnss_service:system/bin/wcnss_service \
     vendor/xiaomi/hydrogen/proprietary/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb:system/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb \
     vendor/xiaomi/hydrogen/proprietary/etc/acdbdata/Forte/Forte_General_cal.acdb:system/etc/acdbdata/Forte/Forte_General_cal.acdb \
     vendor/xiaomi/hydrogen/proprietary/etc/acdbdata/Forte/Forte_Global_cal.acdb:system/etc/acdbdata/Forte/Forte_Global_cal.acdb \
@@ -131,7 +132,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/hydrogen/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
     vendor/xiaomi/hydrogen/proprietary/lib64/libOmxVpp.so:system/lib64/libOmxVpp.so \
     vendor/xiaomi/hydrogen/proprietary/lib64/libvpplibrary.so:system/lib64/libvpplibrary.so \
-    vendor/xiaomi/hydrogen/proprietary/lib64/libwcnss_qmi.so:system/lib64/libwcnss_qmi.so \
     vendor/xiaomi/hydrogen/proprietary/lib/hw/camera.msm8952.so:system/lib/hw/camera.msm8952.so \
     vendor/xiaomi/hydrogen/proprietary/lib/hw/consumerir.msm8952.so:system/lib/hw/consumerir.msm8952.so \
     vendor/xiaomi/hydrogen/proprietary/lib/hw/fingerprint.fpc.so:system/lib/hw/fingerprint.fpc.so \
