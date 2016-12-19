@@ -135,6 +135,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
     vendor/xiaomi/gemini/proprietary/etc/sensors/hals.conf:system/etc/sensors/hals.conf \
     vendor/xiaomi/gemini/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
+    vendor/xiaomi/gemini/proprietary/etc/thermal-engine-8996-a1.conf:system/etc/thermal-engine-8996-a1.conf \
+    vendor/xiaomi/gemini/proprietary/etc/thermal-engine-8996.conf:system/etc/thermal-engine-8996.conf \
     vendor/xiaomi/gemini/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/xiaomi/gemini/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
     vendor/xiaomi/gemini/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
