@@ -572,4 +572,4 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ido/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/xiaomi/ido/proprietary/vendor/lib64/libTimeService.so:system/vendor/lib64/libTimeService.so \
     vendor/xiaomi/ido/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
-
+    vendor/xiaomi/ido/proprietary/bin/wcnss_service:system/bin/wcnss_service
