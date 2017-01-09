@@ -1,4 +1,5 @@
 # Copyright (C) 2016 The CyanogenMod Project
+# Copyright (C) 2017 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -125,6 +126,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
     vendor/xiaomi/gemini/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/xiaomi/gemini/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
+    vendor/xiaomi/gemini/proprietary/etc/permissions/com.xiaomi.sensor.xml:system/etc/permissions/com.xiaomi.sensor.xml \
     vendor/xiaomi/gemini/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
     vendor/xiaomi/gemini/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
     vendor/xiaomi/gemini/proprietary/etc/permissions/embms.xml:system/etc/permissions/embms.xml \
@@ -142,6 +144,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
     vendor/xiaomi/gemini/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
     vendor/xiaomi/gemini/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
+    vendor/xiaomi/gemini/proprietary/framework/com.xiaomi.sensor.jar:system/framework/com.xiaomi.sensor.jar \
     vendor/xiaomi/gemini/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
     vendor/xiaomi/gemini/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
     vendor/xiaomi/gemini/proprietary/framework/embmslibrary.jar:system/framework/embmslibrary.jar \
@@ -153,12 +156,16 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/xiaomi/gemini/proprietary/lib64/hw/consumerir.msm8996.so:system/lib64/hw/consumerir.msm8996.so \
     vendor/xiaomi/gemini/proprietary/lib64/hw/fingerprint.fpc.so:system/lib64/hw/fingerprint.fpc.so \
+    vendor/xiaomi/gemini/proprietary/lib64/libcalapi.so:system/lib64/libcalapi.so \
     vendor/xiaomi/gemini/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/xiaomi/gemini/proprietary/lib64/libOmxVpp.so:system/lib64/libOmxVpp.so \
+    vendor/xiaomi/gemini/proprietary/lib64/libsensor_calJNI.so:system/lib64/libsensor_calJNI.so \
+    vendor/xiaomi/gemini/proprietary/lib64/libsensor_cal.so:system/lib64/libsensor_cal.so \
     vendor/xiaomi/gemini/proprietary/lib64/libvpplibrary.so:system/lib64/libvpplibrary.so \
     vendor/xiaomi/gemini/proprietary/lib/hw/camera.msm8996.so:system/lib/hw/camera.msm8996.so \
     vendor/xiaomi/gemini/proprietary/lib/hw/consumerir.msm8996.so:system/lib/hw/consumerir.msm8996.so \
     vendor/xiaomi/gemini/proprietary/lib/hw/fingerprint.fpc.so:system/lib/hw/fingerprint.fpc.so \
+    vendor/xiaomi/gemini/proprietary/lib/libcalapi.so:system/lib/libcalapi.so \
     vendor/xiaomi/gemini/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/xiaomi/gemini/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/xiaomi/gemini/proprietary/lib/libmmlib2d_interface.so:system/lib/libmmlib2d_interface.so \
@@ -167,6 +174,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/lib/libmorpho_panorama.so:system/lib/libmorpho_panorama.so \
     vendor/xiaomi/gemini/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/xiaomi/gemini/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    vendor/xiaomi/gemini/proprietary/lib/libsensor_calJNI.so:system/lib/libsensor_calJNI.so \
+    vendor/xiaomi/gemini/proprietary/lib/libsensor_cal.so:system/lib/libsensor_cal.so \
     vendor/xiaomi/gemini/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/xiaomi/gemini/proprietary/lib/soundfx/libdirac.so:system/lib/soundfx/libdirac.so \
     vendor/xiaomi/gemini/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
@@ -301,6 +310,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/libsecureui_svcsock.so:system/vendor/lib64/libsecureui_svcsock.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/libsensor1.so:system/vendor/lib64/libsensor1.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/libsensor_reg.so:system/vendor/lib64/libsensor_reg.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libsensor_test.so:system/vendor/lib64/libsensor_test.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/libsensor_user_cal.so:system/vendor/lib64/libsensor_user_cal.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/libsettings.so:system/vendor/lib64/libsettings.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
@@ -609,6 +619,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libseemore.so:system/vendor/lib/libseemore.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libsensor_test.so:system/vendor/lib/libsensor_test.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libsensor_user_cal.so:system/vendor/lib/libsensor_user_cal.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libsmwrapper.so:system/vendor/lib/libsmwrapper.so \
