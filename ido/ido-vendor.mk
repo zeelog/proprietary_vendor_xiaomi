@@ -396,11 +396,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ido/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/etc/firmware/cpp_firmware_v1_4_0.fw \
     vendor/xiaomi/ido/proprietary/lib/hw/consumerir.msm8916.so:system/lib/hw/consumerir.msm8916.so \
     vendor/xiaomi/ido/proprietary/lib64/hw/consumerir.msm8916.so:system/lib64/hw/consumerir.msm8916.so \
-    vendor/xiaomi/ido/proprietary/vendor/firmware/tzfinger.b00:system/vendor/firmware/tzfinger.b00 \
-    vendor/xiaomi/ido/proprietary/vendor/firmware/tzfinger.b01:system/vendor/firmware/tzfinger.b01 \
-    vendor/xiaomi/ido/proprietary/vendor/firmware/tzfinger.b02:system/vendor/firmware/tzfinger.b02 \
-    vendor/xiaomi/ido/proprietary/vendor/firmware/tzfinger.b03:system/vendor/firmware/tzfinger.b03 \
-    vendor/xiaomi/ido/proprietary/vendor/firmware/tzfinger.mdt:system/vendor/firmware/tzfinger.mdt \
     vendor/xiaomi/ido/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/xiaomi/ido/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
     vendor/xiaomi/ido/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
