@@ -478,7 +478,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ido/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/xiaomi/ido/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/xiaomi/ido/proprietary/bin/radish:system/bin/radish \
-    vendor/xiaomi/ido/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/xiaomi/ido/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/xiaomi/ido/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/xiaomi/ido/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
