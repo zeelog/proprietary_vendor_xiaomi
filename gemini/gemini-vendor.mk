@@ -690,4 +690,6 @@ PRODUCT_PACKAGES += \
     qdcm_calib_data_lgd_fhd_cmd_incell_dsi_panel \
     qdcm_calib_data_sharp_fhd_cmd_incell_dsi_panel
 
+$(call inherit-product, vendor/qcom/binaries/bluetooth/bluetooth-vendor.mk)
+
 $(call inherit-product, vendor/qcom/binaries/msm8996/graphics/graphics-vendor.mk)
