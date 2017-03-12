@@ -24,10 +24,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8996-common/proprietary/bin/energy-awareness:system/bin/energy-awareness \
     vendor/xiaomi/msm8996-common/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/xiaomi/msm8996-common/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
+    vendor/xiaomi/msm8996-common/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
     vendor/xiaomi/msm8996-common/proprietary/bin/imscmservice:system/bin/imscmservice \
     vendor/xiaomi/msm8996-common/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     vendor/xiaomi/msm8996-common/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
-    vendor/xiaomi/msm8996-common/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
     vendor/xiaomi/msm8996-common/proprietary/bin/iop:system/bin/iop \
     vendor/xiaomi/msm8996-common/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/xiaomi/msm8996-common/proprietary/bin/irsc_util:system/bin/irsc_util \
@@ -48,8 +48,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8996-common/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/xiaomi/msm8996-common/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     vendor/xiaomi/msm8996-common/proprietary/etc/cacert_location.pem:system/etc/cacert_location.pem \
-    vendor/xiaomi/msm8996-common/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
     vendor/xiaomi/msm8996-common/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
+    vendor/xiaomi/msm8996-common/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
     vendor/xiaomi/msm8996-common/proprietary/etc/cne/wqeclient/ATT/ATT_profile1.xml:system/etc/cne/wqeclient/ATT/ATT_profile1.xml \
     vendor/xiaomi/msm8996-common/proprietary/etc/cne/wqeclient/ATT/ATT_profile2.xml:system/etc/cne/wqeclient/ATT/ATT_profile2.xml \
     vendor/xiaomi/msm8996-common/proprietary/etc/cne/wqeclient/ATT/ATT_profile3.xml:system/etc/cne/wqeclient/ATT/ATT_profile3.xml \
@@ -78,8 +78,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8996-common/proprietary/etc/firmware/a530v3_gpmu.fw2:system/etc/firmware/a530v3_gpmu.fw2 \
     vendor/xiaomi/msm8996-common/proprietary/etc/firmware/a530v3_seq.fw2:system/etc/firmware/a530v3_seq.fw2 \
     vendor/xiaomi/msm8996-common/proprietary/etc/firmware/cpp_firmware_v1_10_0.fw:system/etc/firmware/cpp_firmware_v1_10_0.fw \
-    vendor/xiaomi/msm8996-common/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/xiaomi/msm8996-common/proprietary/etc/firmware/cpp_firmware_v1_12_0.fw:system/etc/firmware/cpp_firmware_v1_12_0.fw \
+    vendor/xiaomi/msm8996-common/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/xiaomi/msm8996-common/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
     vendor/xiaomi/msm8996-common/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
     vendor/xiaomi/msm8996-common/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/etc/firmware/cpp_firmware_v1_4_0.fw \
@@ -87,17 +87,18 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8996-common/proprietary/etc/firmware/cpp_firmware_v1_5_2.fw:system/etc/firmware/cpp_firmware_v1_5_2.fw \
     vendor/xiaomi/msm8996-common/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:system/etc/firmware/cpp_firmware_v1_6_0.fw \
     vendor/xiaomi/msm8996-common/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw \
+    vendor/xiaomi/msm8996-common/proprietary/etc/firmware/nvm_tlv.bin:system/etc/firmware/nvm_tlv.bin \
     vendor/xiaomi/msm8996-common/proprietary/etc/firmware/nvm_tlv_1.3.bin:system/etc/firmware/nvm_tlv_1.3.bin \
     vendor/xiaomi/msm8996-common/proprietary/etc/firmware/nvm_tlv_2.1.bin:system/etc/firmware/nvm_tlv_2.1.bin \
     vendor/xiaomi/msm8996-common/proprietary/etc/firmware/nvm_tlv_3.0.bin:system/etc/firmware/nvm_tlv_3.0.bin \
     vendor/xiaomi/msm8996-common/proprietary/etc/firmware/nvm_tlv_3.2.bin:system/etc/firmware/nvm_tlv_3.2.bin \
-    vendor/xiaomi/msm8996-common/proprietary/etc/firmware/nvm_tlv.bin:system/etc/firmware/nvm_tlv.bin \
+    vendor/xiaomi/msm8996-common/proprietary/etc/firmware/rampatch_tlv.img:system/etc/firmware/rampatch_tlv.img \
     vendor/xiaomi/msm8996-common/proprietary/etc/firmware/rampatch_tlv_1.3.tlv:system/etc/firmware/rampatch_tlv_1.3.tlv \
     vendor/xiaomi/msm8996-common/proprietary/etc/firmware/rampatch_tlv_2.1.tlv:system/etc/firmware/rampatch_tlv_2.1.tlv \
     vendor/xiaomi/msm8996-common/proprietary/etc/firmware/rampatch_tlv_3.0.tlv:system/etc/firmware/rampatch_tlv_3.0.tlv \
     vendor/xiaomi/msm8996-common/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:system/etc/firmware/rampatch_tlv_3.2.tlv \
-    vendor/xiaomi/msm8996-common/proprietary/etc/firmware/rampatch_tlv.img:system/etc/firmware/rampatch_tlv.img \
     vendor/xiaomi/msm8996-common/proprietary/etc/modem/Diag.cfg:system/etc/modem/Diag.cfg \
+    vendor/xiaomi/msm8996-common/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
     vendor/xiaomi/msm8996-common/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/xiaomi/msm8996-common/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
     vendor/xiaomi/msm8996-common/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
@@ -105,7 +106,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8996-common/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/xiaomi/msm8996-common/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
     vendor/xiaomi/msm8996-common/proprietary/etc/permissions/com.xiaomi.sensor.xml:system/etc/permissions/com.xiaomi.sensor.xml \
-    vendor/xiaomi/msm8996-common/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
     vendor/xiaomi/msm8996-common/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
     vendor/xiaomi/msm8996-common/proprietary/etc/permissions/embms.xml:system/etc/permissions/embms.xml \
     vendor/xiaomi/msm8996-common/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
@@ -118,41 +118,41 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8996-common/proprietary/etc/thermal-engine-8996-a1.conf:system/etc/thermal-engine-8996-a1.conf \
     vendor/xiaomi/msm8996-common/proprietary/etc/thermal-engine-8996.conf:system/etc/thermal-engine-8996.conf \
     vendor/xiaomi/msm8996-common/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
+    vendor/xiaomi/msm8996-common/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
+    vendor/xiaomi/msm8996-common/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/xiaomi/msm8996-common/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/xiaomi/msm8996-common/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
     vendor/xiaomi/msm8996-common/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
     vendor/xiaomi/msm8996-common/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
     vendor/xiaomi/msm8996-common/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
     vendor/xiaomi/msm8996-common/proprietary/framework/com.xiaomi.sensor.jar:system/framework/com.xiaomi.sensor.jar \
-    vendor/xiaomi/msm8996-common/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
     vendor/xiaomi/msm8996-common/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
     vendor/xiaomi/msm8996-common/proprietary/framework/embmslibrary.jar:system/framework/embmslibrary.jar \
     vendor/xiaomi/msm8996-common/proprietary/framework/imscmlibrary.jar:system/framework/imscmlibrary.jar \
     vendor/xiaomi/msm8996-common/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
     vendor/xiaomi/msm8996-common/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
-    vendor/xiaomi/msm8996-common/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/xiaomi/msm8996-common/proprietary/framework/rcsimssettings.jar:system/framework/rcsimssettings.jar \
     vendor/xiaomi/msm8996-common/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
-    vendor/xiaomi/msm8996-common/proprietary/lib64/libcalapi.so:system/lib64/libcalapi.so \
-    vendor/xiaomi/msm8996-common/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
-    vendor/xiaomi/msm8996-common/proprietary/lib64/libOmxVpp.so:system/lib64/libOmxVpp.so \
-    vendor/xiaomi/msm8996-common/proprietary/lib64/libsensor_calJNI.so:system/lib64/libsensor_calJNI.so \
-    vendor/xiaomi/msm8996-common/proprietary/lib64/libsensor_cal.so:system/lib64/libsensor_cal.so \
-    vendor/xiaomi/msm8996-common/proprietary/lib64/libvpplibrary.so:system/lib64/libvpplibrary.so \
     vendor/xiaomi/msm8996-common/proprietary/lib/hw/camera.msm8996.so:system/lib/hw/camera.msm8996.so \
+    vendor/xiaomi/msm8996-common/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/xiaomi/msm8996-common/proprietary/lib/libcalapi.so:system/lib/libcalapi.so \
+    vendor/xiaomi/msm8996-common/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/xiaomi/msm8996-common/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/xiaomi/msm8996-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/xiaomi/msm8996-common/proprietary/lib/libmmlib2d_interface.so:system/lib/libmmlib2d_interface.so \
-    vendor/xiaomi/msm8996-common/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/xiaomi/msm8996-common/proprietary/lib/libmorpho_memory_allocator.so:system/lib/libmorpho_memory_allocator.so \
     vendor/xiaomi/msm8996-common/proprietary/lib/libmorpho_panorama.so:system/lib/libmorpho_panorama.so \
-    vendor/xiaomi/msm8996-common/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/xiaomi/msm8996-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-    vendor/xiaomi/msm8996-common/proprietary/lib/libsensor_calJNI.so:system/lib/libsensor_calJNI.so \
     vendor/xiaomi/msm8996-common/proprietary/lib/libsensor_cal.so:system/lib/libsensor_cal.so \
+    vendor/xiaomi/msm8996-common/proprietary/lib/libsensor_calJNI.so:system/lib/libsensor_calJNI.so \
     vendor/xiaomi/msm8996-common/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/xiaomi/msm8996-common/proprietary/lib/soundfx/libdirac.so:system/lib/soundfx/libdirac.so \
+    vendor/xiaomi/msm8996-common/proprietary/lib64/libOmxVpp.so:system/lib64/libOmxVpp.so \
+    vendor/xiaomi/msm8996-common/proprietary/lib64/libcalapi.so:system/lib64/libcalapi.so \
+    vendor/xiaomi/msm8996-common/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
+    vendor/xiaomi/msm8996-common/proprietary/lib64/libsensor_cal.so:system/lib64/libsensor_cal.so \
+    vendor/xiaomi/msm8996-common/proprietary/lib64/libsensor_calJNI.so:system/lib64/libsensor_calJNI.so \
+    vendor/xiaomi/msm8996-common/proprietary/lib64/libvpplibrary.so:system/lib64/libvpplibrary.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
     vendor/xiaomi/msm8996-common/proprietary/vendor/bin/pd-mapper:system/vendor/bin/pd-mapper \
     vendor/xiaomi/msm8996-common/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
@@ -167,188 +167,32 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8996-common/proprietary/vendor/etc/perf-profile4.conf:system/vendor/etc/perf-profile4.conf \
     vendor/xiaomi/msm8996-common/proprietary/vendor/etc/perf-profile5.conf:system/vendor/etc/perf-profile5.conf \
     vendor/xiaomi/msm8996-common/proprietary/vendor/etc/perf-profile6.conf:system/vendor/etc/perf-profile6.conf \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:system/vendor/lib64/egl/libGLESv1_CM_adreno.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/egl/libGLESv2_adreno.so:system/vendor/lib64/egl/libGLESv2_adreno.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:system/vendor/lib64/egl/libq3dtools_adreno.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/egl/libQTapGLES.so:system/vendor/lib64/egl/libQTapGLES.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/hw/activity_recognition.msm8996.so:system/vendor/lib64/hw/activity_recognition.msm8996.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/hw/gatekeeper.msm8996.so:system/vendor/lib64/hw/gatekeeper.msm8996.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/hw/keystore.msm8996.so:system/vendor/lib64/hw/keystore.msm8996.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/hw/vulkan.msm8996.so:system/vendor/lib64/hw/vulkan.msm8996.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libacdbloader.so:system/vendor/lib64/libacdbloader.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libacdbrtac.so:system/vendor/lib64/libacdbrtac.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libadiertac.so:system/vendor/lib64/libadiertac.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libadreno_utils.so:system/vendor/lib64/libadreno_utils.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libadsp_default_listener.so:system/vendor/lib64/libadsp_default_listener.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libadsprpc.so:system/vendor/lib64/libadsprpc.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libalarmservice_jni.so:system/vendor/lib64/libalarmservice_jni.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libasn1cper.so:system/vendor/lib64/libasn1cper.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libasn1crt.so:system/vendor/lib64/libasn1crt.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libasn1crtx.so:system/vendor/lib64/libasn1crtx.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libaudcal.so:system/vendor/lib64/libaudcal.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libaudiodevarb.so:system/vendor/lib64/libaudiodevarb.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libbccQTI.so:system/vendor/lib64/libbccQTI.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libbtnv.so:system/vendor/lib64/libbtnv.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libC2D2.so:system/vendor/lib64/libC2D2.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libc2d30-a5xx.so:system/vendor/lib64/libc2d30-a5xx.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libc2d30_bltlib.so:system/vendor/lib64/libc2d30_bltlib.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libcneqmiutils.so:system/vendor/lib64/libcneqmiutils.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libcne.so:system/vendor/lib64/libcne.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libconnctrl.so:system/vendor/lib64/libconnctrl.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libdataitems.so:system/vendor/lib64/libdataitems.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libdisp-aba.so:system/vendor/lib64/libdisp-aba.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/lib-dplmedia.so:system/vendor/lib64/lib-dplmedia.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libdpmctmgr.so:system/vendor/lib64/libdpmctmgr.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libdpmfdmgr.so:system/vendor/lib64/libdpmfdmgr.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libdpmframework.so:system/vendor/lib64/libdpmframework.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libdpmnsrm.so:system/vendor/lib64/libdpmnsrm.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libdpmtcm.so:system/vendor/lib64/libdpmtcm.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libdrplugin_client.so:system/vendor/lib64/libdrplugin_client.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libDRPlugin.so:system/vendor/lib64/libDRPlugin.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libdsi_netctrl.so:system/vendor/lib64/libdsi_netctrl.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libdsutils.so:system/vendor/lib64/libdsutils.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libevent_observer.so:system/vendor/lib64/libevent_observer.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libfastcvadsp_stub.so:system/vendor/lib64/libfastcvadsp_stub.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libfastcvopt.so:system/vendor/lib64/libfastcvopt.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libgdtap.so:system/vendor/lib64/libgdtap.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libGPreqcancel.so:system/vendor/lib64/libGPreqcancel.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libGPreqcancel_svc.so:system/vendor/lib64/libGPreqcancel_svc.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libI420colorconvert.so:system/vendor/lib64/libI420colorconvert.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libidl.so:system/vendor/lib64/libidl.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libimscamera_jni.so:system/vendor/lib64/libimscamera_jni.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/lib-imscamera.so:system/vendor/lib64/lib-imscamera.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/lib-imsdpl.so:system/vendor/lib64/lib-imsdpl.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libimsmedia_jni.so:system/vendor/lib64/libimsmedia_jni.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/lib-imsqimf.so:system/vendor/lib64/lib-imsqimf.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/lib-imsrcscmclient.so:system/vendor/lib64/lib-imsrcscmclient.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/lib-ims-rcscmjni.so:system/vendor/lib64/lib-ims-rcscmjni.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/lib-imsrcscmservice.so:system/vendor/lib64/lib-imsrcscmservice.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/lib-imsrcscm.so:system/vendor/lib64/lib-imsrcscm.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/lib-imsrcs.so:system/vendor/lib64/lib-imsrcs.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/lib-imsSDP.so:system/vendor/lib64/lib-imsSDP.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/lib-imss.so:system/vendor/lib64/lib-imss.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/lib-imsvt.so:system/vendor/lib64/lib-imsvt.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/lib-imsxml.so:system/vendor/lib64/lib-imsxml.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libizat_client_api.so:system/vendor/lib64/libizat_client_api.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libllvm-glnext.so:system/vendor/lib64/libllvm-glnext.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libllvm-qcom.so:system/vendor/lib64/libllvm-qcom.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libllvm-qgl.so:system/vendor/lib64/libllvm-qgl.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/liblocationservice_glue.so:system/vendor/lib64/liblocationservice_glue.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/liblocationservice.so:system/vendor/lib64/liblocationservice.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libloc_ext.so:system/vendor/lib64/libloc_ext.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/liblowi_client.so:system/vendor/lib64/liblowi_client.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/liblqe.so:system/vendor/lib64/liblqe.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libmdmdetect.so:system/vendor/lib64/libmdmdetect.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libmm-color-convertor.so:system/vendor/lib64/libmm-color-convertor.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libmm-disp-apis.so:system/vendor/lib64/libmm-disp-apis.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libmmosal.so:system/vendor/lib64/libmmosal.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libmm-qdcm.so:system/vendor/lib64/libmm-qdcm.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libmmQSM.so:system/vendor/lib64/libmmQSM.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libOmxAacDec.so:system/vendor/lib64/libOmxAacDec.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libOmxEvrcDec.so:system/vendor/lib64/libOmxEvrcDec.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libOmxQcelp13Dec.so:system/vendor/lib64/libOmxQcelp13Dec.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libOpenCL.so:system/vendor/lib64/libOpenCL.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libqcci_legacy.so:system/vendor/lib64/libqcci_legacy.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libqcmaputils.so:system/vendor/lib64/libqcmaputils.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libqdi.so:system/vendor/lib64/libqdi.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libqdp.so:system/vendor/lib64/libqdp.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libqisl.so:system/vendor/lib64/libqisl.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libqmi_cci.so:system/vendor/lib64/libqmi_cci.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libqmi_client_helper.so:system/vendor/lib64/libqmi_client_helper.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libqmi_client_qmux.so:system/vendor/lib64/libqmi_client_qmux.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libqmi_common_so.so:system/vendor/lib64/libqmi_common_so.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libqmi_csi.so:system/vendor/lib64/libqmi_csi.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libqmi_encdec.so:system/vendor/lib64/libqmi_encdec.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libqmiservices.so:system/vendor/lib64/libqmiservices.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libqmi.so:system/vendor/lib64/libqmi.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libqti-iop-client.so:system/vendor/lib64/libqti-iop-client.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libqti-iop.so:system/vendor/lib64/libqti-iop.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libQtiTether.so:system/vendor/lib64/libQtiTether.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libquipc_os_api.so:system/vendor/lib64/libquipc_os_api.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libqvop-service.so:system/vendor/lib64/libqvop-service.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/librcc.so:system/vendor/lib64/librcc.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/lib-rcsimssjni.so:system/vendor/lib64/lib-rcsimssjni.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/lib-rcsjni.so:system/vendor/lib64/lib-rcsjni.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libril-qc-ltedirectdisc.so:system/vendor/lib64/libril-qc-ltedirectdisc.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libril-qc-qmi-1.so:system/vendor/lib64/libril-qc-qmi-1.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libril-qc-radioconfig.so:system/vendor/lib64/libril-qc-radioconfig.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libril-qcril-hook-oem.so:system/vendor/lib64/libril-qcril-hook-oem.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/librilqmiservices.so:system/vendor/lib64/librilqmiservices.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/librpmb.so:system/vendor/lib64/librpmb.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/librs_adreno_sha1.so:system/vendor/lib64/librs_adreno_sha1.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/librs_adreno.so:system/vendor/lib64/librs_adreno.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libRSDriver_adreno.so:system/vendor/lib64/libRSDriver_adreno.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/lib-rtpcommon.so:system/vendor/lib64/lib-rtpcommon.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/lib-rtpcore.so:system/vendor/lib64/lib-rtpcore.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/lib-rtpdaemoninterface.so:system/vendor/lib64/lib-rtpdaemoninterface.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/lib-rtpsl.so:system/vendor/lib64/lib-rtpsl.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libscalar.so:system/vendor/lib64/libscalar.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libsdm-color.so:system/vendor/lib64/libsdm-color.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libsdm-diag.so:system/vendor/lib64/libsdm-diag.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libsdmextension.so:system/vendor/lib64/libsdmextension.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libsd_sdk_display.so:system/vendor/lib64/libsd_sdk_display.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/lib-sec-disp.so:system/vendor/lib64/lib-sec-disp.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libSecureUILib.so:system/vendor/lib64/libSecureUILib.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libsecureui.so:system/vendor/lib64/libsecureui.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libsecureui_svcsock.so:system/vendor/lib64/libsecureui_svcsock.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libsensor1.so:system/vendor/lib64/libsensor1.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libsensor_reg.so:system/vendor/lib64/libsensor_reg.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libsensor_test.so:system/vendor/lib64/libsensor_test.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libsensor_user_cal.so:system/vendor/lib64/libsensor_user_cal.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libsettings.so:system/vendor/lib64/libsettings.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libStDrvInt.so:system/vendor/lib64/libStDrvInt.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libTimeService.so:system/vendor/lib64/libTimeService.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libuiblur.so:system/vendor/lib64/libuiblur.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libvendorconn.so:system/vendor/lib64/libvendorconn.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libvoice-svc.so:system/vendor/lib64/libvoice-svc.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libvpphvx.so:system/vendor/lib64/libvpphvx.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libwms.so:system/vendor/lib64/libwms.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libwqe.so:system/vendor/lib64/libwqe.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libxt_native.so:system/vendor/lib64/libxt_native.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/sensor_calibrate.so:system/vendor/lib64/sensor_calibrate.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/sensors.oem.so:system/vendor/lib64/sensors.oem.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/soundfx/libqcbassboost.so:system/vendor/lib64/soundfx/libqcbassboost.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/soundfx/libqcreverb.so:system/vendor/lib64/soundfx/libqcreverb.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/soundfx/libqcvirt.so:system/vendor/lib64/soundfx/libqcvirt.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/egl/libQTapGLES.so:system/vendor/lib/egl/libQTapGLES.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/hw/activity_recognition.msm8996.so:system/vendor/lib/hw/activity_recognition.msm8996.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/hw/gatekeeper.msm8996.so:system/vendor/lib/hw/gatekeeper.msm8996.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/hw/keystore.msm8996.so:system/vendor/lib/hw/keystore.msm8996.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/hw/sound_trigger.primary.msm8996.so:system/vendor/lib/hw/sound_trigger.primary.msm8996.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/hw/vulkan.msm8996.so:system/vendor/lib/hw/vulkan.msm8996.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libFaceGrade.so:system/vendor/lib/libFaceGrade.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libFaceProc.so:system/vendor/lib/libFaceProc.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libQtiTether.so:system/vendor/lib/libQtiTether.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libRecoFace.so:system/vendor/lib/libRecoFace.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
@@ -363,22 +207,20 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so:system/vendor/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libaptXHD-1.0.0-rel-Android21-ARMv7A.so:system/vendor/lib/libaptXHD-1.0.0-rel-Android21-ARMv7A.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libaptXScheduler.so:system/vendor/lib/libaptXScheduler.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libarcsoft_beautyshot_image_algorithm.so:system/vendor/lib/libarcsoft_beautyshot_image_algorithm.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libarcsoft_beauty_shot.so:system/vendor/lib/libarcsoft_beauty_shot.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libarcsoft_beautyshot.so:system/vendor/lib/libarcsoft_beautyshot.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libarcsoft_beautyshot_image_algorithm.so:system/vendor/lib/libarcsoft_beautyshot_image_algorithm.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libarcsoft_beautyshot_video_algorithm.so:system/vendor/lib/libarcsoft_beautyshot_video_algorithm.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libaudiodevarb.so:system/vendor/lib/libaudiodevarb.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libc2d30-a5xx.so:system/vendor/lib/libc2d30-a5xx.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libc2d30_bltlib.so:system/vendor/lib/libc2d30_bltlib.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libchromaflash.so:system/vendor/lib/libchromaflash.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libconnctrl.so:system/vendor/lib/libconnctrl.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libdpmctmgr.so:system/vendor/lib/libdpmctmgr.so \
@@ -388,13 +230,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libdpmtcm.so:system/vendor/lib/libdpmtcm.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libFaceGrade.so:system/vendor/lib/libFaceGrade.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libFaceProc.so:system/vendor/lib/libFaceProc.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libflash_pmic.so:system/vendor/lib/libflash_pmic.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libjpegdmahw.so:system/vendor/lib/libjpegdmahw.so \
@@ -403,13 +242,17 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libllvm-qgl.so:system/vendor/lib/libllvm-qgl.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libmmQSM.so:system/vendor/lib/libmmQSM.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:system/vendor/lib/libmmcamera2_frame_algorithm.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libmmcamera2_iface_modules.so:system/vendor/lib/libmmcamera2_iface_modules.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libmmcamera2_imglib_modules.so:system/vendor/lib/libmmcamera2_imglib_modules.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libmmcamera2_isp_modules.so:system/vendor/lib/libmmcamera2_isp_modules.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libmmcamera2_is.so:system/vendor/lib/libmmcamera2_is.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libmmcamera2_isp_modules.so:system/vendor/lib/libmmcamera2_isp_modules.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libmmcamera2_mct.so:system/vendor/lib/libmmcamera2_mct.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libmmcamera2_memleak.so:system/vendor/lib/libmmcamera2_memleak.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libmmcamera2_pp_buf_mgr.so:system/vendor/lib/libmmcamera2_pp_buf_mgr.so \
@@ -426,14 +269,14 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libmmcamera_eeprom_util.so:system/vendor/lib/libmmcamera_eeprom_util.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libmmcamera_eztune_module.so:system/vendor/lib/libmmcamera_eztune_module.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libmmcamera_facedetection_lib.so:system/vendor/lib/libmmcamera_facedetection_lib.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libmmcamera_faceproc2.so:system/vendor/lib/libmmcamera_faceproc2.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libmmcamera_faceproc2.so:system/vendor/lib/libmmcamera_faceproc2.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libmmcamera_hvx_add_constant.so:system/vendor/lib/libmmcamera_hvx_add_constant.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libmmcamera_hvx_grid_sum.so:system/vendor/lib/libmmcamera_hvx_grid_sum.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libmmcamera_hvx_zzHDR.so:system/vendor/lib/libmmcamera_hvx_zzHDR.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libmmcamera_imglib_faceproc_adspstub.so:system/vendor/lib/libmmcamera_imglib_faceproc_adspstub.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libmmcamera_imglib_faceproc_adspstub.so:system/vendor/lib/libmmcamera_imglib_faceproc_adspstub.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libmmcamera_isp_abf47.so:system/vendor/lib/libmmcamera_isp_abf47.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libmmcamera_isp_aec_bg_stats47.so:system/vendor/lib/libmmcamera_isp_aec_bg_stats47.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libmmcamera_isp_bf_stats47.so:system/vendor/lib/libmmcamera_isp_bf_stats47.so \
@@ -478,8 +321,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libmmcamera_llvd.so:system/vendor/lib/libmmcamera_llvd.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libmmcamera_optizoom_lib.so:system/vendor/lib/libmmcamera_optizoom_lib.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libmmcamera_paaf_lib.so:system/vendor/lib/libmmcamera_paaf_lib.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libmmcamera_pdafcamif.so:system/vendor/lib/libmmcamera_pdafcamif.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libmmcamera_pdaf.so:system/vendor/lib/libmmcamera_pdaf.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libmmcamera_pdafcamif.so:system/vendor/lib/libmmcamera_pdafcamif.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libmmcamera_ppbase_module.so:system/vendor/lib/libmmcamera_ppbase_module.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libmmcamera_ppeiscore.so:system/vendor/lib/libmmcamera_ppeiscore.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libmmcamera_stillmore_lib.so:system/vendor/lib/libmmcamera_stillmore_lib.so \
@@ -488,32 +331,25 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libmmcamera_trueportrait_lib.so:system/vendor/lib/libmmcamera_trueportrait_lib.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libmmcamera_tuning_lookup.so:system/vendor/lib/libmmcamera_tuning_lookup.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libmmcamera_tuning.so:system/vendor/lib/libmmcamera_tuning.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libmmcamera_tuning_lookup.so:system/vendor/lib/libmmcamera_tuning_lookup.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libmmcamera_ubifocus_lib.so:system/vendor/lib/libmmcamera_ubifocus_lib.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libmmqjpegdma.so:system/vendor/lib/libmmqjpegdma.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libmmQSM.so:system/vendor/lib/libmmQSM.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libmorpho_easy_hdr.so:system/vendor/lib/libmorpho_easy_hdr.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libmorpho_hdr_checker.so:system/vendor/lib/libmorpho_hdr_checker.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libmorpho_image_stab4.so:system/vendor/lib/libmorpho_image_stab4.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libmorpho_panorama_gp.so:system/vendor/lib/libmorpho_panorama_gp.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libmpbase.so:system/vendor/lib/libmpbase.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libois_lc898122.so:system/vendor/lib/libois_lc898122.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/liboptizoom.so:system/vendor/lib/liboptizoom.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libqmi_client_helper.so:system/vendor/lib/libqmi_client_helper.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
@@ -521,20 +357,15 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:system/vendor/lib/libqomx_jpegenc_pipe.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:system/vendor/lib/libqomx_jpegenc_pipe.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libqti-iop-client.so:system/vendor/lib/libqti-iop-client.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libqti-iop.so:system/vendor/lib/libqti-iop.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libQtiTether.so:system/vendor/lib/libQtiTether.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libqvop-service.so:system/vendor/lib/libqvop-service.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libRecoFace.so:system/vendor/lib/libRecoFace.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libsd_sdk_display.so:system/vendor/lib/libsd_sdk_display.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libseemore.so:system/vendor/lib/libseemore.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
@@ -543,7 +374,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libsensor_user_cal.so:system/vendor/lib/libsensor_user_cal.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libsmwrapper.so:system/vendor/lib/libsmwrapper.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libtm_interface.so:system/vendor/lib/libtm_interface.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libtrueportrait.so:system/vendor/lib/libtrueportrait.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libubifocus.so:system/vendor/lib/libubifocus.so \
@@ -553,7 +383,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libwms.so:system/vendor/lib/libwms.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/rfsa/adsp/libadsp_fd_skel.so:system/vendor/lib/rfsa/adsp/libadsp_fd_skel.so \
@@ -565,8 +394,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/rfsa/adsp/libapps_mem_heap.so:system/vendor/lib/rfsa/adsp/libapps_mem_heap.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/rfsa/adsp/libdirac-appi.so:system/vendor/lib/rfsa/adsp/libdirac-appi.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/rfsa/adsp/libdspCV_skel.so:system/vendor/lib/rfsa/adsp/libdspCV_skel.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so:system/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so:system/vendor/lib/rfsa/adsp/libfastcvadsp.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so:system/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/rfsa/adsp/libobjectMattingApp_skel.so:system/vendor/lib/rfsa/adsp/libobjectMattingApp_skel.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so:system/vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/rfsa/adsp/libscveCleverCapture_skel.so:system/vendor/lib/rfsa/adsp/libscveCleverCapture_skel.so \
@@ -583,6 +412,177 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:system/vendor/lib64/egl/libGLESv1_CM_adreno.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/egl/libGLESv2_adreno.so:system/vendor/lib64/egl/libGLESv2_adreno.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/egl/libQTapGLES.so:system/vendor/lib64/egl/libQTapGLES.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:system/vendor/lib64/egl/libq3dtools_adreno.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/hw/activity_recognition.msm8996.so:system/vendor/lib64/hw/activity_recognition.msm8996.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/hw/gatekeeper.msm8996.so:system/vendor/lib64/hw/gatekeeper.msm8996.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/hw/keystore.msm8996.so:system/vendor/lib64/hw/keystore.msm8996.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/hw/vulkan.msm8996.so:system/vendor/lib64/hw/vulkan.msm8996.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/lib-dplmedia.so:system/vendor/lib64/lib-dplmedia.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/lib-ims-rcscmjni.so:system/vendor/lib64/lib-ims-rcscmjni.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/lib-imsSDP.so:system/vendor/lib64/lib-imsSDP.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/lib-imscamera.so:system/vendor/lib64/lib-imscamera.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/lib-imsdpl.so:system/vendor/lib64/lib-imsdpl.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/lib-imsqimf.so:system/vendor/lib64/lib-imsqimf.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/lib-imsrcs.so:system/vendor/lib64/lib-imsrcs.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/lib-imsrcscm.so:system/vendor/lib64/lib-imsrcscm.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/lib-imsrcscmclient.so:system/vendor/lib64/lib-imsrcscmclient.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/lib-imsrcscmservice.so:system/vendor/lib64/lib-imsrcscmservice.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/lib-imss.so:system/vendor/lib64/lib-imss.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/lib-imsvt.so:system/vendor/lib64/lib-imsvt.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/lib-imsxml.so:system/vendor/lib64/lib-imsxml.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/lib-rcsimssjni.so:system/vendor/lib64/lib-rcsimssjni.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/lib-rcsjni.so:system/vendor/lib64/lib-rcsjni.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/lib-rtpcommon.so:system/vendor/lib64/lib-rtpcommon.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/lib-rtpcore.so:system/vendor/lib64/lib-rtpcore.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/lib-rtpdaemoninterface.so:system/vendor/lib64/lib-rtpdaemoninterface.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/lib-rtpsl.so:system/vendor/lib64/lib-rtpsl.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/lib-sec-disp.so:system/vendor/lib64/lib-sec-disp.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libC2D2.so:system/vendor/lib64/libC2D2.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libDRPlugin.so:system/vendor/lib64/libDRPlugin.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libGPreqcancel.so:system/vendor/lib64/libGPreqcancel.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libGPreqcancel_svc.so:system/vendor/lib64/libGPreqcancel_svc.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libI420colorconvert.so:system/vendor/lib64/libI420colorconvert.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libOmxAacDec.so:system/vendor/lib64/libOmxAacDec.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libOmxEvrcDec.so:system/vendor/lib64/libOmxEvrcDec.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libOmxQcelp13Dec.so:system/vendor/lib64/libOmxQcelp13Dec.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libOpenCL.so:system/vendor/lib64/libOpenCL.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libQtiTether.so:system/vendor/lib64/libQtiTether.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libRSDriver_adreno.so:system/vendor/lib64/libRSDriver_adreno.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libSecureUILib.so:system/vendor/lib64/libSecureUILib.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libStDrvInt.so:system/vendor/lib64/libStDrvInt.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libTimeService.so:system/vendor/lib64/libTimeService.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libacdbloader.so:system/vendor/lib64/libacdbloader.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libacdbrtac.so:system/vendor/lib64/libacdbrtac.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libadiertac.so:system/vendor/lib64/libadiertac.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libadreno_utils.so:system/vendor/lib64/libadreno_utils.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libadsp_default_listener.so:system/vendor/lib64/libadsp_default_listener.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libadsprpc.so:system/vendor/lib64/libadsprpc.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libalarmservice_jni.so:system/vendor/lib64/libalarmservice_jni.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libasn1cper.so:system/vendor/lib64/libasn1cper.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libasn1crt.so:system/vendor/lib64/libasn1crt.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libasn1crtx.so:system/vendor/lib64/libasn1crtx.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libaudcal.so:system/vendor/lib64/libaudcal.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libaudiodevarb.so:system/vendor/lib64/libaudiodevarb.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libbccQTI.so:system/vendor/lib64/libbccQTI.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libbtnv.so:system/vendor/lib64/libbtnv.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libc2d30-a5xx.so:system/vendor/lib64/libc2d30-a5xx.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libc2d30_bltlib.so:system/vendor/lib64/libc2d30_bltlib.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libcne.so:system/vendor/lib64/libcne.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libcneqmiutils.so:system/vendor/lib64/libcneqmiutils.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libconnctrl.so:system/vendor/lib64/libconnctrl.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libdataitems.so:system/vendor/lib64/libdataitems.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libdisp-aba.so:system/vendor/lib64/libdisp-aba.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libdpmctmgr.so:system/vendor/lib64/libdpmctmgr.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libdpmfdmgr.so:system/vendor/lib64/libdpmfdmgr.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libdpmframework.so:system/vendor/lib64/libdpmframework.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libdpmnsrm.so:system/vendor/lib64/libdpmnsrm.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libdpmtcm.so:system/vendor/lib64/libdpmtcm.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libdrplugin_client.so:system/vendor/lib64/libdrplugin_client.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libdsi_netctrl.so:system/vendor/lib64/libdsi_netctrl.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libdsutils.so:system/vendor/lib64/libdsutils.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libevent_observer.so:system/vendor/lib64/libevent_observer.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libfastcvadsp_stub.so:system/vendor/lib64/libfastcvadsp_stub.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libfastcvopt.so:system/vendor/lib64/libfastcvopt.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libgdtap.so:system/vendor/lib64/libgdtap.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libidl.so:system/vendor/lib64/libidl.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libimscamera_jni.so:system/vendor/lib64/libimscamera_jni.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libimsmedia_jni.so:system/vendor/lib64/libimsmedia_jni.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libizat_client_api.so:system/vendor/lib64/libizat_client_api.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libllvm-glnext.so:system/vendor/lib64/libllvm-glnext.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libllvm-qcom.so:system/vendor/lib64/libllvm-qcom.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libllvm-qgl.so:system/vendor/lib64/libllvm-qgl.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libloc_ext.so:system/vendor/lib64/libloc_ext.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/liblocationservice.so:system/vendor/lib64/liblocationservice.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/liblocationservice_glue.so:system/vendor/lib64/liblocationservice_glue.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/liblowi_client.so:system/vendor/lib64/liblowi_client.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/liblqe.so:system/vendor/lib64/liblqe.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libmdmdetect.so:system/vendor/lib64/libmdmdetect.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libmm-color-convertor.so:system/vendor/lib64/libmm-color-convertor.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libmm-disp-apis.so:system/vendor/lib64/libmm-disp-apis.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libmm-qdcm.so:system/vendor/lib64/libmm-qdcm.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libmmQSM.so:system/vendor/lib64/libmmQSM.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libmmosal.so:system/vendor/lib64/libmmosal.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libqcci_legacy.so:system/vendor/lib64/libqcci_legacy.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libqcmaputils.so:system/vendor/lib64/libqcmaputils.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libqdi.so:system/vendor/lib64/libqdi.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libqdp.so:system/vendor/lib64/libqdp.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libqisl.so:system/vendor/lib64/libqisl.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libqmi.so:system/vendor/lib64/libqmi.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libqmi_cci.so:system/vendor/lib64/libqmi_cci.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libqmi_client_helper.so:system/vendor/lib64/libqmi_client_helper.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libqmi_client_qmux.so:system/vendor/lib64/libqmi_client_qmux.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libqmi_common_so.so:system/vendor/lib64/libqmi_common_so.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libqmi_csi.so:system/vendor/lib64/libqmi_csi.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libqmi_encdec.so:system/vendor/lib64/libqmi_encdec.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libqmiservices.so:system/vendor/lib64/libqmiservices.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libqti-iop-client.so:system/vendor/lib64/libqti-iop-client.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libqti-iop.so:system/vendor/lib64/libqti-iop.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libquipc_os_api.so:system/vendor/lib64/libquipc_os_api.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libqvop-service.so:system/vendor/lib64/libqvop-service.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/librcc.so:system/vendor/lib64/librcc.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libril-qc-ltedirectdisc.so:system/vendor/lib64/libril-qc-ltedirectdisc.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libril-qc-qmi-1.so:system/vendor/lib64/libril-qc-qmi-1.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libril-qc-radioconfig.so:system/vendor/lib64/libril-qc-radioconfig.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libril-qcril-hook-oem.so:system/vendor/lib64/libril-qcril-hook-oem.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/librilqmiservices.so:system/vendor/lib64/librilqmiservices.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/librpmb.so:system/vendor/lib64/librpmb.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/librs_adreno.so:system/vendor/lib64/librs_adreno.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/librs_adreno_sha1.so:system/vendor/lib64/librs_adreno_sha1.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libscalar.so:system/vendor/lib64/libscalar.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libsd_sdk_display.so:system/vendor/lib64/libsd_sdk_display.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libsdm-color.so:system/vendor/lib64/libsdm-color.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libsdm-diag.so:system/vendor/lib64/libsdm-diag.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libsdmextension.so:system/vendor/lib64/libsdmextension.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libsecureui.so:system/vendor/lib64/libsecureui.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libsecureui_svcsock.so:system/vendor/lib64/libsecureui_svcsock.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libsensor1.so:system/vendor/lib64/libsensor1.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libsensor_reg.so:system/vendor/lib64/libsensor_reg.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libsensor_test.so:system/vendor/lib64/libsensor_test.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libsensor_user_cal.so:system/vendor/lib64/libsensor_user_cal.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libsettings.so:system/vendor/lib64/libsettings.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libuiblur.so:system/vendor/lib64/libuiblur.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libvendorconn.so:system/vendor/lib64/libvendorconn.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libvoice-svc.so:system/vendor/lib64/libvoice-svc.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libvpphvx.so:system/vendor/lib64/libvpphvx.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libwms.so:system/vendor/lib64/libwms.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libwqe.so:system/vendor/lib64/libwqe.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libxt_native.so:system/vendor/lib64/libxt_native.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/sensor_calibrate.so:system/vendor/lib64/sensor_calibrate.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/sensors.oem.so:system/vendor/lib64/sensors.oem.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/soundfx/libqcbassboost.so:system/vendor/lib64/soundfx/libqcbassboost.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/soundfx/libqcreverb.so:system/vendor/lib64/soundfx/libqcreverb.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/soundfx/libqcvirt.so:system/vendor/lib64/soundfx/libqcvirt.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/qcril.db:system/vendor/qcril.db
 
 PRODUCT_PACKAGES += \
@@ -591,17 +591,17 @@ PRODUCT_PACKAGES += \
     libsdm-disp-apis \
     libthermalclient \
     libtime_genoff \
+    QtiTelephonyService \
+    TimeService \
     datastatusnotification \
     embms \
     fastdormancy \
-    QtiTelephonyService \
     shutdownlistener \
-    TimeService \
     CNEService \
+    QtiTetherService \
     com.qualcomm.location \
     dpmserviceapp \
     qcrilmsgtunnel \
-    QtiTetherService \
     colorservice \
     ims \
     imssettings \
