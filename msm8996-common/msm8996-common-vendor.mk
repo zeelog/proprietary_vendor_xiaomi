@@ -605,8 +605,4 @@ PRODUCT_PACKAGES += \
     colorservice \
     ims \
     imssettings \
-    qcrilhook \
-    qdcm_calib_data_jdi_fhd_cmd_incell_dsi_panel \
-    qdcm_calib_data_jdi_j1_fhd_cmd_incell_dsi_panel \
-    qdcm_calib_data_lgd_fhd_cmd_incell_dsi_panel \
-    qdcm_calib_data_sharp_fhd_cmd_incell_dsi_panel
+    qcrilhook

@@ -153,3 +153,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libmmcamera_ov4688_eeprom.so:system/vendor/lib/libmmcamera_ov4688_eeprom.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libmmcamera_ov4688_primax.so:system/vendor/lib/libmmcamera_ov4688_primax.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libmmcamera_sony_imx298_eeprom.so:system/vendor/lib/libmmcamera_sony_imx298_eeprom.so
+
+PRODUCT_PACKAGES += \
+    qdcm_calib_data_jdi_fhd_cmd_incell_dsi_panel \
+    qdcm_calib_data_jdi_j1_fhd_cmd_incell_dsi_panel \
+    qdcm_calib_data_lgd_fhd_cmd_incell_dsi_panel \
+    qdcm_calib_data_sharp_fhd_cmd_incell_dsi_panel
