@@ -143,7 +143,7 @@ LensInfo : Information of the lens present in the module.
     <ChromatixName>ov4688_chromatix</ChromatixName>
     <ModesSupported>1</ModesSupported>
     <Position>FRONT</Position>
-    <MountAngle>360</MountAngle>
+    <MountAngle>270</MountAngle>
     <CSIInfo>
       <CSIDCore>2</CSIDCore>
       <LaneMask>0x1F</LaneMask>
@@ -166,7 +166,7 @@ LensInfo : Information of the lens present in the module.
     <ChromatixName>ov4688_primax_chromatix</ChromatixName>
     <ModesSupported>1</ModesSupported>
     <Position>FRONT</Position>
-    <MountAngle>360</MountAngle>
+    <MountAngle>270</MountAngle>
     <CSIInfo>
       <CSIDCore>2</CSIDCore>
       <LaneMask>0x1F</LaneMask>
