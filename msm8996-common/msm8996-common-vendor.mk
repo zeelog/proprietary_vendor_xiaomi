@@ -19,10 +19,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8996-common/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/xiaomi/msm8996-common/proprietary/bin/cnd:system/bin/cnd \
     vendor/xiaomi/msm8996-common/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
-    vendor/xiaomi/msm8996-common/proprietary/bin/cnss_diag:system/bin/cnss_diag \
     vendor/xiaomi/msm8996-common/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/xiaomi/msm8996-common/proprietary/bin/energy-awareness:system/bin/energy-awareness \
-    vendor/xiaomi/msm8996-common/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/xiaomi/msm8996-common/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
     vendor/xiaomi/msm8996-common/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
     vendor/xiaomi/msm8996-common/proprietary/bin/imscmservice:system/bin/imscmservice \
@@ -33,7 +31,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8996-common/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/xiaomi/msm8996-common/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/xiaomi/msm8996-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/xiaomi/msm8996-common/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/xiaomi/msm8996-common/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/xiaomi/msm8996-common/proprietary/bin/pm-proxy:system/bin/pm-proxy \
     vendor/xiaomi/msm8996-common/proprietary/bin/pm-service:system/bin/pm-service \
