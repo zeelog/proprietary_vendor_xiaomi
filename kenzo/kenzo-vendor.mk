@@ -168,10 +168,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/kenzo/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/xiaomi/kenzo/proprietary/lib/libRecoFace.so:system/lib/libRecoFace.so \
     vendor/xiaomi/kenzo/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
-    vendor/xiaomi/kenzo/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
-    vendor/xiaomi/kenzo/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
-    vendor/xiaomi/kenzo/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
-    vendor/xiaomi/kenzo/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/xiaomi/kenzo/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/xiaomi/kenzo/proprietary/lib/soundfx/libdirac.so:system/lib/soundfx/libdirac.so \
     vendor/xiaomi/kenzo/proprietary/lib64/hw/consumerir.msm8952.so:system/lib64/hw/consumerir.msm8952.so \
@@ -193,7 +189,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/kenzo/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
     vendor/xiaomi/kenzo/proprietary/vendor/lib/egl/libq3dtools_esx.so:system/vendor/lib/egl/libq3dtools_esx.so \
     vendor/xiaomi/kenzo/proprietary/vendor/lib/hw/activity_recognition.msm8952.so:system/vendor/lib/hw/activity_recognition.msm8952.so \
-    vendor/xiaomi/kenzo/proprietary/vendor/lib/hw/camera.msm8952.so:system/vendor/lib/hw/camera.msm8952.so \
     vendor/xiaomi/kenzo/proprietary/vendor/lib/hw/sound_trigger.primary.msm8952.so:system/vendor/lib/hw/sound_trigger.primary.msm8952.so \
     vendor/xiaomi/kenzo/proprietary/vendor/lib/hw/vulkan.msm8952.so:system/vendor/lib/hw/vulkan.msm8952.so \
     vendor/xiaomi/kenzo/proprietary/vendor/lib/lib-imscamera.so:system/vendor/lib/lib-imscamera.so \
@@ -685,8 +680,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/kenzo/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/xiaomi/kenzo/proprietary/vendor/lib/libsmwrapper.so:system/vendor/lib/libsmwrapper.so \
     vendor/xiaomi/kenzo/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
-    vendor/xiaomi/kenzo/proprietary/vendor/lib/libts_detected_face_hal.so:system/vendor/lib/libts_detected_face_hal.so \
-    vendor/xiaomi/kenzo/proprietary/vendor/lib/libts_face_beautify_hal.so:system/vendor/lib/libts_face_beautify_hal.so \
     vendor/xiaomi/kenzo/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
     vendor/xiaomi/kenzo/proprietary/vendor/lib/libwms.so:system/vendor/lib/libwms.so \
     vendor/xiaomi/kenzo/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
@@ -856,6 +849,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
     libtime_genoff \
+    libts_detected_face_hal \
+    libts_face_beautify_hal \
     TimeService \
     datastatusnotification \
     fastdormancy \
