@@ -72,12 +72,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ido/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
     vendor/xiaomi/ido/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/xiaomi/ido/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
-    vendor/xiaomi/ido/proprietary/lib/hw/camera.vendor.msm8916.so:system/lib/hw/camera.vendor.msm8916.so \
     vendor/xiaomi/ido/proprietary/lib/hw/consumerir.msm8916.so:system/lib/hw/consumerir.msm8916.so \
-    vendor/xiaomi/ido/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
-    vendor/xiaomi/ido/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
-    vendor/xiaomi/ido/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
-    vendor/xiaomi/ido/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/xiaomi/ido/proprietary/lib64/hw/consumerir.msm8916.so:system/lib64/hw/consumerir.msm8916.so \
     vendor/xiaomi/ido/proprietary/lib64/hw/sensors.msm8916.so:system/lib64/hw/sensors.msm8916.so \
     vendor/xiaomi/ido/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
