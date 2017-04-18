@@ -36,9 +36,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/etc/firmware/a530_zap.mdt:system/etc/firmware/a530_zap.mdt \
     vendor/xiaomi/gemini/proprietary/etc/firmware/tfa9891.cnt:system/etc/firmware/tfa9891.cnt \
     vendor/xiaomi/gemini/proprietary/etc/firmware/tfa98xx.cnt:system/etc/firmware/tfa98xx.cnt \
-    vendor/xiaomi/gemini/proprietary/lib/hw/consumerir.msm8996.so:system/lib/hw/consumerir.msm8996.so \
     vendor/xiaomi/gemini/proprietary/lib/hw/fingerprint.fpc.so:system/lib/hw/fingerprint.fpc.so \
-    vendor/xiaomi/gemini/proprietary/lib64/hw/consumerir.msm8996.so:system/lib64/hw/consumerir.msm8996.so \
     vendor/xiaomi/gemini/proprietary/lib64/hw/fingerprint.fpc.so:system/lib64/hw/fingerprint.fpc.so \
     vendor/xiaomi/gemini/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libSonyIMX298PdafLibrary.so:system/vendor/lib/libSonyIMX298PdafLibrary.so \
