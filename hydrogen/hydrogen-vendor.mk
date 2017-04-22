@@ -18,8 +18,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/hydrogen/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/xiaomi/hydrogen/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/xiaomi/hydrogen/proprietary/bin/cnd:system/bin/cnd \
-    vendor/xiaomi/hydrogen/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
-    vendor/xiaomi/hydrogen/proprietary/bin/cnss_diag:system/bin/cnss_diag \
     vendor/xiaomi/hydrogen/proprietary/bin/displayfeature:system/bin/displayfeature \
     vendor/xiaomi/hydrogen/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/xiaomi/hydrogen/proprietary/bin/garden_app:system/bin/garden_app \
@@ -170,7 +168,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/hydrogen/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
     vendor/xiaomi/hydrogen/proprietary/framework/rcsimssettings.jar:system/framework/rcsimssettings.jar \
     vendor/xiaomi/hydrogen/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
-    vendor/xiaomi/hydrogen/proprietary/lib/hw/consumerir.msm8952.so:system/lib/hw/consumerir.msm8952.so \
     vendor/xiaomi/hydrogen/proprietary/lib/hw/fingerprint.fpc.so:system/lib/hw/fingerprint.fpc.so \
     vendor/xiaomi/hydrogen/proprietary/lib/libDiracAPI_SHARED.so:system/lib/libDiracAPI_SHARED.so \
     vendor/xiaomi/hydrogen/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
@@ -179,7 +176,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/hydrogen/proprietary/lib/libmorpho_panorama.so:system/lib/libmorpho_panorama.so \
     vendor/xiaomi/hydrogen/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/xiaomi/hydrogen/proprietary/lib/soundfx/libdirac.so:system/lib/soundfx/libdirac.so \
-    vendor/xiaomi/hydrogen/proprietary/lib64/hw/consumerir.msm8952.so:system/lib64/hw/consumerir.msm8952.so \
     vendor/xiaomi/hydrogen/proprietary/lib64/hw/fingerprint.fpc.so:system/lib64/hw/fingerprint.fpc.so \
     vendor/xiaomi/hydrogen/proprietary/lib64/libOmxVpp.so:system/lib64/libOmxVpp.so \
     vendor/xiaomi/hydrogen/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
