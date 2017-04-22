@@ -18,10 +18,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/kenzo/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/xiaomi/kenzo/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/xiaomi/kenzo/proprietary/bin/cnd:system/bin/cnd \
-    vendor/xiaomi/kenzo/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
     vendor/xiaomi/kenzo/proprietary/bin/consumerird:system/bin/consumerird \
     vendor/xiaomi/kenzo/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/xiaomi/kenzo/proprietary/bin/garden_app:system/bin/garden_app \
+    vendor/xiaomi/kenzo/proprietary/bin/gx_fpd:system/bin/gx_fpd \
     vendor/xiaomi/kenzo/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/xiaomi/kenzo/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
     vendor/xiaomi/kenzo/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
@@ -117,11 +117,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/kenzo/proprietary/etc/firmware/cpp_firmware_v1_5_0.fw:system/etc/firmware/cpp_firmware_v1_5_0.fw \
     vendor/xiaomi/kenzo/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:system/etc/firmware/cpp_firmware_v1_6_0.fw \
     vendor/xiaomi/kenzo/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw \
-    vendor/xiaomi/kenzo/proprietary/etc/firmware/fpctzapp.b00:system/etc/firmware/fpctzapp.b00 \
-    vendor/xiaomi/kenzo/proprietary/etc/firmware/fpctzapp.b01:system/etc/firmware/fpctzapp.b01 \
-    vendor/xiaomi/kenzo/proprietary/etc/firmware/fpctzapp.b02:system/etc/firmware/fpctzapp.b02 \
-    vendor/xiaomi/kenzo/proprietary/etc/firmware/fpctzapp.b03:system/etc/firmware/fpctzapp.b03 \
-    vendor/xiaomi/kenzo/proprietary/etc/firmware/fpctzapp.mdt:system/etc/firmware/fpctzapp.mdt \
+    vendor/xiaomi/kenzo/proprietary/etc/firmware/goodixfp.b00:system/etc/firmware/goodixfp.b00 \
+    vendor/xiaomi/kenzo/proprietary/etc/firmware/goodixfp.b01:system/etc/firmware/goodixfp.b01 \
+    vendor/xiaomi/kenzo/proprietary/etc/firmware/goodixfp.b02:system/etc/firmware/goodixfp.b02 \
+    vendor/xiaomi/kenzo/proprietary/etc/firmware/goodixfp.b03:system/etc/firmware/goodixfp.b03 \
+    vendor/xiaomi/kenzo/proprietary/etc/firmware/goodixfp.mdt:system/etc/firmware/goodixfp.mdt \
     vendor/xiaomi/kenzo/proprietary/etc/firmware/venus-v1.b00:system/etc/firmware/venus-v1.b00 \
     vendor/xiaomi/kenzo/proprietary/etc/firmware/venus-v1.b01:system/etc/firmware/venus-v1.b01 \
     vendor/xiaomi/kenzo/proprietary/etc/firmware/venus-v1.b02:system/etc/firmware/venus-v1.b02 \
@@ -162,17 +162,20 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/kenzo/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
     vendor/xiaomi/kenzo/proprietary/framework/rcsimssettings.jar:system/framework/rcsimssettings.jar \
     vendor/xiaomi/kenzo/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
-    vendor/xiaomi/kenzo/proprietary/lib/hw/consumerir.msm8952.so:system/lib/hw/consumerir.msm8952.so \
-    vendor/xiaomi/kenzo/proprietary/lib/hw/fingerprint.msm8952.so:system/lib/hw/fingerprint.msm8952.so \
+    vendor/xiaomi/kenzo/proprietary/lib/hw/fingerprint.fpc.msm8952.so:system/lib/hw/fingerprint.fpc.msm8952.so \
     vendor/xiaomi/kenzo/proprietary/lib/libDiracAPI_SHARED.so:system/lib/libDiracAPI_SHARED.so \
     vendor/xiaomi/kenzo/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/xiaomi/kenzo/proprietary/lib/libRecoFace.so:system/lib/libRecoFace.so \
     vendor/xiaomi/kenzo/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
     vendor/xiaomi/kenzo/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/xiaomi/kenzo/proprietary/lib/soundfx/libdirac.so:system/lib/soundfx/libdirac.so \
-    vendor/xiaomi/kenzo/proprietary/lib64/hw/consumerir.msm8952.so:system/lib64/hw/consumerir.msm8952.so \
-    vendor/xiaomi/kenzo/proprietary/lib64/hw/fingerprint.msm8952.so:system/lib64/hw/fingerprint.msm8952.so \
+    vendor/xiaomi/kenzo/proprietary/lib64/hw/fingerprint.goodix.default.so:system/lib64/hw/fingerprint.goodix.default.so \
+    vendor/xiaomi/kenzo/proprietary/lib64/hw/fingerprint.fpc.msm8952.so:system/lib64/hw/fingerprint.fpc.msm8952.so \
+    vendor/xiaomi/kenzo/proprietary/lib64/hw/gxfingerprint.default.so:system/lib64/hw/gxfingerprint.default.so \
     vendor/xiaomi/kenzo/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
+    vendor/xiaomi/kenzo/proprietary/lib64/libfp_client.so:system/lib64/libfp_client.so \
+    vendor/xiaomi/kenzo/proprietary/lib64/libfpnav.so:system/lib64/libfpnav.so \
+    vendor/xiaomi/kenzo/proprietary/lib64/libfpservice.so:system/lib64/libfpservice.so \
     vendor/xiaomi/kenzo/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/xiaomi/kenzo/proprietary/vendor/Diag.cfg:system/vendor/Diag.cfg \
     vendor/xiaomi/kenzo/proprietary/vendor/bin/mm-pp-daemon:system/vendor/bin/mm-pp-daemon \
