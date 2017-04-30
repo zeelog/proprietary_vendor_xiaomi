@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter gemini lithium natrium,$(TARGET_DEVICE)),)
+ifneq ($(filter capricorn gemini lithium natrium,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libqminvapi
