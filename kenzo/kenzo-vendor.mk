@@ -162,15 +162,15 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/kenzo/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
     vendor/xiaomi/kenzo/proprietary/framework/rcsimssettings.jar:system/framework/rcsimssettings.jar \
     vendor/xiaomi/kenzo/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
-    vendor/xiaomi/kenzo/proprietary/lib/hw/fingerprint.fpc.msm8952.so:system/lib/hw/fingerprint.fpc.msm8952.so \
+    vendor/xiaomi/kenzo/proprietary/lib/hw/fingerprint.fpc.so:system/lib/hw/fingerprint.fpc.so \
     vendor/xiaomi/kenzo/proprietary/lib/libDiracAPI_SHARED.so:system/lib/libDiracAPI_SHARED.so \
     vendor/xiaomi/kenzo/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/xiaomi/kenzo/proprietary/lib/libRecoFace.so:system/lib/libRecoFace.so \
     vendor/xiaomi/kenzo/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
     vendor/xiaomi/kenzo/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/xiaomi/kenzo/proprietary/lib/soundfx/libdirac.so:system/lib/soundfx/libdirac.so \
-    vendor/xiaomi/kenzo/proprietary/lib64/hw/fingerprint.goodix.default.so:system/lib64/hw/fingerprint.goodix.default.so \
-    vendor/xiaomi/kenzo/proprietary/lib64/hw/fingerprint.fpc.msm8952.so:system/lib64/hw/fingerprint.fpc.msm8952.so \
+    vendor/xiaomi/kenzo/proprietary/lib64/hw/fingerprint.gdx.so:system/lib64/hw/fingerprint.gdx.so \
+    vendor/xiaomi/kenzo/proprietary/lib64/hw/fingerprint.fpc.so:system/lib64/hw/fingerprint.fpc.so \
     vendor/xiaomi/kenzo/proprietary/lib64/hw/gxfingerprint.default.so:system/lib64/hw/gxfingerprint.default.so \
     vendor/xiaomi/kenzo/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
     vendor/xiaomi/kenzo/proprietary/lib64/libfp_client.so:system/lib64/libfp_client.so \
