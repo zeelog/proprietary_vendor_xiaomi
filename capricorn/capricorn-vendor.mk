@@ -38,6 +38,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/capricorn/proprietary/etc/firmware/tfa9891.cnt:system/etc/firmware/tfa9891.cnt \
     vendor/xiaomi/capricorn/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so \
     vendor/xiaomi/capricorn/proprietary/vendor/lib/hw/fingerprint.qcom.so:system/vendor/lib/hw/fingerprint.qcom.so \
+    vendor/xiaomi/capricorn/proprietary/vendor/lib/libSonyIMX378PdafLibrary.so:system/vendor/lib/libSonyIMX378PdafLibrary.so \
     vendor/xiaomi/capricorn/proprietary/vendor/lib/libactuator_ak7371_a7_liteon.so:system/vendor/lib/libactuator_ak7371_a7_liteon.so \
     vendor/xiaomi/capricorn/proprietary/vendor/lib/libactuator_ak7371_a7_semco.so:system/vendor/lib/libactuator_ak7371_a7_semco.so \
     vendor/xiaomi/capricorn/proprietary/vendor/lib/libchromatix_imx378_1080p_preview_3a.so:system/vendor/lib/libchromatix_imx378_1080p_preview_3a.so \
