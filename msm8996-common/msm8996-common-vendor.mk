@@ -109,10 +109,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8996-common/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/xiaomi/msm8996-common/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/xiaomi/msm8996-common/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
-    vendor/xiaomi/msm8996-common/proprietary/etc/sensors/hals.conf:system/etc/sensors/hals.conf \
-    vendor/xiaomi/msm8996-common/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
-    vendor/xiaomi/msm8996-common/proprietary/etc/thermal-engine-8996-a1.conf:system/etc/thermal-engine-8996-a1.conf \
-    vendor/xiaomi/msm8996-common/proprietary/etc/thermal-engine-8996.conf:system/etc/thermal-engine-8996.conf \
     vendor/xiaomi/msm8996-common/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
     vendor/xiaomi/msm8996-common/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
     vendor/xiaomi/msm8996-common/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \

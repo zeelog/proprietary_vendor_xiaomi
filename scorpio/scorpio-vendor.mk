@@ -34,6 +34,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/scorpio/proprietary/etc/firmware/a530_zap.b02:system/etc/firmware/a530_zap.b02 \
     vendor/xiaomi/scorpio/proprietary/etc/firmware/a530_zap.elf:system/etc/firmware/a530_zap.elf \
     vendor/xiaomi/scorpio/proprietary/etc/firmware/a530_zap.mdt:system/etc/firmware/a530_zap.mdt \
+    vendor/xiaomi/scorpio/proprietary/etc/sensors/hals.conf:system/etc/sensors/hals.conf \
+    vendor/xiaomi/scorpio/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
+    vendor/xiaomi/scorpio/proprietary/etc/thermal-engine-8996.conf:system/etc/thermal-engine-8996.conf \
     vendor/xiaomi/scorpio/proprietary/lib/hw/fingerprint.fpc.so:system/lib/hw/fingerprint.fpc.so \
     vendor/xiaomi/scorpio/proprietary/lib64/hw/fingerprint.fpc.so:system/lib64/hw/fingerprint.fpc.so \
     vendor/xiaomi/scorpio/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so \
