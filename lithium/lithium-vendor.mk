@@ -142,7 +142,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_s5k3p3_qtech_eeprom.so:system/vendor/lib/libmmcamera_s5k3p3_qtech_eeprom.so \
     vendor/xiaomi/lithium/proprietary/vendor/lib/libproxadapter.so:system/vendor/lib/libproxadapter.so \
     vendor/xiaomi/lithium/proprietary/vendor/lib/libproxsockadapter.so:system/vendor/lib/libproxsockadapter.so \
-    vendor/xiaomi/lithium/proprietary/vendor/lib/libqcproximity.so:system/vendor/lib/libqcproximity.so \
     vendor/xiaomi/lithium/proprietary/vendor/lib/libual.so:system/vendor/lib/libual.so \
     vendor/xiaomi/lithium/proprietary/vendor/lib/libualutil.so:system/vendor/lib/libualutil.so \
     vendor/xiaomi/lithium/proprietary/vendor/lib/libusndroute.so:system/vendor/lib/libusndroute.so \

@@ -22,21 +22,19 @@
     <ctl name="RX INT0 DEM MUX" value="CLSH_DSM_OUT" />
     <ctl name="RX INT0_2 MUX" value="ZERO" />
 
-    <path name="dmic1">
+    <path name="dmic4">
         <ctl name="AIF2_CAP Mixer SLIM TX4" value="1"/>
-        <ctl name="SLIM_0_TX Channels" value="One" />
         <ctl name="SLIM TX4 MUX" value="DEC4" />
         <ctl name="ADC MUX4" value="DMIC" />
-        <ctl name="DMIC MUX4" value="DMIC0" />
+        <ctl name="DMIC MUX4" value="DMIC4" />
         <ctl name="DEC4 Volume" value="84" />
     </path>
 
     <path name="dmic2">
         <ctl name="AIF2_CAP Mixer SLIM TX2" value="1"/>
-        <ctl name="SLIM_0_TX Channels" value="One" />
         <ctl name="SLIM TX2 MUX" value="DEC2" />
         <ctl name="ADC MUX2" value="DMIC" />
-        <ctl name="DMIC MUX2" value="DMIC1" />
+        <ctl name="DMIC MUX2" value="DMIC2" />
         <ctl name="DEC2 Volume" value="84" />
     </path>
 
@@ -45,11 +43,11 @@
     </path>
 
     <path name="tx_5">
-        <path name="dmic1" />
+        <path name="dmic4" />
     </path>
     <path name="tx_3_5">
         <path name="dmic2" />
-        <path name="dmic1" />
+        <path name="dmic4" />
     </path>
 
 
