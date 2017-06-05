@@ -40,6 +40,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/scorpio/proprietary/lib/hw/fingerprint.fpc.so:system/lib/hw/fingerprint.fpc.so \
     vendor/xiaomi/scorpio/proprietary/lib64/hw/fingerprint.fpc.so:system/lib64/hw/fingerprint.fpc.so \
     vendor/xiaomi/scorpio/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libSonyIMX318PdafLibrary.so:system/vendor/lib/libSonyIMX318PdafLibrary.so \
     vendor/xiaomi/scorpio/proprietary/vendor/lib/libactuator_ak7371_a4_primax.so:system/vendor/lib/libactuator_ak7371_a4_primax.so \
     vendor/xiaomi/scorpio/proprietary/vendor/lib/libactuator_bu64245.so:system/vendor/lib/libactuator_bu64245.so \
     vendor/xiaomi/scorpio/proprietary/vendor/lib/libactuator_lc898214xc.so:system/vendor/lib/libactuator_lc898214xc.so \
