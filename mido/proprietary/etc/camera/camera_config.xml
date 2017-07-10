@@ -339,7 +339,7 @@ LensInfo : Information of the lens present in the module.
   </CameraModuleConfig>
 
   <CameraModuleConfig>
-    <CameraId>1</CameraId>
+    <CameraId>0</CameraId>
     <SensorName>ov13855_qtech</SensorName>
     <ActuatorName>dw9763_qtech_ov13855</ActuatorName>
     <EepromName>qtech_ov13855</EepromName>
