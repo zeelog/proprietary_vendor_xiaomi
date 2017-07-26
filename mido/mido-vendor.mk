@@ -18,12 +18,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mido/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/xiaomi/mido/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/xiaomi/mido/proprietary/bin/cnd:system/bin/cnd \
-    vendor/xiaomi/mido/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
-    vendor/xiaomi/mido/proprietary/bin/cnss_diag:system/bin/cnss_diag \
     vendor/xiaomi/mido/proprietary/bin/dpmd:system/bin/dpmd \
-    vendor/xiaomi/mido/proprietary/bin/dun-server:system/bin/dun-server \
     vendor/xiaomi/mido/proprietary/bin/energy-awareness:system/bin/energy-awareness \
-    vendor/xiaomi/mido/proprietary/bin/garden_app:system/bin/garden_app \
     vendor/xiaomi/mido/proprietary/bin/gx_fpd:system/bin/gx_fpd \
     vendor/xiaomi/mido/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/xiaomi/mido/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
@@ -52,20 +48,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mido/proprietary/bin/wcnss_service:system/bin/wcnss_service \
     vendor/xiaomi/mido/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/xiaomi/mido/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
-    vendor/xiaomi/mido/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
-    vendor/xiaomi/mido/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
-    vendor/xiaomi/mido/proprietary/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/MTP_Global_cal.acdb \
-    vendor/xiaomi/mido/proprietary/etc/acdbdata/MTP/MTP_Handset_cal.acdb:system/etc/acdbdata/MTP/MTP_Handset_cal.acdb \
-    vendor/xiaomi/mido/proprietary/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
-    vendor/xiaomi/mido/proprietary/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
-    vendor/xiaomi/mido/proprietary/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
-    vendor/xiaomi/mido/proprietary/etc/acdbdata/MTP/msm8953-tasha-snd-card/MTP_WCD9335_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/msm8953-tasha-snd-card/MTP_WCD9335_Bluetooth_cal.acdb \
-    vendor/xiaomi/mido/proprietary/etc/acdbdata/MTP/msm8953-tasha-snd-card/MTP_WCD9335_General_cal.acdb:system/etc/acdbdata/MTP/msm8953-tasha-snd-card/MTP_WCD9335_General_cal.acdb \
-    vendor/xiaomi/mido/proprietary/etc/acdbdata/MTP/msm8953-tasha-snd-card/MTP_WCD9335_Global_cal.acdb:system/etc/acdbdata/MTP/msm8953-tasha-snd-card/MTP_WCD9335_Global_cal.acdb \
-    vendor/xiaomi/mido/proprietary/etc/acdbdata/MTP/msm8953-tasha-snd-card/MTP_WCD9335_Handset_cal.acdb:system/etc/acdbdata/MTP/msm8953-tasha-snd-card/MTP_WCD9335_Handset_cal.acdb \
-    vendor/xiaomi/mido/proprietary/etc/acdbdata/MTP/msm8953-tasha-snd-card/MTP_WCD9335_Hdmi_cal.acdb:system/etc/acdbdata/MTP/msm8953-tasha-snd-card/MTP_WCD9335_Hdmi_cal.acdb \
-    vendor/xiaomi/mido/proprietary/etc/acdbdata/MTP/msm8953-tasha-snd-card/MTP_WCD9335_Headset_cal.acdb:system/etc/acdbdata/MTP/msm8953-tasha-snd-card/MTP_WCD9335_Headset_cal.acdb \
-    vendor/xiaomi/mido/proprietary/etc/acdbdata/MTP/msm8953-tasha-snd-card/MTP_WCD9335_Speaker_cal.acdb:system/etc/acdbdata/MTP/msm8953-tasha-snd-card/MTP_WCD9335_Speaker_cal.acdb \
     vendor/xiaomi/mido/proprietary/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb:system/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb \
     vendor/xiaomi/mido/proprietary/etc/acdbdata/QRD/QRD_General_cal.acdb:system/etc/acdbdata/QRD/QRD_General_cal.acdb \
     vendor/xiaomi/mido/proprietary/etc/acdbdata/QRD/QRD_Global_cal.acdb:system/etc/acdbdata/QRD/QRD_Global_cal.acdb \
@@ -120,16 +102,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mido/proprietary/etc/firmware/a506_zap.b00:system/etc/firmware/a506_zap.b00 \
     vendor/xiaomi/mido/proprietary/etc/firmware/a506_zap.b01:system/etc/firmware/a506_zap.b01 \
     vendor/xiaomi/mido/proprietary/etc/firmware/a506_zap.b02:system/etc/firmware/a506_zap.b02 \
-    vendor/xiaomi/mido/proprietary/etc/firmware/a506_zap.elf:system/etc/firmware/a506_zap.elf \
     vendor/xiaomi/mido/proprietary/etc/firmware/a506_zap.mdt:system/etc/firmware/a506_zap.mdt \
-    vendor/xiaomi/mido/proprietary/etc/firmware/a530_gpmu.fw2:system/etc/firmware/a530_gpmu.fw2 \
     vendor/xiaomi/mido/proprietary/etc/firmware/a530_pfp.fw:system/etc/firmware/a530_pfp.fw \
     vendor/xiaomi/mido/proprietary/etc/firmware/a530_pm4.fw:system/etc/firmware/a530_pm4.fw \
-    vendor/xiaomi/mido/proprietary/etc/firmware/a530v1_pfp.fw:system/etc/firmware/a530v1_pfp.fw \
-    vendor/xiaomi/mido/proprietary/etc/firmware/a530v1_pm4.fw:system/etc/firmware/a530v1_pm4.fw \
-    vendor/xiaomi/mido/proprietary/etc/firmware/a530v2_seq.fw2:system/etc/firmware/a530v2_seq.fw2 \
-    vendor/xiaomi/mido/proprietary/etc/firmware/a530v3_gpmu.fw2:system/etc/firmware/a530v3_gpmu.fw2 \
-    vendor/xiaomi/mido/proprietary/etc/firmware/a530v3_seq.fw2:system/etc/firmware/a530v3_seq.fw2 \
     vendor/xiaomi/mido/proprietary/etc/firmware/cpp_firmware_v1_10_0.fw:system/etc/firmware/cpp_firmware_v1_10_0.fw \
     vendor/xiaomi/mido/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/xiaomi/mido/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
@@ -139,7 +114,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mido/proprietary/etc/firmware/cpp_firmware_v1_5_2.fw:system/etc/firmware/cpp_firmware_v1_5_2.fw \
     vendor/xiaomi/mido/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:system/etc/firmware/cpp_firmware_v1_6_0.fw \
     vendor/xiaomi/mido/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw \
-    vendor/xiaomi/mido/proprietary/etc/firmware/ice40.bin:system/etc/firmware/ice40.bin \
     vendor/xiaomi/mido/proprietary/etc/firmware/nvm_tlv.bin:system/etc/firmware/nvm_tlv.bin \
     vendor/xiaomi/mido/proprietary/etc/firmware/nvm_tlv_1.3.bin:system/etc/firmware/nvm_tlv_1.3.bin \
     vendor/xiaomi/mido/proprietary/etc/firmware/nvm_tlv_2.1.bin:system/etc/firmware/nvm_tlv_2.1.bin \
@@ -181,8 +155,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mido/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/xiaomi/mido/proprietary/framework/rcsimssettings.jar:system/framework/rcsimssettings.jar \
     vendor/xiaomi/mido/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
-    vendor/xiaomi/mido/proprietary/lib/hw/consumerir.msm8953.so:system/lib/hw/consumerir.msm8953.so \
     vendor/xiaomi/mido/proprietary/lib/hw/fingerprint.searchf.so:system/lib/hw/fingerprint.searchf.so \
+    vendor/xiaomi/mido/proprietary/lib/libDiracAPI_SHARED.so:system/lib/libDiracAPI_SHARED.so \
     vendor/xiaomi/mido/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/xiaomi/mido/proprietary/lib/libcom_fingerprints_service.so:system/lib/libcom_fingerprints_service.so \
     vendor/xiaomi/mido/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
@@ -190,7 +164,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mido/proprietary/lib/libstagefright_soft_flacdec.so:system/lib/libstagefright_soft_flacdec.so \
     vendor/xiaomi/mido/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/xiaomi/mido/proprietary/lib/soundfx/libdirac.so:system/lib/soundfx/libdirac.so \
-    vendor/xiaomi/mido/proprietary/lib64/hw/consumerir.msm8953.so:system/lib64/hw/consumerir.msm8953.so \
     vendor/xiaomi/mido/proprietary/lib64/hw/fingerprint.goodix.so:system/lib64/hw/fingerprint.goodix.so \
     vendor/xiaomi/mido/proprietary/lib64/hw/fingerprint.searchf.so:system/lib64/hw/fingerprint.searchf.so \
     vendor/xiaomi/mido/proprietary/lib64/hw/gxfingerprint.default.so:system/lib64/hw/gxfingerprint.default.so \
@@ -227,7 +200,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mido/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/libChamomilePA.so:system/vendor/lib/libChamomilePA.so \
-    vendor/xiaomi/mido/proprietary/vendor/lib/libFlacSwDec.so:system/vendor/lib/libFlacSwDec.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/libOmxAlacDec.so:system/vendor/lib/libOmxAlacDec.so \
@@ -955,9 +927,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mido/proprietary/vendor/lib64/lib-sec-disp.so:system/vendor/lib64/lib-sec-disp.so \
     vendor/xiaomi/mido/proprietary/vendor/lib64/libC2D2.so:system/vendor/lib64/libC2D2.so \
     vendor/xiaomi/mido/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
-    vendor/xiaomi/mido/proprietary/vendor/lib64/libCommandSvc.so:system/vendor/lib64/libCommandSvc.so \
     vendor/xiaomi/mido/proprietary/vendor/lib64/libDRPlugin.so:system/vendor/lib64/libDRPlugin.so \
-    vendor/xiaomi/mido/proprietary/vendor/lib64/libFlacSwDec.so:system/vendor/lib64/libFlacSwDec.so \
     vendor/xiaomi/mido/proprietary/vendor/lib64/libGPTEE.so:system/vendor/lib64/libGPTEE.so \
     vendor/xiaomi/mido/proprietary/vendor/lib64/libGPreqcancel.so:system/vendor/lib64/libGPreqcancel.so \
     vendor/xiaomi/mido/proprietary/vendor/lib64/libGPreqcancel_svc.so:system/vendor/lib64/libGPreqcancel_svc.so \
@@ -1039,14 +1009,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mido/proprietary/vendor/lib64/libmm-hdcpmgr.so:system/vendor/lib64/libmm-hdcpmgr.so \
     vendor/xiaomi/mido/proprietary/vendor/lib64/libmm-qdcm.so:system/vendor/lib64/libmm-qdcm.so \
     vendor/xiaomi/mido/proprietary/vendor/lib64/libmmQSM.so:system/vendor/lib64/libmmQSM.so \
-    vendor/xiaomi/mido/proprietary/vendor/lib64/libmmcamera2_frame_algorithm.so:system/vendor/lib64/libmmcamera2_frame_algorithm.so \
-    vendor/xiaomi/mido/proprietary/vendor/lib64/libmmcamera2_is.so:system/vendor/lib64/libmmcamera2_is.so \
-    vendor/xiaomi/mido/proprietary/vendor/lib64/libmmcamera2_q3a_core.so:system/vendor/lib64/libmmcamera2_q3a_core.so \
-    vendor/xiaomi/mido/proprietary/vendor/lib64/libmmcamera2_stats_algorithm.so:system/vendor/lib64/libmmcamera2_stats_algorithm.so \
-    vendor/xiaomi/mido/proprietary/vendor/lib64/libmmcamera_cac3_lib.so:system/vendor/lib64/libmmcamera_cac3_lib.so \
-    vendor/xiaomi/mido/proprietary/vendor/lib64/libmmcamera_dbg.so:system/vendor/lib64/libmmcamera_dbg.so \
-    vendor/xiaomi/mido/proprietary/vendor/lib64/libmmcamera_tintless_algo.so:system/vendor/lib64/libmmcamera_tintless_algo.so \
-    vendor/xiaomi/mido/proprietary/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so \
     vendor/xiaomi/mido/proprietary/vendor/lib64/libmmosal.so:system/vendor/lib64/libmmosal.so \
     vendor/xiaomi/mido/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
     vendor/xiaomi/mido/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
@@ -1063,8 +1025,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mido/proprietary/vendor/lib64/libqmi_csi.so:system/vendor/lib64/libqmi_csi.so \
     vendor/xiaomi/mido/proprietary/vendor/lib64/libqmi_encdec.so:system/vendor/lib64/libqmi_encdec.so \
     vendor/xiaomi/mido/proprietary/vendor/lib64/libqmiservices.so:system/vendor/lib64/libqmiservices.so \
-    vendor/xiaomi/mido/proprietary/vendor/lib64/libqti-at.so:system/vendor/lib64/libqti-at.so \
-    vendor/xiaomi/mido/proprietary/vendor/lib64/libqti-gt.so:system/vendor/lib64/libqti-gt.so \
     vendor/xiaomi/mido/proprietary/vendor/lib64/libqti-iop-client.so:system/vendor/lib64/libqti-iop-client.so \
     vendor/xiaomi/mido/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
     vendor/xiaomi/mido/proprietary/vendor/lib64/libqti-wl.so:system/vendor/lib64/libqti-wl.so \
