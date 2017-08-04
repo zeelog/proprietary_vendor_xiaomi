@@ -33,7 +33,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8956-common/proprietary/bin/pm-proxy:system/bin/pm-proxy \
     vendor/xiaomi/msm8956-common/proprietary/bin/pm-service:system/bin/pm-service \
     vendor/xiaomi/msm8956-common/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
-    vendor/xiaomi/msm8956-common/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/xiaomi/msm8956-common/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
     vendor/xiaomi/msm8956-common/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/xiaomi/msm8956-common/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
@@ -148,7 +147,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8956-common/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/xiaomi/msm8956-common/proprietary/vendor/lib/libQtiTether.so:system/vendor/lib/libQtiTether.so \
     vendor/xiaomi/msm8956-common/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
-    vendor/xiaomi/msm8956-common/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/xiaomi/msm8956-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/xiaomi/msm8956-common/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
     vendor/xiaomi/msm8956-common/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
@@ -272,7 +270,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8956-common/proprietary/vendor/lib64/libOpenCL.so:system/vendor/lib64/libOpenCL.so \
     vendor/xiaomi/msm8956-common/proprietary/vendor/lib64/libQtiTether.so:system/vendor/lib64/libQtiTether.so \
     vendor/xiaomi/msm8956-common/proprietary/vendor/lib64/libRSDriver_adreno.so:system/vendor/lib64/libRSDriver_adreno.so \
-    vendor/xiaomi/msm8956-common/proprietary/vendor/lib64/libTimeService.so:system/vendor/lib64/libTimeService.so \
     vendor/xiaomi/msm8956-common/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
     vendor/xiaomi/msm8956-common/proprietary/vendor/lib64/libacdbloader.so:system/vendor/lib64/libacdbloader.so \
     vendor/xiaomi/msm8956-common/proprietary/vendor/lib64/libacdbmapper.so:system/vendor/lib64/libacdbmapper.so \
@@ -356,8 +353,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
     libthermalclient \
-    libtime_genoff \
-    TimeService \
     CNEService \
     QtiTetherService \
     com.qualcomm.location \

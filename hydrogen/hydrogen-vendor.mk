@@ -25,6 +25,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/hydrogen/proprietary/bin/radish:system/bin/radish \
     vendor/xiaomi/hydrogen/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/xiaomi/hydrogen/proprietary/bin/tftp_server:system/bin/tftp_server \
+    vendor/xiaomi/hydrogen/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/xiaomi/hydrogen/proprietary/bin/wcnss_service:system/bin/wcnss_service \
     vendor/xiaomi/hydrogen/proprietary/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb:system/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb \
     vendor/xiaomi/hydrogen/proprietary/etc/acdbdata/Forte/Forte_General_cal.acdb:system/etc/acdbdata/Forte/Forte_General_cal.acdb \
@@ -88,6 +89,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/hydrogen/proprietary/vendor/lib/libFaceProc.so:system/vendor/lib/libFaceProc.so \
     vendor/xiaomi/hydrogen/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/xiaomi/hydrogen/proprietary/vendor/lib/libRecoFace.so:system/vendor/lib/libRecoFace.so \
+    vendor/xiaomi/hydrogen/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/xiaomi/hydrogen/proprietary/vendor/lib/libactuator_ad5816g.so:system/vendor/lib/libactuator_ad5816g.so \
     vendor/xiaomi/hydrogen/proprietary/vendor/lib/libactuator_ad5823.so:system/vendor/lib/libactuator_ad5823.so \
     vendor/xiaomi/hydrogen/proprietary/vendor/lib/libactuator_bu64244gwz.so:system/vendor/lib/libactuator_bu64244gwz.so \
@@ -345,6 +347,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/hydrogen/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
     vendor/xiaomi/hydrogen/proprietary/vendor/lib64/libSecureUILib.so:system/vendor/lib64/libSecureUILib.so \
     vendor/xiaomi/hydrogen/proprietary/vendor/lib64/libStDrvInt.so:system/vendor/lib64/libStDrvInt.so \
+    vendor/xiaomi/hydrogen/proprietary/vendor/lib64/libTimeService.so:system/vendor/lib64/libTimeService.so \
     vendor/xiaomi/hydrogen/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
     vendor/xiaomi/hydrogen/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
     vendor/xiaomi/hydrogen/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
@@ -384,8 +387,10 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libqminvapi \
+    libtime_genoff \
     libts_detected_face_hal \
     libts_face_beautify_hal \
+    TimeService \
     embms \
     fastdormancy \
     shutdownlistener \
