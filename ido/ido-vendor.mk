@@ -30,7 +30,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ido/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/xiaomi/ido/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/xiaomi/ido/proprietary/bin/vm_bms:system/bin/vm_bms \
-    vendor/xiaomi/ido/proprietary/bin/wcnss_service:system/bin/wcnss_service \
     vendor/xiaomi/ido/proprietary/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb:system/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb \
     vendor/xiaomi/ido/proprietary/etc/acdbdata/QRD/QRD_General_cal.acdb:system/etc/acdbdata/QRD/QRD_General_cal.acdb \
     vendor/xiaomi/ido/proprietary/etc/acdbdata/QRD/QRD_Global_cal.acdb:system/etc/acdbdata/QRD/QRD_Global_cal.acdb \
