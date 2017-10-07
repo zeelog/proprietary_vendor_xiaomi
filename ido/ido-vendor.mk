@@ -65,7 +65,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ido/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/xiaomi/ido/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
     vendor/xiaomi/ido/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
-    vendor/xiaomi/ido/proprietary/framework/dpm.jar:system/framework/dpm.jar \
     vendor/xiaomi/ido/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
     vendor/xiaomi/ido/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
     vendor/xiaomi/ido/proprietary/lib/hw/consumerir.msm8916.so:system/lib/hw/consumerir.msm8916.so \
