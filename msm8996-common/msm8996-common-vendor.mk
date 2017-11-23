@@ -27,7 +27,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8996-common/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     vendor/xiaomi/msm8996-common/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
     vendor/xiaomi/msm8996-common/proprietary/bin/iop:system/bin/iop \
-    vendor/xiaomi/msm8996-common/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/xiaomi/msm8996-common/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/xiaomi/msm8996-common/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/xiaomi/msm8996-common/proprietary/bin/lowi-server:system/bin/lowi-server \
