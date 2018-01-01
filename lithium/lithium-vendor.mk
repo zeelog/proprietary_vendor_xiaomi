@@ -1,4 +1,4 @@
-# Copyright (C) 2017 The LineageOS Project
+# Copyright (C) 2017-2018 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -37,6 +37,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lithium/proprietary/etc/firmware/tfa9891.cnt:system/etc/firmware/tfa9891.cnt \
     vendor/xiaomi/lithium/proprietary/vendor/etc/sensors/hals.conf:system/vendor/etc/sensors/hals.conf \
     vendor/xiaomi/lithium/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
+    vendor/xiaomi/lithium/proprietary/etc/silence_short.wav:system/etc/silence_short.wav \
     vendor/xiaomi/lithium/proprietary/etc/thermal-engine-8996.conf:system/etc/thermal-engine-8996.conf \
     vendor/xiaomi/lithium/proprietary/etc/usf/form_factor_mtp.cfg:system/etc/usf/form_factor_mtp.cfg \
     vendor/xiaomi/lithium/proprietary/etc/usf/mixer/mixer_paths_mtp.xml:system/etc/usf/mixer/mixer_paths_mtp.xml \

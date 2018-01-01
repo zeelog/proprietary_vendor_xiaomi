@@ -1,4 +1,4 @@
-# Copyright (C) 2017 The LineageOS Project
+# Copyright (C) 2017-2018 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -38,6 +38,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/capricorn/proprietary/etc/firmware/tfa9891.cnt:system/etc/firmware/tfa9891.cnt \
     vendor/xiaomi/capricorn/proprietary/vendor/etc/sensors/hals.conf:system/vendor/etc/sensors/hals.conf \
     vendor/xiaomi/capricorn/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
+    vendor/xiaomi/capricorn/proprietary/etc/silence_short.wav:system/etc/silence_short.wav \
     vendor/xiaomi/capricorn/proprietary/etc/thermal-engine-8996.conf:system/etc/thermal-engine-8996.conf \
     vendor/xiaomi/capricorn/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so \
     vendor/xiaomi/capricorn/proprietary/vendor/lib/hw/fingerprint.qcom.so:system/vendor/lib/hw/fingerprint.qcom.so \
