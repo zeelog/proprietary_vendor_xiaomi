@@ -16,14 +16,14 @@
 
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/capricorn/proprietary/vendor/bin/qfp-daemon:system/vendor/bin/qfp-daemon \
-    vendor/xiaomi/capricorn/proprietary/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb:system/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb \
-    vendor/xiaomi/capricorn/proprietary/etc/acdbdata/Forte/Forte_General_cal.acdb:system/etc/acdbdata/Forte/Forte_General_cal.acdb \
-    vendor/xiaomi/capricorn/proprietary/etc/acdbdata/Forte/Forte_Global_cal.acdb:system/etc/acdbdata/Forte/Forte_Global_cal.acdb \
-    vendor/xiaomi/capricorn/proprietary/etc/acdbdata/Forte/Forte_Handset_cal.acdb:system/etc/acdbdata/Forte/Forte_Handset_cal.acdb \
-    vendor/xiaomi/capricorn/proprietary/etc/acdbdata/Forte/Forte_Hdmi_cal.acdb:system/etc/acdbdata/Forte/Forte_Hdmi_cal.acdb \
-    vendor/xiaomi/capricorn/proprietary/etc/acdbdata/Forte/Forte_Headset_cal.acdb:system/etc/acdbdata/Forte/Forte_Headset_cal.acdb \
-    vendor/xiaomi/capricorn/proprietary/etc/acdbdata/Forte/Forte_Speaker_cal.acdb:system/etc/acdbdata/Forte/Forte_Speaker_cal.acdb \
-    vendor/xiaomi/capricorn/proprietary/etc/acdbdata/adsp_avs_config.acdb:system/etc/acdbdata/adsp_avs_config.acdb \
+    vendor/xiaomi/capricorn/proprietary/vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb:system/vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb \
+    vendor/xiaomi/capricorn/proprietary/vendor/etc/acdbdata/Forte/Forte_General_cal.acdb:system/vendor/etc/acdbdata/Forte/Forte_General_cal.acdb \
+    vendor/xiaomi/capricorn/proprietary/vendor/etc/acdbdata/Forte/Forte_Global_cal.acdb:system/vendor/etc/acdbdata/Forte/Forte_Global_cal.acdb \
+    vendor/xiaomi/capricorn/proprietary/vendor/etc/acdbdata/Forte/Forte_Handset_cal.acdb:system/vendor/etc/acdbdata/Forte/Forte_Handset_cal.acdb \
+    vendor/xiaomi/capricorn/proprietary/vendor/etc/acdbdata/Forte/Forte_Hdmi_cal.acdb:system/vendor/etc/acdbdata/Forte/Forte_Hdmi_cal.acdb \
+    vendor/xiaomi/capricorn/proprietary/vendor/etc/acdbdata/Forte/Forte_Headset_cal.acdb:system/vendor/etc/acdbdata/Forte/Forte_Headset_cal.acdb \
+    vendor/xiaomi/capricorn/proprietary/vendor/etc/acdbdata/Forte/Forte_Speaker_cal.acdb:system/vendor/etc/acdbdata/Forte/Forte_Speaker_cal.acdb \
+    vendor/xiaomi/capricorn/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:system/vendor/etc/acdbdata/adsp_avs_config.acdb \
     vendor/xiaomi/capricorn/proprietary/etc/camera/imx378_chromatix.xml:system/etc/camera/imx378_chromatix.xml \
     vendor/xiaomi/capricorn/proprietary/etc/camera/imx378_liteon_chromatix.xml:system/etc/camera/imx378_liteon_chromatix.xml \
     vendor/xiaomi/capricorn/proprietary/etc/camera/imx378_semco_chromatix.xml:system/etc/camera/imx378_semco_chromatix.xml \
