@@ -265,6 +265,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libfeedbackhandler.so:system/vendor/lib/libfeedbackhandler.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libflash_pmic.so:system/vendor/lib/libflash_pmic.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libhdr_tm.so:system/vendor/lib/libhdr_tm.so \
@@ -549,6 +550,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libevent_observer.so:system/vendor/lib64/libevent_observer.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libfastcvadsp_stub.so:system/vendor/lib64/libfastcvadsp_stub.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libfastcvopt.so:system/vendor/lib64/libfastcvopt.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libfeedbackhandler.so:system/vendor/lib64/libfeedbackhandler.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libgdtap.so:system/vendor/lib64/libgdtap.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
