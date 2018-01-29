@@ -35,6 +35,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lithium/proprietary/etc/firmware/a530_zap.elf:system/etc/firmware/a530_zap.elf \
     vendor/xiaomi/lithium/proprietary/etc/firmware/a530_zap.mdt:system/etc/firmware/a530_zap.mdt \
     vendor/xiaomi/lithium/proprietary/etc/firmware/tfa9891.cnt:system/etc/firmware/tfa9891.cnt \
+    vendor/xiaomi/lithium/proprietary/vendor/etc/qdcm_calib_data_auo_fte716_1080p_video_mode_dsi_panel.xml:system/vendor/etc/qdcm_calib_data_auo_fte716_1080p_video_mode_dsi_panel.xml \
+    vendor/xiaomi/lithium/proprietary/vendor/etc/qdcm_calib_data_sharp_fte716_1080p_video_mode_dsi_panel.xml:system/vendor/etc/qdcm_calib_data_sharp_fte716_1080p_video_mode_dsi_panel.xml \
     vendor/xiaomi/lithium/proprietary/vendor/etc/sensors/hals.conf:system/vendor/etc/sensors/hals.conf \
     vendor/xiaomi/lithium/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
     vendor/xiaomi/lithium/proprietary/etc/silence_short.wav:system/etc/silence_short.wav \
@@ -153,7 +155,3 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lithium/proprietary/vendor/lib64/libualutil.so:system/vendor/lib64/libualutil.so \
     vendor/xiaomi/lithium/proprietary/vendor/lib64/libusndroute.so:system/vendor/lib64/libusndroute.so \
     vendor/xiaomi/lithium/proprietary/vendor/lib64/sensors.elliptic.so:system/vendor/lib64/sensors.elliptic.so
-
-PRODUCT_PACKAGES += \
-    qdcm_calib_data_auo_fte716_1080p_video_mode_dsi_panel \
-    qdcm_calib_data_sharp_fte716_1080p_video_mode_dsi_panel

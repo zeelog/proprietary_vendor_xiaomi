@@ -18,22 +18,4 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),scorpio)
 
-include $(CLEAR_VARS)
-LOCAL_MODULE := qdcm_calib_data_lgd_sw43101_p2_video_fhd_oled_panel
-LOCAL_MODULE_OWNER := xiaomi
-LOCAL_SRC_FILES := proprietary/etc/qdcm_calib_data_lgd_sw43101_p2_video_fhd_oled_panel.xml
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := qdcm_calib_data_lgd_sw43101_video_fhd_oled_panel
-LOCAL_MODULE_OWNER := xiaomi
-LOCAL_SRC_FILES := proprietary/etc/qdcm_calib_data_lgd_sw43101_video_fhd_oled_panel.xml
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
-include $(BUILD_PREBUILT)
-
 endif

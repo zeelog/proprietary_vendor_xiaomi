@@ -34,6 +34,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/scorpio/proprietary/etc/firmware/a530_zap.b02:system/etc/firmware/a530_zap.b02 \
     vendor/xiaomi/scorpio/proprietary/etc/firmware/a530_zap.elf:system/etc/firmware/a530_zap.elf \
     vendor/xiaomi/scorpio/proprietary/etc/firmware/a530_zap.mdt:system/etc/firmware/a530_zap.mdt \
+    vendor/xiaomi/scorpio/proprietary/vendor/etc/qdcm_calib_data_lgd_sw43101_p2_video_fhd_oled_panel.xml:system/vendor/etc/qdcm_calib_data_lgd_sw43101_p2_video_fhd_oled_panel.xml \
+    vendor/xiaomi/scorpio/proprietary/vendor/etc/qdcm_calib_data_lgd_sw43101_video_fhd_oled_panel.xml:system/vendor/etc/qdcm_calib_data_lgd_sw43101_video_fhd_oled_panel.xml \
     vendor/xiaomi/scorpio/proprietary/vendor/etc/sensors/hals.conf:system/vendor/etc/sensors/hals.conf \
     vendor/xiaomi/scorpio/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
     vendor/xiaomi/scorpio/proprietary/etc/thermal-engine-8996.conf:system/etc/thermal-engine-8996.conf \
@@ -177,7 +179,3 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/scorpio/proprietary/vendor/lib/libmmcamera_imx318_primax_eeprom.so:system/vendor/lib/libmmcamera_imx318_primax_eeprom.so \
     vendor/xiaomi/scorpio/proprietary/vendor/lib/libmmcamera_imx318_semco.so:system/vendor/lib/libmmcamera_imx318_semco.so \
     vendor/xiaomi/scorpio/proprietary/vendor/lib/libmmcamera_imx318_semco_eeprom.so:system/vendor/lib/libmmcamera_imx318_semco_eeprom.so
-
-PRODUCT_PACKAGES += \
-    qdcm_calib_data_lgd_sw43101_p2_video_fhd_oled_panel \
-    qdcm_calib_data_lgd_sw43101_video_fhd_oled_panel

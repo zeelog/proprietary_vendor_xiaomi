@@ -35,6 +35,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/natrium/proprietary/etc/firmware/a530_zap.b02:system/etc/firmware/a530_zap.b02 \
     vendor/xiaomi/natrium/proprietary/etc/firmware/a530_zap.elf:system/etc/firmware/a530_zap.elf \
     vendor/xiaomi/natrium/proprietary/etc/firmware/a530_zap.mdt:system/etc/firmware/a530_zap.mdt \
+    vendor/xiaomi/natrium/proprietary/vendor/etc/qdcm_calib_data_jdi_fhd_xcmd_incell_dsi_panel.xml:system/vendor/etc/qdcm_calib_data_jdi_fhd_xcmd_incell_dsi_panel.xml \
+    vendor/xiaomi/natrium/proprietary/vendor/etc/qdcm_calib_data_sharp_fhd_xcmd_incell_dsi_panel.xml:system/vendor/etc/qdcm_calib_data_sharp_fhd_xcmd_incell_dsi_panel.xml \
     vendor/xiaomi/natrium/proprietary/vendor/etc/sensors/hals.conf:system/vendor/etc/sensors/hals.conf \
     vendor/xiaomi/natrium/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
     vendor/xiaomi/natrium/proprietary/etc/thermal-engine-8996.conf:system/etc/thermal-engine-8996.conf \
@@ -199,7 +201,3 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/natrium/proprietary/vendor/lib/libmmcamera_ov4688_b7.so:system/vendor/lib/libmmcamera_ov4688_b7.so \
     vendor/xiaomi/natrium/proprietary/vendor/lib/libmmcamera_ov4688_b7_eeprom.so:system/vendor/lib/libmmcamera_ov4688_b7_eeprom.so \
     vendor/xiaomi/natrium/proprietary/vendor/lib/libmmcamera_ov4688_primax_b7.so:system/vendor/lib/libmmcamera_ov4688_primax_b7.so
-
-PRODUCT_PACKAGES += \
-    qdcm_calib_data_jdi_fhd_xcmd_incell_dsi_panel \
-    qdcm_calib_data_sharp_fhd_xcmd_incell_dsi_panel

@@ -36,6 +36,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/capricorn/proprietary/etc/firmware/a530_zap.elf:system/etc/firmware/a530_zap.elf \
     vendor/xiaomi/capricorn/proprietary/etc/firmware/a530_zap.mdt:system/etc/firmware/a530_zap.mdt \
     vendor/xiaomi/capricorn/proprietary/etc/firmware/tfa9891.cnt:system/etc/firmware/tfa9891.cnt \
+    vendor/xiaomi/capricorn/proprietary/vendor/etc/qdcm_calib_data_jdi_fhd_cmd_incell_dsi_panel.xml:system/vendor/etc/qdcm_calib_data_jdi_fhd_cmd_incell_dsi_panel.xml \
+    vendor/xiaomi/capricorn/proprietary/vendor/etc/qdcm_calib_data_jdi_j1_fhd_cmd_incell_dsi_panel.xml:system/vendor/etc/qdcm_calib_data_jdi_j1_fhd_cmd_incell_dsi_panel.xml \
+    vendor/xiaomi/capricorn/proprietary/vendor/etc/qdcm_calib_data_lgd_fhd_cmd_incell_dsi_panel.xml:system/vendor/etc/qdcm_calib_data_lgd_fhd_cmd_incell_dsi_panel.xml \
+    vendor/xiaomi/capricorn/proprietary/vendor/etc/qdcm_calib_data_sharp_fhd_cmd_incell_dsi_panel.xml:system/vendor/etc/qdcm_calib_data_sharp_fhd_cmd_incell_dsi_panel.xml \
     vendor/xiaomi/capricorn/proprietary/vendor/etc/sensors/hals.conf:system/vendor/etc/sensors/hals.conf \
     vendor/xiaomi/capricorn/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
     vendor/xiaomi/capricorn/proprietary/etc/silence_short.wav:system/etc/silence_short.wav \
@@ -218,8 +222,4 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/capricorn/proprietary/vendor/lib64/qfp.wakeup.so:system/vendor/lib64/qfp.wakeup.so
 
 PRODUCT_PACKAGES += \
-    QFingerprintService \
-    qdcm_calib_data_jdi_fhd_cmd_incell_dsi_panel \
-    qdcm_calib_data_jdi_j1_fhd_cmd_incell_dsi_panel \
-    qdcm_calib_data_lgd_fhd_cmd_incell_dsi_panel \
-    qdcm_calib_data_sharp_fhd_cmd_incell_dsi_panel
+    QFingerprintService

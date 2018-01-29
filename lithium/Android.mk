@@ -18,22 +18,4 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),lithium)
 
-include $(CLEAR_VARS)
-LOCAL_MODULE := qdcm_calib_data_auo_fte716_1080p_video_mode_dsi_panel
-LOCAL_MODULE_OWNER := xiaomi
-LOCAL_SRC_FILES := proprietary/etc/qdcm_calib_data_auo_fte716_1080p_video_mode_dsi_panel.xml
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := qdcm_calib_data_sharp_fte716_1080p_video_mode_dsi_panel
-LOCAL_MODULE_OWNER := xiaomi
-LOCAL_SRC_FILES := proprietary/etc/qdcm_calib_data_sharp_fte716_1080p_video_mode_dsi_panel.xml
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
-include $(BUILD_PREBUILT)
-
 endif

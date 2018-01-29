@@ -36,6 +36,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/etc/firmware/a530_zap.mdt:system/etc/firmware/a530_zap.mdt \
     vendor/xiaomi/gemini/proprietary/etc/firmware/tfa9891.cnt:system/etc/firmware/tfa9891.cnt \
     vendor/xiaomi/gemini/proprietary/etc/firmware/tfa98xx.cnt:system/etc/firmware/tfa98xx.cnt \
+    vendor/xiaomi/gemini/proprietary/vendor/etc/qdcm_calib_data_jdi_fhd_cmd_incell_dsi_panel.xml:system/vendor/etc/qdcm_calib_data_jdi_fhd_cmd_incell_dsi_panel.xml \
+    vendor/xiaomi/gemini/proprietary/vendor/etc/qdcm_calib_data_jdi_j1_fhd_cmd_incell_dsi_panel.xml:system/vendor/etc/qdcm_calib_data_jdi_j1_fhd_cmd_incell_dsi_panel.xml \
+    vendor/xiaomi/gemini/proprietary/vendor/etc/qdcm_calib_data_lgd_fhd_cmd_incell_dsi_panel.xml:system/vendor/etc/qdcm_calib_data_lgd_fhd_cmd_incell_dsi_panel.xml \
+    vendor/xiaomi/gemini/proprietary/vendor/etc/qdcm_calib_data_sharp_fhd_cmd_incell_dsi_panel.xml:system/vendor/etc/qdcm_calib_data_sharp_fhd_cmd_incell_dsi_panel.xml \
     vendor/xiaomi/gemini/proprietary/vendor/etc/sensors/hals.conf:system/vendor/etc/sensors/hals.conf \
     vendor/xiaomi/gemini/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
     vendor/xiaomi/gemini/proprietary/etc/silence_short.wav:system/etc/silence_short.wav \
@@ -157,9 +161,3 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libmmcamera_ov4688_primax.so:system/vendor/lib/libmmcamera_ov4688_primax.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libmmcamera_sony_imx298_eeprom.so:system/vendor/lib/libmmcamera_sony_imx298_eeprom.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libois_lc898122.so:system/vendor/lib/libois_lc898122.so
-
-PRODUCT_PACKAGES += \
-    qdcm_calib_data_jdi_fhd_cmd_incell_dsi_panel \
-    qdcm_calib_data_jdi_j1_fhd_cmd_incell_dsi_panel \
-    qdcm_calib_data_lgd_fhd_cmd_incell_dsi_panel \
-    qdcm_calib_data_sharp_fhd_cmd_incell_dsi_panel
