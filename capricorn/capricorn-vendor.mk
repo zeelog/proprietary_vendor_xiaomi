@@ -43,7 +43,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/capricorn/proprietary/vendor/etc/sensors/hals.conf:system/vendor/etc/sensors/hals.conf \
     vendor/xiaomi/capricorn/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
     vendor/xiaomi/capricorn/proprietary/etc/silence_short.wav:system/etc/silence_short.wav \
-    vendor/xiaomi/capricorn/proprietary/etc/thermal-engine-8996.conf:system/etc/thermal-engine-8996.conf \
     vendor/xiaomi/capricorn/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so \
     vendor/xiaomi/capricorn/proprietary/vendor/lib/hw/fingerprint.qcom.so:system/vendor/lib/hw/fingerprint.qcom.so \
     vendor/xiaomi/capricorn/proprietary/vendor/lib/libSonyIMX378PdafLibrary.so:system/vendor/lib/libSonyIMX378PdafLibrary.so \
