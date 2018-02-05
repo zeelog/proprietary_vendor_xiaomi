@@ -30,11 +30,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/natrium/proprietary/etc/camera/msm8996_camera.xml:system/etc/camera/msm8996_camera.xml \
     vendor/xiaomi/natrium/proprietary/etc/camera/ov4688_b7_chromatix.xml:system/etc/camera/ov4688_b7_chromatix.xml \
     vendor/xiaomi/natrium/proprietary/etc/camera/ov4688_primax_b7_chromatix.xml:system/etc/camera/ov4688_primax_b7_chromatix.xml \
-    vendor/xiaomi/natrium/proprietary/etc/firmware/a530_zap.b00:system/etc/firmware/a530_zap.b00 \
-    vendor/xiaomi/natrium/proprietary/etc/firmware/a530_zap.b01:system/etc/firmware/a530_zap.b01 \
-    vendor/xiaomi/natrium/proprietary/etc/firmware/a530_zap.b02:system/etc/firmware/a530_zap.b02 \
-    vendor/xiaomi/natrium/proprietary/etc/firmware/a530_zap.elf:system/etc/firmware/a530_zap.elf \
-    vendor/xiaomi/natrium/proprietary/etc/firmware/a530_zap.mdt:system/etc/firmware/a530_zap.mdt \
+    vendor/xiaomi/natrium/proprietary/vendor/firmware/a530_zap.b00:system/vendor/firmware/a530_zap.b00 \
+    vendor/xiaomi/natrium/proprietary/vendor/firmware/a530_zap.b01:system/vendor/firmware/a530_zap.b01 \
+    vendor/xiaomi/natrium/proprietary/vendor/firmware/a530_zap.b02:system/vendor/firmware/a530_zap.b02 \
+    vendor/xiaomi/natrium/proprietary/vendor/firmware/a530_zap.elf:system/vendor/firmware/a530_zap.elf \
+    vendor/xiaomi/natrium/proprietary/vendor/firmware/a530_zap.mdt:system/vendor/firmware/a530_zap.mdt \
     vendor/xiaomi/natrium/proprietary/vendor/etc/qdcm_calib_data_jdi_fhd_xcmd_incell_dsi_panel.xml:system/vendor/etc/qdcm_calib_data_jdi_fhd_xcmd_incell_dsi_panel.xml \
     vendor/xiaomi/natrium/proprietary/vendor/etc/qdcm_calib_data_sharp_fhd_xcmd_incell_dsi_panel.xml:system/vendor/etc/qdcm_calib_data_sharp_fhd_xcmd_incell_dsi_panel.xml \
     vendor/xiaomi/natrium/proprietary/vendor/etc/sensors/hals.conf:system/vendor/etc/sensors/hals.conf \

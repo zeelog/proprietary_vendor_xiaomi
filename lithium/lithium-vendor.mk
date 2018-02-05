@@ -29,12 +29,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lithium/proprietary/etc/camera/ov5675_primax_chromatix.xml:system/etc/camera/ov5675_primax_chromatix.xml \
     vendor/xiaomi/lithium/proprietary/etc/camera/s5k3p3_qtech_chromatix.xml:system/etc/camera/s5k3p3_qtech_chromatix.xml \
     vendor/xiaomi/lithium/proprietary/etc/elliptic_sensor.xml:system/etc/elliptic_sensor.xml \
-    vendor/xiaomi/lithium/proprietary/etc/firmware/a530_zap.b00:system/etc/firmware/a530_zap.b00 \
-    vendor/xiaomi/lithium/proprietary/etc/firmware/a530_zap.b01:system/etc/firmware/a530_zap.b01 \
-    vendor/xiaomi/lithium/proprietary/etc/firmware/a530_zap.b02:system/etc/firmware/a530_zap.b02 \
-    vendor/xiaomi/lithium/proprietary/etc/firmware/a530_zap.elf:system/etc/firmware/a530_zap.elf \
-    vendor/xiaomi/lithium/proprietary/etc/firmware/a530_zap.mdt:system/etc/firmware/a530_zap.mdt \
-    vendor/xiaomi/lithium/proprietary/etc/firmware/tfa9891.cnt:system/etc/firmware/tfa9891.cnt \
+    vendor/xiaomi/lithium/proprietary/vendor/firmware/a530_zap.b00:system/vendor/firmware/a530_zap.b00 \
+    vendor/xiaomi/lithium/proprietary/vendor/firmware/a530_zap.b01:system/vendor/firmware/a530_zap.b01 \
+    vendor/xiaomi/lithium/proprietary/vendor/firmware/a530_zap.b02:system/vendor/firmware/a530_zap.b02 \
+    vendor/xiaomi/lithium/proprietary/vendor/firmware/a530_zap.elf:system/vendor/firmware/a530_zap.elf \
+    vendor/xiaomi/lithium/proprietary/vendor/firmware/a530_zap.mdt:system/vendor/firmware/a530_zap.mdt \
+    vendor/xiaomi/lithium/proprietary/vendor/firmware/tfa9891.cnt:system/vendor/firmware/tfa9891.cnt \
     vendor/xiaomi/lithium/proprietary/vendor/etc/qdcm_calib_data_auo_fte716_1080p_video_mode_dsi_panel.xml:system/vendor/etc/qdcm_calib_data_auo_fte716_1080p_video_mode_dsi_panel.xml \
     vendor/xiaomi/lithium/proprietary/vendor/etc/qdcm_calib_data_sharp_fte716_1080p_video_mode_dsi_panel.xml:system/vendor/etc/qdcm_calib_data_sharp_fte716_1080p_video_mode_dsi_panel.xml \
     vendor/xiaomi/lithium/proprietary/vendor/etc/sensors/hals.conf:system/vendor/etc/sensors/hals.conf \

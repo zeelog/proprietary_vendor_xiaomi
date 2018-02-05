@@ -29,11 +29,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/scorpio/proprietary/etc/camera/imx318_primax_chromatix.xml:system/etc/camera/imx318_primax_chromatix.xml \
     vendor/xiaomi/scorpio/proprietary/etc/camera/imx318_semco_chromatix.xml:system/etc/camera/imx318_semco_chromatix.xml \
     vendor/xiaomi/scorpio/proprietary/etc/camera/msm8996_camera.xml:system/etc/camera/msm8996_camera.xml \
-    vendor/xiaomi/scorpio/proprietary/etc/firmware/a530_zap.b00:system/etc/firmware/a530_zap.b00 \
-    vendor/xiaomi/scorpio/proprietary/etc/firmware/a530_zap.b01:system/etc/firmware/a530_zap.b01 \
-    vendor/xiaomi/scorpio/proprietary/etc/firmware/a530_zap.b02:system/etc/firmware/a530_zap.b02 \
-    vendor/xiaomi/scorpio/proprietary/etc/firmware/a530_zap.elf:system/etc/firmware/a530_zap.elf \
-    vendor/xiaomi/scorpio/proprietary/etc/firmware/a530_zap.mdt:system/etc/firmware/a530_zap.mdt \
+    vendor/xiaomi/scorpio/proprietary/vendor/firmware/a530_zap.b00:system/vendor/firmware/a530_zap.b00 \
+    vendor/xiaomi/scorpio/proprietary/vendor/firmware/a530_zap.b01:system/vendor/firmware/a530_zap.b01 \
+    vendor/xiaomi/scorpio/proprietary/vendor/firmware/a530_zap.b02:system/vendor/firmware/a530_zap.b02 \
+    vendor/xiaomi/scorpio/proprietary/vendor/firmware/a530_zap.elf:system/vendor/firmware/a530_zap.elf \
+    vendor/xiaomi/scorpio/proprietary/vendor/firmware/a530_zap.mdt:system/vendor/firmware/a530_zap.mdt \
     vendor/xiaomi/scorpio/proprietary/vendor/etc/qdcm_calib_data_lgd_sw43101_p2_video_fhd_oled_panel.xml:system/vendor/etc/qdcm_calib_data_lgd_sw43101_p2_video_fhd_oled_panel.xml \
     vendor/xiaomi/scorpio/proprietary/vendor/etc/qdcm_calib_data_lgd_sw43101_video_fhd_oled_panel.xml:system/vendor/etc/qdcm_calib_data_lgd_sw43101_video_fhd_oled_panel.xml \
     vendor/xiaomi/scorpio/proprietary/vendor/etc/sensors/hals.conf:system/vendor/etc/sensors/hals.conf \
