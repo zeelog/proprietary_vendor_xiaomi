@@ -167,7 +167,7 @@ LensInfo : Information of the lens present in the module.
     <ChromatixName>imx268_chromatix</ChromatixName>
     <ModesSupported>1</ModesSupported>
     <Position>FRONT</Position>
-    <MountAngle>270</MountAngle>
+    <MountAngle>360</MountAngle>
     <CSIInfo>
       <CSIDCore>2</CSIDCore>
       <LaneMask>0x1F</LaneMask>
@@ -191,7 +191,7 @@ LensInfo : Information of the lens present in the module.
     <ChromatixName>imx268_sunny_chromatix</ChromatixName>
     <ModesSupported>1</ModesSupported>
     <Position>FRONT</Position>
-    <MountAngle>270</MountAngle>
+    <MountAngle>360</MountAngle>
     <CSIInfo>
       <CSIDCore>2</CSIDCore>
       <LaneMask>0x1F</LaneMask>
