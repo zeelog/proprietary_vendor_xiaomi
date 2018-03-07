@@ -38,7 +38,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lithium/proprietary/vendor/etc/qdcm_calib_data_sharp_fte716_1080p_video_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_sharp_fte716_1080p_video_mode_dsi_panel.xml \
     vendor/xiaomi/lithium/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     vendor/xiaomi/lithium/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
-    vendor/xiaomi/lithium/proprietary/etc/silence_short.wav:system/etc/silence_short.wav \
+    vendor/xiaomi/lithium/proprietary/vendor/etc/silence_short.wav:$(TARGET_COPY_OUT_VENDOR)/etc/silence_short.wav \
     vendor/xiaomi/lithium/proprietary/lib/hw/fingerprint.fpc.so:system/lib/hw/fingerprint.fpc.so \
     vendor/xiaomi/lithium/proprietary/lib/libultrasound.so:system/lib/libultrasound.so \
     vendor/xiaomi/lithium/proprietary/lib64/hw/fingerprint.fpc.so:system/lib64/hw/fingerprint.fpc.so \
