@@ -57,6 +57,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8998-common/proprietary/lib/libjni_trueportrait.so:system/lib/libjni_trueportrait.so \
     vendor/xiaomi/msm8998-common/proprietary/lib/libjni_truescanner_v2.so:system/lib/libjni_truescanner_v2.so \
     vendor/xiaomi/msm8998-common/proprietary/lib/libjni_ubifocus.so:system/lib/libjni_ubifocus.so \
+    vendor/xiaomi/msm8998-common/proprietary/lib/libmisk.so:system/lib/libmisk.so \
     vendor/xiaomi/msm8998-common/proprietary/lib/libmorpho_group_portrait.so:system/lib/libmorpho_group_portrait.so \
     vendor/xiaomi/msm8998-common/proprietary/lib/libmorpho_memory_allocator.so:system/lib/libmorpho_memory_allocator.so \
     vendor/xiaomi/msm8998-common/proprietary/lib/libmorpho_panorama.so:system/lib/libmorpho_panorama.so \
