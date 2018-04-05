@@ -95,6 +95,17 @@ special_mode_mask values:
       <A3Preview>imx386_semco_zsl_preview</A3Preview>
       <A3Video>imx386_semco_zsl_video</A3Video>
     </ChromatixName>
+    <ChromatixName sensor_resolution_index="0" special_mode_mask="HHT MODE">
+      <ISPPreview>imx386_semco_snapshot</ISPPreview>
+      <ISPSnapshot>imx386_semco_snapshot</ISPSnapshot>
+      <ISPVideo>imx386_semco_snapshot</ISPVideo>
+      <CPPPreview>imx386_semco_cpp_preview</CPPPreview>
+      <CPPSnapshot>imx386_semco_cpp_snapshot_hht</CPPSnapshot>
+      <CPPVideo>imx386_semco_cpp_video</CPPVideo>
+      <CPPLiveshot>imx386_semco_cpp_liveshot</CPPLiveshot>
+      <A3Preview>imx386_semco_zsl_preview</A3Preview>
+      <A3Video>imx386_semco_zsl_video</A3Video>
+    </ChromatixName>
     <ChromatixName sensor_resolution_index="1" special_mode_mask="0">
       <ISPPreview>imx386_semco_snapshot</ISPPreview>
       <ISPSnapshot>imx386_semco_snapshot</ISPSnapshot>

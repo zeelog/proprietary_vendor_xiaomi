@@ -76,6 +76,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_semco_cpp_preview.so:system/vendor/lib/libchromatix_imx386_semco_cpp_preview.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_semco_cpp_snapshot.so:system/vendor/lib/libchromatix_imx386_semco_cpp_snapshot.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_semco_cpp_snapshot_hdr.so:system/vendor/lib/libchromatix_imx386_semco_cpp_snapshot_hdr.so \
+    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_semco_cpp_snapshot_hht.so:system/vendor/lib/libchromatix_imx386_semco_cpp_snapshot_hht.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_semco_cpp_video.so:system/vendor/lib/libchromatix_imx386_semco_cpp_video.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_semco_cpp_video_hdr.so:system/vendor/lib/libchromatix_imx386_semco_cpp_video_hdr.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_semco_default_preview.so:system/vendor/lib/libchromatix_imx386_semco_default_preview.so \
