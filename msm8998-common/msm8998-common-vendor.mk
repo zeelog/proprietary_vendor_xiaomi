@@ -586,6 +586,7 @@ PRODUCT_PACKAGES += \
     ims \
     imssettings \
     radioconfig \
+    uceShimService \
     CNEService \
     qcrilmsgtunnel \
     TimeService \
