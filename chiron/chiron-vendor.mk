@@ -22,7 +22,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/chiron/proprietary/etc/elliptic_sensor.xml:system/etc/elliptic_sensor.xml \
     vendor/xiaomi/chiron/proprietary/etc/firmware/tas2559_s_uCDSP.bin:system/etc/firmware/tas2559_s_uCDSP.bin \
     vendor/xiaomi/chiron/proprietary/etc/firmware/tas2559_uCDSP.bin:system/etc/firmware/tas2559_uCDSP.bin \
-    vendor/xiaomi/chiron/proprietary/etc/qdcm_calib_data_jdi_fhd_video_dsi_panel.xml:system/etc/qdcm_calib_data_jdi_fhd_video_dsi_panel.xml \
+    vendor/xiaomi/chiron/proprietary/vendor/etc/qdcm_calib_data_jdi_fhd_video_dsi_panel.xml:system/vendor/etc/qdcm_calib_data_jdi_fhd_video_dsi_panel.xml \
     vendor/xiaomi/chiron/proprietary/lib64/libnotifyaudiohal.so:system/lib64/libnotifyaudiohal.so \
     vendor/xiaomi/chiron/proprietary/lib64/libultrasound.so:system/lib64/libultrasound.so \
     vendor/xiaomi/chiron/proprietary/vendor/etc/acdbdata/ChironS/Forte_ChironS_Bluetooth_cal.acdb:system/vendor/etc/acdbdata/ChironS/Forte_ChironS_Bluetooth_cal.acdb \
