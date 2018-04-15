@@ -587,9 +587,9 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libgpustats \
+    libsdm-disp-vndapis \
     libthermalclient \
     libloc_api_v02 \
-    libsdm-disp-vndapis \
     libthermalioctl \
     QtiTelephonyService \
     datastatusnotification \
