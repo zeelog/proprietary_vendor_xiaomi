@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Copyright (C) 2016 Qualcomm Technologies, Inc.
+All rights reserved.
+Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+
+<!--
+	LogKit 3 Configuration file
+-->
+
+<!--
+     Version must be in format [MAJOR].[MINOR] where MAJOR and MINOR
+     are integers. If client detects downgrade, prefs will revert to
+     default values as backwards compatibility is not supported.
+
+     Config and Command Versions are incremented along with client.
+     Name can be changed to differentiate configs for a given version.
+-->
+
+<LogKitConfiguration Name="Qualcomm Technologies, Inc. Phase 2" Version="0.9">
+
+   <!--                       ConfigureLogs
+
+      These configurations are all session based logging
+
+      Submenu:
+         Name: Name used to label and group all UIElements
+         Enable: "true" to enable all UIElements in this submenu that are enabled
+                 "false" will disable all logging of all UIElements
+
+      UIElementCmd:
+         Name: Name to display
+         CommandName: Command name which is defined in Commands table
+         Visible: "true" to display in UI
+         Enable: default enable state
+         OnStart: when start pressed (default to true)
+         OnStop: when stop pressed (default to true)
+         OnInterval: repeat every x seconds (default to 0)
+         Userdebug: "true" if element should be greyed out on USER builds
+         CustomLogSize: max log size (in MB) for this file (optional - if not
+            specified log size will be determined by Settings->Log Size)
+
+      UIElementDMC:   UIElement that contains DMC path instead of command
+         Name: Name to display
+         Path: Path to DMC
+         Visible: "true" to display in UI
+         Enable: default enable state
+         Userdebug: "true" if element should be greyed out on USER builds
+
+      UIElementSecondaryDMC: Same as UIElementDMC, but output will be stored
+         in a second file, e.g. out-SecondDiag0.isf
+
+      UIElementCustomDMCPath: Allows dynamic addition of dmc files, and
+            selection from the UI
+         Name: Name to display
+         Path: Path to folder containing DMC files
+         Visible: "true" to display in UI
+         Enable: default enable state
+         Userdebug: "true" if element should be greyed out on USER builds
+
+      UIElementQDSS:
+         Name: Name to display
+         Visible: "true" to display in UI
+         Enable: default enable state
+         Userdebug: "true" if element should be greyed out on USER builds
+   -->
+   <ConfigureLogs>
+      <Submenu Name="Modem" Enable="true">
+         <UIElementDMC
+            Name="Golden"
+            Path="/vendor/etc/qti-logkit/goldenlogmask.dmc"
+            Visible="true"
+            Enable="true"
+            Userdebug="true"/>
+         <UIElementDMC
+            Name="Audio"
+            Path="/vendor/etc/qti-logkit/audiobasic.dmc"
+            Visible="true"
+            Enable="false"
+            Userdebug="true"/>
+
+         <!-- This switch is hidden and only enabled in scenario view -->
+         <UIElementSecondaryDMC
+            Name="IMS"
+            Path="/vendor/etc/qti-logkit/IMS.dmc"
+            Visible="false"
+            Enable="false"
+            Userdebug="true"/>
+
+         <!-- This swith is used to selecte a new DMC file -->
+          <UIElementCustomDMCPath
+            Name="Custom"
+            Path="/data/vendor/qti-logkit/shared-public"
+            Visible="true"
+            Enable="false"
+            Userdebug="true"/>
+      </Submenu>
+
+      <Submenu Name="Analytics" Enable="true">
+         <UIElementCmd
+            Name="Battery Analytics"
+            CommandName="eAnalyticsCommand_Battery"
+            Visible="true"
+            Enable="false"/>
+         <UIElementCmd
+            Name="CPU Analytics"
+            CommandName="eAnalyticsCommand_CPU"
+            Visible="true"
+            Enable="false"/>
+         <UIElementCmd
+            Name="Memory Analytics"
+            CommandName="eAnalyticsCommand_Memory"
+            Visible="true"
+            Enable="false"/>
+      </Submenu>
+
+      <Submenu Name="Android" Enable="true">
+         <UIElementCmd
+            Name="logcat radio"
+            CommandName="eHLOSCommand_ContLogcatRadio"
+            Visible="true"
+            Enable="false"/>
+         <UIElementCmd
+            Name="logcat events"
+            CommandName="eHLOSCommand_ContLogcatEvents"
+            Visible="true"
+            Enable="false"/>
+
+         <!-- USERDEBUG only -->
+         <UIElementCmd
+            Name="TCPDump"
+            CommandName="eHLOSCommand_ContAllTCP"
+            Visible="true"
+            Enable="false"
+            Userdebug="true"/>
+
+         <UIElementCmd
+            Name="Bluetooth"
+            CommandName="eHLOSCommand_ContBluetooth"
+            Visible="true"
+            Enable="false"/>
+
+         <UIElementQDSS
+            Name="QDSS"
+            Visible="true"
+            Enable="false"
+            Userdebug="true"/>
+      </Submenu>
+   </ConfigureLogs>
+
+   <!--                       ConfigureScenarios
+
+      These scenarios are an alternate way to view ConfigureLogs and are all
+      session based logging
+
+      Scenario:
+         Name: Name used to label and group all UIElements
+               The "Default" scenario does not require any items, and just uses
+               the default switch settings.
+         Icon: Path on device where icon will be accessed at runtime
+         Selected: (optional) Is this scenario selected?
+
+      Item:
+         Name: Maps to a ConfigureLogs Submenu and UIElement Name
+   -->
+
+   <ConfigureScenarios>
+      <Scenario
+         Name="Default"
+         Icon="/vendor/etc/qti-logkit/scenarios/default.png"
+         Selected="true">
+         <Item Submenu="Modem" Name="Golden"/>
+      </Scenario>
+      <Scenario
+         Name="Bluetooth"
+         Icon="/vendor/etc/qti-logkit/scenarios/bluetooth.png">
+         <Item Submenu="Modem" Name="Golden"/>
+         <Item Submenu="Android" Name="Bluetooth"/>
+      </Scenario>
+      <Scenario
+         Name="IMS"
+         Icon="/vendor/etc/qti-logkit/scenarios/IMS.png">
+         <Item Submenu="Modem" Name="IMS"/>
+      </Scenario>
+   </ConfigureScenarios>
+
+   <!--                       Settings
+
+      These configurations are all continuous logging
+
+      Submenu:
+         Name: Name used to label and group all UIElements
+         Enable: "true" to enable all UIElements in this submenu that are enabled
+                 "false" will disable all logging of all UIElements
+
+      UIElementCmd:
+         Name: Name to display
+         Type: [optional] Set to "Button" or "Switch". Default is "Switch"
+         CommandName: Command name which is defined in Commands table
+         Visible: "true" to display in UI
+         Enable: [optional] Switches only - default switch position
+                    (false if not present)
+         Userdebug: "true" if element should be greyed out on USER builds
+
+      UIElementDMC:   UIElement that contains DMC path instead of command
+         Name: Name to display
+         Path: Path to DMC
+         Visible: "true" to display in UI
+         Enable: default enable state
+         Userdebug: "true" if element should be greyed out on USER builds
+   -->
+   <Settings>
+      <Submenu Name="Continuous" Enable="true">
+
+         <!-- Continuous logs will be always included,
+              but not shown to the user so it cannot be disabled -->
+         <UIElementCmd
+            Name="Main Logcat"
+            Type="Switch"
+            CommandName="logcat"
+            Visible="false"
+            Enable="true"/>
+         <UIElementCmd
+            Name="Kernel mesg"
+            Type="Switch"
+            CommandName="kmesg"
+            Visible="false"
+            Enable="true"/>
+      </Submenu>
+
+      <Submenu Name="Event monitoring" Enable="true">
+         <UIElementCmd
+            Name="Tombstone"
+            Type="Switch"
+            CommandName="Tombstone"
+            Visible="true"
+            Enable="false"/>
+         <UIElementCmd
+            Name="ANR-System"
+            Type="Switch"
+            CommandName="ANR-System"
+            Visible="true"
+            Enable="false"
+            Userdebug="true"/>
+         <UIElementCmd
+            Name="ANR-Data"
+            Type="Switch"
+            CommandName="ANR-Data"
+            Visible="true"
+            Enable="false"
+            Userdebug="true"/>
+         <UIElementCmd
+            Name="Framework Reboot"
+            Type="Switch"
+            CommandName="FWRNotification"
+            Visible="true"
+            Enable="true"/>
+         <UIElementCmd
+            Name="Subsystem Reset"
+            Type="Switch"
+            CommandName="SSRNotification"
+            Visible="true"
+            Enable="true"/>
+         <UIElementCmd
+            Name="Crash Collection"
+            Type="Switch"
+            CommandName="CrashCollection"
+            Visible="true"
+            Enable="true"/>
+      </Submenu>
+
+      <Submenu Name="Reports" Enable="true">
+         <UIElementCmd
+            Name="Bug Report"
+            Type="Button"
+            CommandName="bug_report"
+            Visible="true"/>
+         <UIElementCmd
+            Name="Surface Flinger"
+            Type="Button"
+            CommandName="surface_flinger"
+            Visible="true"/>
+         <UIElementCmd
+            Name="Dumpsys"
+            Type="Button"
+            CommandName="eHLOSCommand_CrashDumpSys"
+            Visible="true"/>
+         <UIElementCmd
+            Name="Meminfo"
+            Type="Button"
+            CommandName="eHLOSCommand_CatMemInfo"
+            Visible="true"/>
+         <UIElementCmd
+            Name="Procrank"
+            Type="Button"
+            CommandName="eHLOSCommand_ProcRank"
+            Visible="true"/>
+         <UIElementCmd
+            Name="dumpsys media.camera"
+            Type="Button"
+            CommandName="eHLOSCommand_DumpCamera"
+            Visible="true"/>
+         <UIElementCmd
+            Name="WIFI iwconfig"
+            Type="Button"
+            CommandName="eHLOSCommand_Iwconfig"
+            Visible="true"/>
+      </Submenu>
+
+   <!--                       CrashMode
+
+         User configurable crash detection mode.
+         Applicable when "Crash Collection" switch enabled.
+
+         Only one should be Selected, if none are selected,
+         the first entry will be.
+
+            InternalMini   - enable internal mini dump collection
+            InternalFull   - enable internal full dump collection
+            External       - enable sdcard dump collection
+            ExternalNotify - enable sdcard dump count metrics
+   -->
+      <CrashMode>
+         <Option
+            Name="Sdcard collection"
+            Enum="External"
+            Selected="true"/>
+         <Option
+            Name="Sdcard notify only"
+            Enum="ExternalNotify"/>
+         <Option
+            Name="Internal mini collection"
+            Enum="InternalMini"/>
+      </CrashMode>
+
+   <!--                       StorageLocation
+
+         User configurable storage locations
+         Only one should be Selected, if none are selected, the first entry will be
+         If multiple entries are Selected, the last entry will be
+         LowStorageWarning - display warning when available space goes below
+         value (in MB).
+   -->
+      <StorageLocation>
+         <Storage
+            Name="internal"
+            Path="/data/user/0/com.qualcomm.qti.logkit/files/"
+            LowStorageWarning="300"
+            Selected="true"/>
+         <Storage
+            Name="sdcard1"
+            Path="/storage/sdcard1/Android/data/com.qualcomm.qti.logkit/files/"
+            LowStorageWarning="500"/>
+         <Storage
+            Name="sdcard0"
+            Path="/storage/sdcard0/Android/data/com.qualcomm.qti.logkit/files/"
+            LowStorageWarning="500"/>
+      </StorageLocation>
+
+   <!--                       LogSize
+
+         User configurable log sizes/chunks
+         Size is in MB
+         Only one should be Selected, if none are selected, the first entry will be
+         If multiple entries are Selected, the last entry will be
+   -->
+      <LogSize>
+         <Option Size="10"/>
+         <Option Size="50" Selected="true"/>
+         <Option Size="500"/>
+      </LogSize>
+      <LogCount>
+         <Option Count="5"/>
+         <Option Count="10" Selected="true"/>
+         <Option Count="20"/>
+      </LogCount>
+
+
+   <!--                       ModemFormat
+
+         User configurable modem log format
+            Valid formats are "QMDL" and "ISF"
+         CustomLogSize: max log size (in MB) for this modem log format
+           (optional: if not specified log size determined by Settings->Log Size)
+         Only one should be Selected, if none are selected, the first entry will be
+            If multiple entries are Selected, the last entry will be
+         BufferOnData: Buffer on /data/ for (possible) speed increases due to
+            write speed
+   -->
+      <ModemFormat>
+         <Option Format="QMDL"/>
+         <Option Format="ISF" Selected="true" BufferOnData="true"/>
+      </ModemFormat>
+
+   <!--                       ConfigView
+
+         User configurable ways to view the config screen
+         Each view has a type
+          - Valid types are LogView and ScenarioView
+         Each view has visibility set to true or false. If neither is true it
+         defaults to LogView
+         Only one should be Selected, if none are selected, the first entry will be
+         If multiple entries are Selected, the last entry will be
+   -->
+
+      <ConfigView>
+         <Option
+            Type="LogView"
+            Visible="true"
+            Selected="true"/>
+         <Option
+            Type="ScenarioView"
+            Visible="true"/>
+      </ConfigView>
+
+   <!--                       AutoPackage
+
+         Auto package (accept default name and location) when dialog would
+            have been shown
+         Only one entry should exist for this
+
+         bEnable - Enable auto package or not
+                   "false"    - nothing will be auto-packaged
+                   "true"     - everything will be auto-packaged
+                   "Events"   - only events will be auto-packaged
+                                sessions will prompt with the package dialog
+   -->
+      <AutoPackage bEnable="Events"/>
+
+   <!--                       AutoZip
+
+         Auto Zip when package completes
+         Only one entry should exist for this
+
+         bEnable - Enable auto zip or not (boolean)
+   -->
+      <AutoZip bEnable="true"/>
+
+   <!--                       AutoLaunch
+
+         Auto launch the UI after reboot
+         Only one entry should exist for this
+
+         bEnable - Enable auto launch or not (boolean)
+   -->
+      <AutoLaunch bEnable="true"/>
+
+   <!--                       IncludeQshrinkDB
+
+         Include the QSHRINK 4.0 database files in the output folders
+
+         bInclude - Include DB or not (boolean)
+   -->
+      <IncludeQshrinkDB bInclude="true"/>
+
+   <!--                       DeletedPackages
+
+         Show deleted packages in the UI
+
+         bVisible - Are deleted packages visible
+         MaxNum - Max number of deleted packages to keep across reboot
+   -->
+      <DeletedPackages bVisible="true" MaxNum="100"/>
+
+   <!--                       QSHCircularBuf
+
+         QSH circular buffering
+         Only one entry should exist for this
+
+         bVisible - make option visible (boolean)
+         bEnable - Enable option (boolean)
+            Feature cannot be enabled unless also visible
+   -->
+      <QSHCircularBuf bVisible="true" bEnable="false"/>
+
+   <!--                       ShowWarnings
+
+         Show warning pop-ups.  These can often confuse customers into
+         thinking warnings are actual errors.  Should be used primarially
+         for debug mode.
+
+         Only one entry should exist for this
+
+         bVisible - make option visible (boolean)
+         bEnable - Enable option (boolean)
+            Feature cannot be enabled unless also visible
+   -->
+      <ShowWarnings bVisible="true" bEnable="false"/>
+
+   <!--                       GenerateHeartbeat
+
+         Generate a heartbeat package every hour.  This heartbeat does not
+         include any logs from the active session, and is auto-packaged to the
+         default selected storage
+
+         Only one entry should exist for this
+         If not present the default is disabled
+
+         bEnable - Enable heartbeat (boolean)
+   -->
+      <GenerateHeartbeat bEnable="false"/>
+
+   <!--                       CheckMPSSVer
+
+         On client launch, attempt to query diag to get the MPSS version.
+         This may cause a brief interruption if QXDM or another tool is logging
+         over USB
+
+         Only one entry should exist for this
+         If not present the default is disabled
+
+         bEnable - Enable checking MPSS version (boolean)
+   -->
+      <CheckMPSSVer bEnable="false"/>
+
+   </Settings>
+
+</LogKitConfiguration>

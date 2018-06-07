@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!--
+Copyright (C) 2016 Qualcomm Technologies, Inc.
+All rights reserved.
+Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<QXDM>
+	<Persistence>
+		<DynamicParsersPath>C:\p4\u2\5000\QMIParser\Debug</DynamicParsersPath>
+		<DroppedMessages>0</DroppedMessages>
+		<ParsingPreference>0</ParsingPreference>
+		<EmptyHexadecimalPane>1</EmptyHexadecimalPane>
+		<RateDisplay>2</RateDisplay>
+		<DIAGRequestTimeout>500</DIAGRequestTimeout>
+		<ScriptCommandTimeout>15000</ScriptCommandTimeout>
+		<TargetCOMPort>Disconnect</TargetCOMPort>
+		<GPSCOMPort>Disconnect</GPSCOMPort>
+		<OSCoreDump>1</OSCoreDump>
+		<LoggingView>
+			<Appearance>
+				<ShowDate>0</ShowDate>
+				<ShowMilliseconds>1</ShowMilliseconds>
+				<TypeSpecificTime>1</TypeSpecificTime>
+				<UseLegacyFormat>0</UseLegacyFormat>
+				<IncludeHeader>0</IncludeHeader>
+				<Order>0,1,2,3</Order>
+				<Columns>0/80,1/240,2/120,3/400,4/400,5/80</Columns>
+			</Appearance>
+			<ISVConfig>
+				<Items>4,5,6,8</Items>
+				<EventIDs></EventIDs>
+				<LogCodes>0x156E</LogCodes>
+				<OTATypes></OTATypes>
+				<MessageLevels></MessageLevels>
+				<AcceptUnknowns>1</AcceptUnknowns>
+				<RestartOnDisconnect>0</RestartOnDisconnect>
+				<LogFilePath>C:\Program Files (x86)\Qualcomm\QXDM\Bin\</LogFilePath>
+				<DelayedSubsysOnly>0</DelayedSubsysOnly>
+				<FragmentSize>4294967295</FragmentSize>
+			</ISVConfig>
+		</LoggingView>
+		<UMTSCallFlowAnalysis>0</UMTSCallFlowAnalysis>
+		<REXCoreDump>1</REXCoreDump>
+		<RegExEngine>0</RegExEngine>
+		<TrackNMEA>0</TrackNMEA><AutoSyncNV>1</AutoSyncNV><MultiInstance>0</MultiInstance><FixedFontSize>0</FixedFontSize><Replay><Auto-Skip>0</Auto-Skip><PlaybackSpeed>1</PlaybackSpeed><Compact>0</Compact></Replay><FixedFontFace/><ScriptPath/><SourceFilesPath/><Displays><Display0><Frame><Show>2</Show><Minimum>0,704</Minimum><Maximum>-1,-1</Maximum><Normal>368,68,568,118</Normal></Frame><Type>OS Core Dump</Type></Display0><Display1><Frame><Show>1</Show><Minimum>-1,-1</Minimum><Maximum>-8,-30</Maximum><Normal>556,50,930,50</Normal><VILSize>459</VILSize><HexSize>666</HexSize><PILSize>187</PILSize></Frame><View><Appearance><ShowDate>0</ShowDate><ShowMilliseconds>1</ShowMilliseconds><TypeSpecificTime>0</TypeSpecificTime><UseLegacyFormat>0</UseLegacyFormat><IncludeHeader>0</IncludeHeader><Order>0,1,2,3,4</Order><Columns>0/80,1/185,2/517,3/120,4/1140,5/400</Columns></Appearance><HexEdit><ShowASCII>1</ShowASCII><ShowHorzSB>0</ShowHorzSB><ShowVertSB>0</ShowVertSB><BytesPerLine>16</BytesPerLine><BytesPerGroup>1</BytesPerGroup></HexEdit><ParsedItem><FieldColumns>200,50,50,50</FieldColumns><TextColumns>531</TextColumns></ParsedItem></View><Type>Item View</Type></Display1><Display2><Frame><Show>3</Show><Minimum>-1,-1</Minimum><Maximum>-8,-30</Maximum><Normal>560,50,951,50</Normal><VILSize>313</VILSize><HexSize>0</HexSize><PILSize>1115</PILSize></Frame><View><Appearance><ShowDate>0</ShowDate><ShowMilliseconds>1</ShowMilliseconds><TypeSpecificTime>1</TypeSpecificTime><UseLegacyFormat>0</UseLegacyFormat><IncludeHeader>0</IncludeHeader><Order>0,1,2,3,4</Order><Columns>0/80,1/80,2/240,3/120,4/400,5/400</Columns></Appearance><ISVConfig><Items>5</Items><LogCodes>0x156E</LogCodes><AcceptUnknowns>1</AcceptUnknowns><DelayedSubsysOnly>0</DelayedSubsysOnly></ISVConfig><HexEdit><ShowASCII>1</ShowASCII><ShowHorzSB>0</ShowHorzSB><ShowVertSB>0</ShowVertSB><BytesPerLine>16</BytesPerLine><BytesPerGroup>1</BytesPerGroup></HexEdit><ParsedItem><FieldColumns>200,50,50,50</FieldColumns><TextColumns>300</TextColumns></ParsedItem></View><Type>Filtered View</Type></Display2></Displays><MainFrame><Show>1</Show><Normal>885,373,1515,5</Normal><ExportParsedText>0</ExportParsedText><ForceANSIText>1</ForceANSIText><VendorDatabase>C:\Users\Public\Documents\Qualcomm\QXDM\Vendor\Qualcomm\</VendorDatabase><StatusIndicators>0,31905,31906,31928,31929,31915,31916,31924</StatusIndicators><HSDPADeviceCategory>4</HSDPADeviceCategory><ShortcutF6>0</ShortcutF6><ShortcutF8>0</ShortcutF8><ISFSettings><Advanced>0</Advanced><QueryISFSave>0</QueryISFSave><AutoISFSave>0</AutoISFSave><QuickISFSave>0</QuickISFSave><MaxISFSize>0</MaxISFSize><MaxISFDuration>0</MaxISFDuration><MaxISFArchives>0</MaxISFArchives></ISFSettings></MainFrame></Persistence>
+</QXDM>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!--
+/******************************************************************************
+* Copyright (c) 2016-2017 Qualcomm Technologies, Inc.
+* All Rights Reserved
+* Confidential and Proprietary - Qualcomm Technologies, Inc.
+******************************************************************************/
+-->
+<Configuration>
+	<SFConfig>
+		<Features randSeed="100" selectionThreshold="0" minInState="15" maxOutState="50" />
+		<Autocal enabled = "true" />
+		<EKF correctInnovationCovariance="true" correctStateCovariance="true" />
+		<Tracker useTrackPerLevel="true" />
+		<Keypointdetector fastThreshold="11 11 11" minTrackabilityScore="10" harrisThreshold="10" maskMapFeatures="true" maxPointsPerCell="8"/>
+		<Mapping enabled="true" />
+		<Processnoise varAccelNoise="5e-3" varGyroNoise="1e-5" stdABias="1e-5"/>
+		<Propagation numCovPropToSkip="4" />
+		<Logging level="1" logToFile="false" sfLevel="1" />
+		<Measurementnoise varPixelNoise="1.0" />
+		<Warmstart enabled="true" overwritefile="false" std0abias="0.1" std0wbias="0.005"/>
+		<PoseQuality thresSigmaSensors="4" thresSigmaCamera="4" minNumISFeatTrack="0" />
+		<Reset numFramesZeroMeas="60"/>
+		<PoseQuality thresSigmaSensors="4" thresSigmaCamera="4" minNumISFeatTrack="0"/>
+		<gn useNewComputeGN="true"/>
+		<Stereo useStereoVIO="true" />
+	</SFConfig>
+</Configuration>

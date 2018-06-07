@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Copyright (C) 2016 Qualcomm Technologies, Inc.
+All rights reserved.
+Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+
+<!--
+   LogKit 3 Commands file
+-->
+
+<!--
+     Version must be in format [MAJOR].[MINOR] where MAJOR and MINOR
+     are integers. If client detects downgrade, prefs will revert to
+     default values as backwards compatibility is not supported.
+
+     Config and Command Versions are incremented along with client.
+     Name can be changed to differentiate configs for a given version.
+-->
+
+<LogKitCommands Name="Qualcomm Technologies, Inc. Phase 2" Version="0.9">
+   <!--                       Commands Table
+
+      Commands are uniquely identified by Name and referenced by UIElements
+
+      There are multiple types of commands:
+
+         HLOSCommand: any command issued by Android HLOS
+            Name: unique name used to identify command
+            Command: actual command to be called
+            Type: "streaming" or "oneshot"
+            Extension: log file extension (e.g. ".txt")
+
+         DiagSendCommand: diag command
+            Name: unique name used to identify command
+            Command: hex string to send.  E.g. "01ab02cd03ef05"
+
+         EnumeratedCommand: command enumerated, rather than syntax
+            Name: unique name used to identify command
+            Enum: valid values:
+               TCPDump_rmnet,  // "tcpdump -i rmnet0 -nnXSs 96 -w -"
+               TCPDump_wlan,   // "tcpdump -i wlan0 -nnXSs 96 -w -"
+               TCPDump_all,    // "tcpdump -i any -nnXSs 96 -w -"
+               Bluetooth,      // bt snoop logs
+
+         AnalyticsCommand: analytics command
+            Name: unique name used to identify command
+            Enum: valid values:
+               Battery
+               CPU
+               Memory
+            Frequency: time interval (in minutes) to retrieve this metric
+
+         MonitorFileClose: Enable monitoring of a directory for file close
+         MonitorFileMoveTo: Enable monitoring of a directory for file being
+                            moved to.
+            Name:    unique name used to identify event monitor
+            Path:    path to directory to monitor
+            bDelete: (optional) delete the file after collecting (boolean)
+                     if not set, default to false
+
+            NOTE: The name 'SSRNotification' uses special handling, it should
+                  not be re-used at this time
+
+            Typically the MonitorFileClose should be used for detecting file
+            creation/modification of a file.
+         todo: Only supported from config settings for phase 3
+
+         CrashCollection: When crash is detected, copy into a package
+
+            Name: unique name used to identify crash notification
+         FWRNotification: When FWR is detected, collect the corresponding log
+         DropboxNotification: When a dropbox entry is created with the provied
+                              tag, collect the corresponding log
+
+            Name: unique name used to identify each notification
+            Tag: name of tag to register for
+            Path: file to send upon notification
+   -->
+
+   <HLOSCommand
+      Name="logcat"
+      Command="logcat -v time"
+      Type="streaming"
+      Extension=".txt"/>
+   <HLOSCommand
+      Name="kmesg"
+      Command="logcat -v time -b kernel"
+      Type="streaming"
+      Extension=".txt"/>
+   <HLOSCommand
+      Name="bug_report"
+      Command="bugreport"
+      Type="oneshot"
+      Extension=".txt"/>
+   <HLOSCommand
+      Name="surface_flinger"
+      Command="dumpsys SurfaceFlinger"
+      Type="oneshot"
+      Extension=".txt"/>
+
+   <!-- demo purposes, get NV item 1810 -->
+   <DiagSendCommand
+      Name="diag_test"
+      Command="26120700000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      Type="oneshot"/>
+
+   <!-- demo purposes, sample health command -->
+   <DiagSendCommand
+      Name="health"
+      Type="oneshot"
+      Command="4b0c5200"/>
+
+   <!-- demo purposes, oneshot commands -->
+   <HLOSCommand
+      Name="eHLOSCommand_CrashLogcatEvents"
+      Command="logcat -b events -v time -d"
+      Type="oneshot"
+      Extension=".txt"/>
+   <HLOSCommand
+      Name="eHLOSCommand_CrashLogcatRadio"
+      Command="logcat -b radio -v time -d"
+      Type="oneshot"
+      Extension=".txt"/>
+   <HLOSCommand
+      Name="eHLOSCommand_CrashLogcatMain"
+      Command="logcat -v time -d"
+      Type="oneshot"
+      Extension=".txt"/>
+   <HLOSCommand
+      Name="eHLOSCommand_CrashDmesg"
+      Command="logcat -v time -b kernel -d"
+      Type="oneshot"
+      Extension=".txt"/>
+   <HLOSCommand
+      Name="eHLOSCommand_CrashTop"
+      Command="top -n 1 -d 1 -m 30 -t"
+      Type="oneshot"
+      Extension=".txt"/>
+   <HLOSCommand
+      Name="eHLOSCommand_CrashPsParent"
+      Command="ps -P"
+      Type="oneshot"
+      Extension=".txt"/>
+   <HLOSCommand
+      Name="eHLOSCommand_CrashPsThread"
+      Command="ps -t -p"
+      Type="oneshot"
+      Extension=".txt"/>
+   <HLOSCommand
+      Name="eHLOSCommand_SystemCrash"
+      Command="echo c \> /proc/sysrq-trigger"
+      Type="oneshot"
+      Extension=".txt"/>
+   <HLOSCommand
+      Name="eHLOSCommand_Platform"
+      Command="getprop ro.board.platform"
+      Type="oneshot"
+      Extension=".txt"/>
+   <HLOSCommand
+      Name="eHLOSCommand_BuildDesc"
+      Command="getprop ro.build.description"
+      Type="oneshot"
+      Extension=".txt"/>
+   <HLOSCommand
+      Name="eHLOSCommand_DevInfoGetProp"
+      Command="getprop"
+      Type="oneshot"
+      Extension=".txt"/>
+   <HLOSCommand
+      Name="eHLOSCommand_CrashDumpSys"
+      Command="dumpsys"
+      Type="oneshot"
+      Extension=".txt"/>
+   <HLOSCommand
+      Name="eHLOSCommand_CatStat"
+      Command="cat /d/mdp/stat"
+      Type="oneshot"
+      Extension=".txt"/>
+   <HLOSCommand
+      Name="eHLOSCommand_CatRPMStats"
+      Command="cat /sys/kernel/debug/rpm_stats"
+      Type="oneshot"
+      Extension=".txt"/>
+   <HLOSCommand
+      Name="eHLOSCommand_CatRPMMaster"
+      Command="cat /sys/kernel/debug/rpm_master_stats"
+      Type="oneshot"
+      Extension=".txt"/>
+   <HLOSCommand
+      Name="eHLOSCommand_DumpSurfaceFlinger"
+      Command="dumpsys SurfaceFlinger"
+      Type="oneshot"
+      Extension=".txt"/>
+   <HLOSCommand
+      Name="eHLOSCommand_CatMemInfo"
+      Command="cat /proc/meminfo"
+      Type="oneshot"
+      Extension=".txt"/>
+   <HLOSCommand
+      Name="eHLOSCommand_ProcRank"
+      Command="procrank"
+      Type="oneshot"
+      Extension=".txt"/>
+   <HLOSCommand
+      Name="eHLOSCommand_CatHeaps"
+      Command="cat /d/ion/heaps/system"
+      Type="oneshot"
+      Extension=".txt"/>
+   <HLOSCommand
+      Name="eHLOSCommand_DumpPower"
+      Command="dumpsys power"
+      Type="oneshot"
+      Extension=".txt"/>
+   <HLOSCommand
+      Name="eHLOSCommand_ListOpenFiles"
+      Command="lsof"
+      Type="oneshot"
+      Extension=".txt"/>
+   <HLOSCommand
+      Name="eHLOSCommand_Mount"
+      Command="mount"
+      Type="oneshot"
+      Extension=".txt"/>
+   <HLOSCommand
+      Name="eHLOSCommand_DiskSpace"
+      Command="df"
+      Type="oneshot"
+      Extension=".txt"/>
+   <HLOSCommand
+      Name="eHLOSCommand_DumpBattery"
+      Command="dumpsys battery"
+      Type="oneshot"
+      Extension=".txt"/>
+   <HLOSCommand
+      Name="eHLOSCommand_DumpCamera"
+      Command="dumpsys media.camera"
+      Type="oneshot"
+      Extension=".txt"/>
+   <HLOSCommand
+      Name="eHLOSCommand_PS"
+      Command="ps"
+      Type="oneshot"
+      Extension=".txt"/>
+   <HLOSCommand
+      Name="eHLOSCommand_Iwconfig"
+      Command="iwconfig wlan0"
+      Type="oneshot"
+      Extension=".txt"/>
+   <HLOSCommand
+      Name="eHLOSCommand_Uptime"
+      Command="uptime"
+      Type="oneshot"
+      Extension=".txt"/>
+   <HLOSCommand
+      Name="eHLOSCommand_Bugreport"
+      Command="bugreport"
+      Type="oneshot"
+      Extension=".txt"/>
+
+   <!-- demo purposes, streaming commands -->
+   <HLOSCommand
+      Name="eHLOSCommand_CpuTop"
+      Command="top -d 60"
+      Type="streaming"
+      Extension=".txt"/>
+   <HLOSCommand
+      Name="eHLOSCommand_ContLogcat"
+      Command="logcat -v time -b main -b system"
+      Type="streaming"
+      Extension=".txt"/>
+   <HLOSCommand
+      Name="eHLOSCommand_ContLogcatRadio"
+      Command="logcat -v time -b radio"
+      Type="streaming"
+      Extension=".txt"/>
+   <HLOSCommand
+      Name="eHLOSCommand_ContLogcatEvents"
+      Command="logcat -v time -b events"
+      Type="streaming"
+      Extension=".txt"/>
+   <HLOSCommand
+      Name="eHLOSCommand_ContKmsg"
+      Command="logcat -v time -b kernel"
+      Type="streaming"
+      Extension=".txt"/>
+   <HLOSCommand
+      Name="eHLOSCommand_ContLogcatThread"
+      Command="logcat -v threadtime"
+      Type="streaming"
+      Extension=".txt"/>
+   <HLOSCommand
+      Name="eHLOSCommand_CatQDSSTmcEtr"
+      Command="cat /dev/coresight-tmc-etr-stream"
+      Type="streaming"
+      Extension=".txt"/>
+
+   <!-- Enumerated commands -->
+   <EnumeratedCommand
+      Name="eHLOSCommand_ContTCP"
+      Enum="TCPDump_rmnet"/>
+   <EnumeratedCommand
+      Name="eHLOSCommand_ContWlanTCP"
+      Enum="TCPDump_wlan"/>
+   <EnumeratedCommand
+      Name="eHLOSCommand_ContAllTCP"
+      Enum="TCPDump_all"/>
+   <EnumeratedCommand
+      Name="eHLOSCommand_ContBluetooth"
+      Enum="Bluetooth"/>
+
+   <!-- demo purposes, analytics -->
+   <AnalyticsCommand
+      Name="eAnalyticsCommand_Battery"
+      Enum="Battery"
+      Frequency="1"/>
+   <AnalyticsCommand
+      Name="eAnalyticsCommand_CPU"
+      Enum="CPU"
+      Frequency="1"/>
+   <AnalyticsCommand
+      Name="eAnalyticsCommand_Memory"
+      Enum="Memory"
+      Frequency="1"/>
+
+   <!-- Monitor File Events -->
+   <!-- Tombstone file copied when file closed. -->
+   <MonitorFileClose
+      Name="Tombstone"
+      Path="/data/tombstones/"/>
+   <!-- SSR file copied when file closed. -->
+   <MonitorFileClose
+      Name="SSRNotification"
+      Path="/data/ramdump/"/>
+
+   <!-- MST csv files -->
+   <MonitorFileClose
+      Name="MyFTPVoiceNotes"
+      Path="/storage/sdcard0/MyFTPVoiceNotes.csv"
+      bDelete="true"/>
+   <MonitorFileClose
+      Name="SmarTestLogs"
+      Path="/storage/sdcard0/SmarTestLogs/"
+      bDelete="true"/>
+
+   <!-- Monitor for FWR files -->
+   <FWRNotification Name="FWRNotification"/>
+   <!-- Collect crash files -->
+   <CrashCollection Name="CrashCollection"/>
+
+   <!-- Monitor for "Dropbox entry" files -->
+   <DropboxNotification
+      Name="ANR-Data"
+      Tag="data_app_anr"
+      Path="/data/anr/traces.txt"/>
+
+   <DropboxNotification
+      Name="ANR-System"
+      Tag="system_app_anr"
+      Path="/data/anr/traces.txt"/>
+
+</LogKitCommands>
