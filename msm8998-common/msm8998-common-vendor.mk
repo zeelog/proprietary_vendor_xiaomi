@@ -49,7 +49,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8998-common/proprietary/lib64/libjni_trueportrait.so:system/lib64/libjni_trueportrait.so \
     vendor/xiaomi/msm8998-common/proprietary/lib64/libjni_truescanner_v2.so:system/lib64/libjni_truescanner_v2.so \
     vendor/xiaomi/msm8998-common/proprietary/lib64/libjni_ubifocus.so:system/lib64/libjni_ubifocus.so \
-    vendor/xiaomi/msm8998-common/proprietary/lib64/libqminvapi.so:system/lib64/libqminvapi.so \
+    vendor/xiaomi/msm8998-common/proprietary/vendor/lib64/libqminvapi.so:system/vendor/lib64/libqminvapi.so \
     vendor/xiaomi/msm8998-common/proprietary/lib64/librcc.so:system/lib64/librcc.so \
     vendor/xiaomi/msm8998-common/proprietary/lib64/libseestraight.so:system/lib64/libseestraight.so \
     vendor/xiaomi/msm8998-common/proprietary/lib64/libtrueportrait.so:system/lib64/libtrueportrait.so \
