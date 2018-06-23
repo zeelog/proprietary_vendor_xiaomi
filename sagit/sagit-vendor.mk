@@ -25,7 +25,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/vendor/etc/dualcamera.png:system/vendor/etc/dualcamera.png \
     vendor/xiaomi/sagit/proprietary/vendor/etc/qdcm_calib_data_jdi_fhd_cmd_incell_dsi_panel.xml:system/vendor/etc/qdcm_calib_data_jdi_fhd_cmd_incell_dsi_panel.xml \
     vendor/xiaomi/sagit/proprietary/vendor/etc/qdcm_calib_data_lgd_fhd_cmd_incell_dsi_panel.xml:system/vendor/etc/qdcm_calib_data_lgd_fhd_cmd_incell_dsi_panel.xml \
-    vendor/xiaomi/sagit/proprietary/lib64/hw/consumerir.default.so:system/lib64/hw/consumerir.default.so \
+    vendor/xiaomi/sagit/proprietary/vendor/lib64/hw/consumerir.default.so:system/vendor/lib64/hw/consumerir.default.so \
     vendor/xiaomi/sagit/proprietary/vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb:system/vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb \
     vendor/xiaomi/sagit/proprietary/vendor/etc/acdbdata/Forte/Forte_General_cal.acdb:system/vendor/etc/acdbdata/Forte/Forte_General_cal.acdb \
     vendor/xiaomi/sagit/proprietary/vendor/etc/acdbdata/Forte/Forte_Global_cal.acdb:system/vendor/etc/acdbdata/Forte/Forte_Global_cal.acdb \
