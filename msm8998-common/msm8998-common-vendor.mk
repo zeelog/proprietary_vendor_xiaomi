@@ -22,9 +22,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8998-common/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/xiaomi/msm8998-common/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     vendor/xiaomi/msm8998-common/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
-    vendor/xiaomi/msm8998-common/proprietary/lib/libMiCameraHal.so:system/lib/libMiCameraHal.so \
-    vendor/xiaomi/msm8998-common/proprietary/lib/libmisk.so:system/lib/libmisk.so \
-    vendor/xiaomi/msm8998-common/proprietary/lib/libtrueportrait.so:system/lib/libtrueportrait.so \
+    vendor/xiaomi/msm8998-common/proprietary/vendor/lib/libMiCameraHal.so:system/vendor/lib/libMiCameraHal.so \
+    vendor/xiaomi/msm8998-common/proprietary/vendor/lib/libmisk.so:system/vendor/lib/libmisk.so \
+    vendor/xiaomi/msm8998-common/proprietary/vendor/lib/libtrueportrait.so:system/vendor/lib/libtrueportrait.so \
     vendor/xiaomi/msm8998-common/proprietary/lib64/lib-imscamera.so:system/lib64/lib-imscamera.so \
     vendor/xiaomi/msm8998-common/proprietary/lib64/lib-imsvideocodec.so:system/lib64/lib-imsvideocodec.so \
     vendor/xiaomi/msm8998-common/proprietary/lib64/lib-imsvt.so:system/lib64/lib-imsvt.so \
