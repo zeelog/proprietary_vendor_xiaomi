@@ -1992,6 +1992,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/vendor/speccfg/switch_spec.sh:$(TARGET_COPY_OUT_VENDOR)/speccfg/switch_spec.sh
 
 PRODUCT_PACKAGES += \
+    libantradio \
     libgpustats \
     libsdm-disp-vndapis \
     libthermalclient \
