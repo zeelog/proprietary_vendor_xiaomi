@@ -19,6 +19,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/chiron/proprietary/vendor/etc/camera/chiron_imx386_semco_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/chiron_imx386_semco_chromatix.xml \
     vendor/xiaomi/chiron/proprietary/vendor/etc/camera/chiron_ov5675_primax_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/chiron_ov5675_primax_chromatix.xml \
     vendor/xiaomi/chiron/proprietary/vendor/etc/camera/chiron_ov5675_qtech_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/chiron_ov5675_qtech_chromatix.xml \
+    vendor/xiaomi/chiron/proprietary/vendor/etc/dualcamera.png:$(TARGET_COPY_OUT_VENDOR)/etc/dualcamera.png \
     vendor/xiaomi/chiron/proprietary/vendor/etc/elliptic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/elliptic.xml \
     vendor/xiaomi/chiron/proprietary/vendor/firmware/tas2559_s_uCDSP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tas2559_s_uCDSP.bin \
     vendor/xiaomi/chiron/proprietary/vendor/firmware/tas2559_uCDSP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tas2559_uCDSP.bin \
