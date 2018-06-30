@@ -19,12 +19,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/chiron/proprietary/vendor/etc/camera/chiron_imx386_semco_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/chiron_imx386_semco_chromatix.xml \
     vendor/xiaomi/chiron/proprietary/vendor/etc/camera/chiron_ov5675_primax_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/chiron_ov5675_primax_chromatix.xml \
     vendor/xiaomi/chiron/proprietary/vendor/etc/camera/chiron_ov5675_qtech_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/chiron_ov5675_qtech_chromatix.xml \
-    vendor/xiaomi/chiron/proprietary/etc/elliptic_sensor.xml:system/etc/elliptic_sensor.xml \
+    vendor/xiaomi/chiron/proprietary/vendor/etc/elliptic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/elliptic.xml \
     vendor/xiaomi/chiron/proprietary/vendor/firmware/tas2559_s_uCDSP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tas2559_s_uCDSP.bin \
     vendor/xiaomi/chiron/proprietary/vendor/firmware/tas2559_uCDSP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tas2559_uCDSP.bin \
     vendor/xiaomi/chiron/proprietary/vendor/etc/qdcm_calib_data_jdi_fhd_video_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_jdi_fhd_video_dsi_panel.xml \
-    vendor/xiaomi/chiron/proprietary/lib64/libnotifyaudiohal.so:system/lib64/libnotifyaudiohal.so \
-    vendor/xiaomi/chiron/proprietary/lib64/libultrasound.so:system/lib64/libultrasound.so \
+    vendor/xiaomi/chiron/proprietary/vendor/lib64/libnotifyaudiohal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnotifyaudiohal.so \
+    vendor/xiaomi/chiron/proprietary/vendor/lib64/libultrasound.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libultrasound.so \
     vendor/xiaomi/chiron/proprietary/vendor/etc/acdbdata/ChironS/Forte_ChironS_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/ChironS/Forte_ChironS_Bluetooth_cal.acdb \
     vendor/xiaomi/chiron/proprietary/vendor/etc/acdbdata/ChironS/Forte_ChironS_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/ChironS/Forte_ChironS_General_cal.acdb \
     vendor/xiaomi/chiron/proprietary/vendor/etc/acdbdata/ChironS/Forte_ChironS_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/ChironS/Forte_ChironS_Global_cal.acdb \
