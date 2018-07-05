@@ -17,7 +17,7 @@ DEV_ADDR                  = 98                    ; I2C slave write addr (in hex
 
 ; Pass/Fail Limits
 RE_HI                     = 7.975
-RE_LO                     = 6.525
+RE_LO                     = 6.2
 F0_HI                     = 930
 F0_LO                     = 630
 Q_HI                      = 2.2

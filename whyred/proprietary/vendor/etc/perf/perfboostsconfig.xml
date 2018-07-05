@@ -50,23 +50,12 @@
         <!-- CPUBOOST_MAX_FREQ LITTLE Core resource opcode, value-->
         <!-- CPUBOOST_MIN_FREQ BIG Core resource opcode, value-->
         <!-- CPUBOOST_MIN_FREQ LITTLE Core resource opcode, value-->
+        <!-- SCHED_SPILL_NR_RUN resource opcode, value -->
+        <!-- SCHED_RESTRICT_CLUSTER_SPILL resource opcode, value -->
 
         <Config
             Id="0x00001082" Type="1" Enable="true" Timeout="400" Target="sdm660"
             Resources="0x40C00000, 0x1, 0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40800000, 0xFFF,
-                       0x40800100, 0xFFF" />
-
-    <!--sdm630 resume boost-->
-        <!-- SCHEDBOOST resource opcode, value -->
-        <!-- CPUBOOST_MIN_FREQ BIG Core resource opcode, value -->
-        <!-- CPUBOOST_MIN_FREQ LITTLE Core resource opcode, value -->
-        <!-- SCHED_SPILL_NR_RUN resource opcode, value -->
-        <!-- SCHED_RESTRICT_CLUSTER_SPILL resource opcode, value -->
-
-        <!-- Type="1", main launch boost of 2sec -->
-        <Config
-            Id="0x00001081" Type="1" Enable="true" Timeout="400" Target="sdm630"
-            Resources="0x40C00000, 0x1, 0x40800000, 0xFFF,
                        0x40800100, 0xFFF, 0x40C2C000, 1, 0x40C34000, 0" />
 
     <!--app lauch boost (disabling packing)-->
