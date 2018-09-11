@@ -19,6 +19,17 @@ LOCAL_PATH := $(call my-dir)
 ifeq ($(TARGET_DEVICE),mido)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := libantradio
+LOCAL_MODULE_OWNER := xiaomi
+LOCAL_SRC_FILES_64 := proprietary/lib64/libantradio.so
+LOCAL_SRC_FILES_32 := proprietary/lib/libantradio.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := libts_detected_face_hal
 LOCAL_MODULE_OWNER := xiaomi
 LOCAL_SRC_FILES := proprietary/vendor/lib/libts_detected_face_hal.so
