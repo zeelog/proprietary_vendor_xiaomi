@@ -553,4 +553,5 @@ PRODUCT_PACKAGES += \
     CNEService \
     dpmserviceapp \
     qcrilmsgtunnel \
-    TimeService
+    TimeService \
+    chargeonlymode
