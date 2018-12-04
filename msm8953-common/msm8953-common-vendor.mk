@@ -575,9 +575,9 @@ PRODUCT_PACKAGES += \
     libthermalclient \
     libtime_genoff \
     QtiTelephonyService \
-    ims \
     CNEService \
     dpmserviceapp \
+    ims \
     qcrilmsgtunnel \
     TimeService \
     chargeonlymode
