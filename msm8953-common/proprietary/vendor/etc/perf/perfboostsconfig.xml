@@ -118,7 +118,7 @@
         <!-- CPUBOOST_MIN_FREQ LITTLE Core resource opcode, value-->
         <!-- Type="", Rotation latency boost -->
         <Config
-            Id="0x00001089" Enable="true" Timeout="1500" Target="msm8953"
+            Id="0x00001089" Enable="true" Timeout="1500" Target="sdm632"
             Resources="0x40C00000, 0x1, 0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40800000, 0xFFF,
                        0x40800100,0xFFF" />
 
@@ -131,7 +131,7 @@
         <!-- GPU MIN_FREQUENCY resource opcode,value-->
         <!-- Type="", Rotation animation boost -->
         <Config
-            Id="0x00001090" Enable="true" Timeout="1000" Target="msm8953"
+            Id="0x00001090" Enable="true" Timeout="1000" Target="sdm632"
             Resources="0x40800100, 1000, 0x4280C000, 596" />
 
         <Config
