@@ -12,6 +12,6 @@ service vendor.move_data_sh /system/bin/move_widevine_data.sh
 service vendor.drm-widevine-hal-1-1 /vendor/bin/hw/android.hardware.drm@1.1-service.widevine
     class hal
     user media
-    group media mediadrm drmrpc
+    group media mediadrm drmrpc system
     ioprio rt 4
     writepid /dev/cpuset/foreground/tasks
