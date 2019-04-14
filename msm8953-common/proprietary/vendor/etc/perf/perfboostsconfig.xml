@@ -23,8 +23,8 @@
         <!-- CPUBOOST_MIN_FREQ LITTLE Core resource opcode, value-->
         <!-- CPUBOOST_MIN_FREQ BIG resource opcode, value-->
         <Config
-            Id="0x00001081" Type="1" Enable="true" Timeout="2000"  Target="msm8953"
-            Resources="0x40C00000, 0x1, 0x40800100, 0x690, 0x40800000, 0x579" />
+            Id="0x00001081" Type="1" Enable="true" Timeout="3000"  Target="msm8953"
+            Resources="0x40C00000, 0x1, 0x40800100, 0x7E0, 0x40800000, 0x579" />
 
         <!-- SCHEDBOOST resource opcode, value-->
         <!-- CPUBOOST_MIN_FREQ LITTLE Core resource opcode, value-->
@@ -32,7 +32,7 @@
         <!-- SCHED_RESTRICT_CLUSTER_SPILL resource opcode, value-->
         <Config
             Id="0x00001081" Type="1" Enable="true" Timeout="2000"
-            Resources="0x40C00000, 0x1, 0x40800100, 0x7E0, 0x40C2C000, 0x1, 0x40C34000, 0x0" />
+            Resources="0x40C00000, 0x1, 0x40800100, 0x690, 0x40C2C000, 0x1, 0x40C34000, 0x0" />
 
     <!--app lauch boost (disabling packing)-->
         <!-- DISABLE_POWER_COLLAPSE resource opcode, value-->
