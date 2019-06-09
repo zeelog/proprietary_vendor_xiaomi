@@ -106,6 +106,7 @@ special_mode_mask values:
       <A3Preview>s5k3l8_sunny_zsl_preview_dw9763</A3Preview>
       <A3Video>s5k3l8_sunny_zsl_video_dw9763</A3Video>
     </ChromatixName>
+<!--
     <ChromatixName sensor_resolution_index="2" special_mode_mask="0">
       <ISPPreview>s5k3l8_sunny_hfr_60</ISPPreview>
       <ISPSnapshot>s5k3l8_sunny_hfr_60</ISPSnapshot>
@@ -128,7 +129,8 @@ special_mode_mask values:
       <A3Preview>s5k3l8_sunny_hfr_90_dw9763</A3Preview>
       <A3Video>s5k3l8_sunny_hfr_90_dw9763</A3Video>
     </ChromatixName>
-    <ChromatixName sensor_resolution_index="4" special_mode_mask="0">
+-->
+    <ChromatixName sensor_resolution_index="2" special_mode_mask="0">
       <ISPPreview>s5k3l8_sunny_hfr_120</ISPPreview>
       <ISPSnapshot>s5k3l8_sunny_hfr_120</ISPSnapshot>
       <ISPVideo>s5k3l8_sunny_hfr_120</ISPVideo>

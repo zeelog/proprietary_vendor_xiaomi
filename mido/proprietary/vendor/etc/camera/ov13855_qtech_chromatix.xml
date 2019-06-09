@@ -128,6 +128,7 @@ special_mode_mask values:
       <A3Preview>ov13855_qtech_default_preview_dw9763</A3Preview>
       <A3Video>ov13855_qtech_default_video_dw9763</A3Video>
     </ChromatixName>
+<!--
      <ChromatixName sensor_resolution_index="4" special_mode_mask="0">
       <ISPPreview>ov13855_qtech_hfr_60</ISPPreview>
       <ISPSnapshot>ov13855_qtech_hfr_60</ISPSnapshot>
@@ -150,7 +151,8 @@ special_mode_mask values:
       <A3Preview>ov13855_qtech_hfr_90_dw9763</A3Preview>
       <A3Video>ov13855_qtech_hfr_90_dw9763</A3Video>
     </ChromatixName>
-     <ChromatixName sensor_resolution_index="6" special_mode_mask="0">
+-->
+     <ChromatixName sensor_resolution_index="4" special_mode_mask="0">
       <ISPPreview>ov13855_qtech_hfr_120</ISPPreview>
       <ISPSnapshot>ov13855_qtech_hfr_120</ISPSnapshot>
       <ISPVideo>ov13855_qtech_hfr_120</ISPVideo>
