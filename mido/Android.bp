@@ -157,28 +157,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "ims",
-	owner: "xiaomi",
-	apk: "proprietary/priv-app/ims/ims.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-}
-
-android_app_import {
-	name: "qcrilmsgtunnel",
-	owner: "xiaomi",
-	apk: "proprietary/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-}
-
-android_app_import {
 	name: "PowerOffAlarm",
 	owner: "xiaomi",
 	apk: "proprietary/vendor/app/PowerOffAlarm/PowerOffAlarm.apk",
@@ -198,6 +176,30 @@ android_app_import {
 		enabled: false,
 	},
 	soc_specific: true,
+}
+
+android_app_import {
+	name: "ims",
+	owner: "xiaomi",
+	apk: "proprietary/product/priv-app/ims/ims.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+}
+
+android_app_import {
+	name: "qcrilmsgtunnel",
+	owner: "xiaomi",
+	apk: "proprietary/product/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
 }
 
 dex_import {
