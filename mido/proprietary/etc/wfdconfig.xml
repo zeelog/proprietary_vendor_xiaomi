@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
     <!--
-        Copyright (C) 2012 - 2018 Qualcomm Technologies, Inc.
+        Copyright (C) 2012 - 2019 Qualcomm Technologies, Inc.
         All Rights Reserved.
         Confidential and Proprietary - Qualcomm Technologies, Inc.
     -->
@@ -211,7 +211,7 @@
                     SINGLETOUCH           BIT2
                     MULTITOUCH            BIT3
                     JOYSTICK              BIT4
-                    CAMERA                BIT5
+                    UIBC_CAMERA           BIT5
                     GESTURE               BIT6
                     REMOTECONTROL         BIT7
                 -->
