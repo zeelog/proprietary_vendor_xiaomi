@@ -61,6 +61,12 @@ as anyway perflock calls of these resources would fail. -->
         <Config MajorValue="0x5" MinorValue="0xF" Supported="no" />
         <Config MajorValue="0x5" MinorValue="0x10" Supported="no" />
         <Config MajorValue="0x5" MinorValue="0x11" Supported="no" />
+        <Config MajorValue="0x5" MinorValue="0xF" Target="sdm632" Supported="yes" />
+        <Config MajorValue="0x5" MinorValue="0x10" Target="sdm632" Supported="yes" />
+        <Config MajorValue="0x5" MinorValue="0x11" Target="sdm632" Supported="yes" />
+        <Config MajorValue="0x5" MinorValue="0xF" Target="sdm450" Kernel="4.9" Supported="yes" Node="/sys/devices/system/cpu/cpufreq/schedutil/hispeed_freq" />
+        <Config MajorValue="0x5" MinorValue="0x10" Target="sdm450" Kernel="4.9" Supported="yes" Node="/sys/devices/system/cpu/cpufreq/schedutil/hispeed_load" />
+        <Config MajorValue="0x5" MinorValue="0x11" Target="sdm450" Kernel="4.9" Supported="yes" Node="/sys/devices/system/cpu/cpufreq/schedutil/pl" />
 
         <Config MajorValue="0x9" MinorValue="0x7" Supported="yes" /> <!-- cpu.notify_on_migrate -->
 
