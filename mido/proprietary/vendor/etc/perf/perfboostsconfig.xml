@@ -20,11 +20,19 @@
         <!-- Type="1", main launch boost of 2sec -->
 
         <!-- SCHEDBOOST resource opcode, value-->
+        <!-- CPUBOOST_MAX_FREQ BIG Core resource opcode, value-->
+        <!-- CPUBOOST_MAX_FREQ LITTLE Core resource opcode, value-->
         <!-- CPUBOOST_MIN_FREQ LITTLE Core resource opcode, value-->
         <!-- CPUBOOST_MIN_FREQ BIG resource opcode, value-->
+        <!-- CPUBW_MIN_FREQ resource opcode, value-->
+        <!-- STORAGE CLK SCALING resource opcode, value-->
         <Config
-            Id="0x00001081" Type="1" Enable="true" Timeout="2000"  Target="msm8953"
-            Resources="0x40C00000, 0x1, 0x40800100, 0x40C, 0x40800000, 0x579" />
+            Resources="0x40C00000, 0x1
+                       ,0x40804000, 0xFFF, 0x40804100, 0xFFF
+                       ,0x40800100, 0x40C, 0x40800000, 0x579
+                       ,0x41800000, 0xFF
+                       ,0x42C10000, 0x1"
+                />
 
         <!-- SCHEDBOOST resource opcode, value-->
         <!-- CPUBOOST_MIN_FREQ LITTLE Core resource opcode, value-->
