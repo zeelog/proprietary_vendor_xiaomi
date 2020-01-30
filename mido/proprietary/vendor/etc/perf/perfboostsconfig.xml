@@ -20,19 +20,11 @@
         <!-- Type="1", main launch boost of 2sec -->
 
         <!-- SCHEDBOOST resource opcode, value-->
-        <!-- CPUBOOST_MAX_FREQ BIG Core resource opcode, value-->
-        <!-- CPUBOOST_MAX_FREQ LITTLE Core resource opcode, value-->
         <!-- CPUBOOST_MIN_FREQ LITTLE Core resource opcode, value-->
         <!-- CPUBOOST_MIN_FREQ BIG resource opcode, value-->
-        <!-- CPUBW_MIN_FREQ resource opcode, value-->
-        <!-- STORAGE CLK SCALING resource opcode, value-->
         <Config
-            Resources="0x40C00000, 0x1
-                       ,0x40804000, 0xFFF, 0x40804100, 0xFFF
-                       ,0x40800100, 0x40C, 0x40800000, 0x579
-                       ,0x41800000, 0xFF
-                       ,0x42C10000, 0x1"
-                />
+            Id="0x00001081" Type="1" Enable="true" Timeout="2000"  Target="sdm632"
+            Resources="0x40C00000, 0x1, 0x40800100, 0x40C, 0x40800000, 0x579" />
 
         <!-- SCHEDBOOST resource opcode, value-->
         <!-- CPUBOOST_MIN_FREQ LITTLE Core resource opcode, value-->
@@ -55,7 +47,7 @@
         <!-- CPUBOOST_MIN_FREQ LITTLE Core resource opcode, value-->
         <!-- CPUBOOST_MIN_FREQ BIG Core resource opcode, value-->
         <Config
-            Id="0x00001083" Enable="true" Timeout="600"  Target="msm8953"
+            Id="0x00001083" Enable="true" Timeout="600"  Target="sdm632"
             Resources="0x40800100, 0x40C, 0x40800000, 0x446" />
 
         <!-- CPUBOOST_MIN_FREQ LITTLE Core resource opcode, value-->
@@ -69,7 +61,7 @@
         <!-- CPUBOOST_MIN_FREQ BIG Core resource opcode, value -->
         <!-- SCHEDBOOST resource opcode, value-->
         <Config
-            Id="0x00001080" Type="1" Enable="true"  Target="msm8953"
+            Id="0x00001080" Type="1" Enable="true"  Target="sdm632"
             Resources="0x40800100, 0x40C, 0x40800000, 0x446,0x40C00000, 0x2" />
 
         <!-- CPUBOOST_MIN_FREQ LITTLE Core resource opcode, value -->
@@ -83,7 +75,7 @@
         <!-- CPUBOOST_MIN_FREQ BIG Core resource opcode, value -->
         <!-- SCHEDBOOST resource opcode, value-->
         <Config
-            Id="0x00001080" Type="2" Enable="true"  Target="msm8953"
+            Id="0x00001080" Type="2" Enable="true"  Target="sdm632"
             Resources="0x40800100, 0x40C, 0x40800000, 0x446,0x40C00000, 0x2" />
 
         <!-- CPUBOOST_MIN_FREQ LITTLE Core resource opcode, value -->
@@ -96,7 +88,7 @@
         <!-- SCHEDBOOST resource opcode, value-->
         <!-- Type="4", Pre-Fling boost -->
         <Config
-            Id="0x00001080" Type="4" Enable="true" Timeout="80" Target="msm8953"
+            Id="0x00001080" Type="4" Enable="true" Timeout="80" Target="sdm632"
             Resources="0x40800100, 0x40C, 0x40800000, 0x446,0x40C00000, 0x2"  />
 
     <!--MTP boost-->
@@ -129,7 +121,7 @@
         <!-- CPUBOOST_MIN_FREQ LITTLE Core resource opcode, value-->
         <!-- Type="", Rotation latency boost -->
         <Config
-            Id="0x00001089" Enable="true" Timeout="1500" Target="msm8953"
+            Id="0x00001089" Enable="true" Timeout="1500" Target="sdm632"
             Resources="0x40C00000, 0x1, 0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40800000, 0xFFF,
                        0x40800100,0xFFF" />
 
@@ -142,7 +134,7 @@
         <!-- GPU MIN_FREQUENCY resource opcode,value-->
         <!-- Type="", Rotation animation boost -->
         <Config
-            Id="0x00001090" Enable="true" Timeout="1000" Target="msm8953"
+            Id="0x00001090" Enable="true" Timeout="1000" Target="sdm632"
             Resources="0x40800100, 1000, 0x4280C000, 596" />
 
         <Config
