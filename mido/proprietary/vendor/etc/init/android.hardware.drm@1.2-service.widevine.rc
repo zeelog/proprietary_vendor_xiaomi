@@ -1,5 +1,13 @@
 on property:init.svc.mediadrm=running
     mkdir /data/vendor/mediadrm 0770 media mediadrm
+    start vendor.move_data_sh
+
+service vendor.move_data_sh /system/bin/move_widevine_data.sh
+    class late_start
+    user media
+    group media mediadrm system
+    disabled
+    oneshot
 
 service vendor.drm-widevine-hal-1-2 /vendor/bin/hw/android.hardware.drm@1.2-service.widevine
     interface android.hardware.drm@1.0::ICryptoFactory widevine
@@ -11,6 +19,6 @@ service vendor.drm-widevine-hal-1-2 /vendor/bin/hw/android.hardware.drm@1.2-serv
     interface android.hidl.base@1.0::IBase widevine
     class hal
     user media
-    group media mediadrm drmrpc
+    group media mediadrm drmrpc system
     ioprio rt 4
     writepid /dev/cpuset/foreground/tasks
