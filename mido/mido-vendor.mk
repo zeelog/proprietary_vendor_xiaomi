@@ -66,15 +66,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mido/proprietary/framework/QtiTelephonyServicelibrary.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/QtiTelephonyServicelibrary.jar \
     vendor/xiaomi/mido/proprietary/framework/com.qti.snapdragon.sdk.display.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.qti.snapdragon.sdk.display.jar \
     vendor/xiaomi/mido/proprietary/framework/qcrilhook.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/qcrilhook.jar \
-    vendor/xiaomi/mido/proprietary/lib/com.qualcomm.qti.imscmservice@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/com.qualcomm.qti.imscmservice@1.0.so \
-    vendor/xiaomi/mido/proprietary/lib/com.qualcomm.qti.imscmservice@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/com.qualcomm.qti.imscmservice@2.0.so \
-    vendor/xiaomi/mido/proprietary/lib/com.qualcomm.qti.imscmservice@2.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib/com.qualcomm.qti.imscmservice@2.1.so \
     vendor/xiaomi/mido/proprietary/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
     vendor/xiaomi/mido/proprietary/lib/extractors/libmmparserextractor.so:$(TARGET_COPY_OUT_SYSTEM)/lib/extractors/libmmparserextractor.so \
-    vendor/xiaomi/mido/proprietary/lib/lib-imscamera.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib-imscamera.so \
-    vendor/xiaomi/mido/proprietary/lib/lib-imsvideocodec.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib-imsvideocodec.so \
-    vendor/xiaomi/mido/proprietary/lib/lib-imsvtextutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib-imsvtextutils.so \
-    vendor/xiaomi/mido/proprietary/lib/lib-imsvtutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib-imsvtutils.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/libDiracAPI_SHARED.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDiracAPI_SHARED.so \
     vendor/xiaomi/mido/proprietary/lib/libFileMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libFileMux.so \
     vendor/xiaomi/mido/proprietary/lib/libOmxMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libOmxMux.so \
@@ -84,7 +77,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mido/proprietary/lib/libmmrtpdecoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmrtpdecoder.so \
     vendor/xiaomi/mido/proprietary/lib/libmmrtpencoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmrtpencoder.so \
     vendor/xiaomi/mido/proprietary/lib/libqmi_cci_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqmi_cci_system.so \
-    vendor/xiaomi/mido/proprietary/lib/librcc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/librcc.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/libsdm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdm-disp-apis.so \
     vendor/xiaomi/mido/proprietary/lib/libwfdavenhancements.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfdavenhancements.so \
     vendor/xiaomi/mido/proprietary/lib/libwfdclient.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfdclient.so \
@@ -104,7 +96,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mido/proprietary/lib/libwfduibcsrc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfduibcsrc.so \
     vendor/xiaomi/mido/proprietary/lib/libwfduibcsrcinterface.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfduibcsrcinterface.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/soundfx/libdirac.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libdirac.so \
-    vendor/xiaomi/mido/proprietary/lib/vendor.qti.imsrtpservice@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.qti.imsrtpservice@1.0.so \
     vendor/xiaomi/mido/proprietary/lib64/com.qualcomm.qti.imscmservice@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/xiaomi/mido/proprietary/lib64/com.qualcomm.qti.imscmservice@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/com.qualcomm.qti.imscmservice@2.0.so \
     vendor/xiaomi/mido/proprietary/lib64/com.qualcomm.qti.imscmservice@2.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/com.qualcomm.qti.imscmservice@2.1.so \
@@ -270,10 +261,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mido/proprietary/vendor/firmware/cpp_firmware_v1_8_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_8_0.fw \
     vendor/xiaomi/mido/proprietary/vendor/firmware/wlan/prima/WCNSS_cfg.dat:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/prima/WCNSS_cfg.dat \
     vendor/xiaomi/mido/proprietary/vendor/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
-    vendor/xiaomi/mido/proprietary/vendor/lib/com.qualcomm.qti.imscmservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.imscmservice@1.0.so \
-    vendor/xiaomi/mido/proprietary/vendor/lib/com.qualcomm.qti.imscmservice@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.imscmservice@2.0.so \
-    vendor/xiaomi/mido/proprietary/vendor/lib/com.qualcomm.qti.imscmservice@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.imscmservice@2.1.so \
-    vendor/xiaomi/mido/proprietary/vendor/lib/com.qualcomm.qti.uceservice@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.uceservice@2.0.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/eglSubDriverAndroid.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/egl/libEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libEGL_adreno.so \
@@ -290,16 +277,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mido/proprietary/vendor/lib/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/hw/vulkan.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vulkan.msm8953.so \
-    vendor/xiaomi/mido/proprietary/vendor/lib/lib-imsSDP.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imsSDP.so \
-    vendor/xiaomi/mido/proprietary/vendor/lib/lib-imscmservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imscmservice.so \
-    vendor/xiaomi/mido/proprietary/vendor/lib/lib-imsdpl.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imsdpl.so \
-    vendor/xiaomi/mido/proprietary/vendor/lib/lib-imsqimf.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imsqimf.so \
-    vendor/xiaomi/mido/proprietary/vendor/lib/lib-imsrcs-v2.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imsrcs-v2.so \
-    vendor/xiaomi/mido/proprietary/vendor/lib/lib-imsrcsbaseimpl.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imsrcsbaseimpl.so \
-    vendor/xiaomi/mido/proprietary/vendor/lib/lib-imsxml.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imsxml.so \
-    vendor/xiaomi/mido/proprietary/vendor/lib/lib-rtpcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-rtpcommon.so \
-    vendor/xiaomi/mido/proprietary/vendor/lib/lib-siputility.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-siputility.so \
-    vendor/xiaomi/mido/proprietary/vendor/lib/lib-uceservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-uceservice.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/libC2D2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libC2D2.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/libCB.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCB.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/libChamomilePA.so:$(TARGET_COPY_OUT_VENDOR)/lib/libChamomilePA.so \
@@ -759,7 +736,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mido/proprietary/vendor/lib/libchromatix_s5k5e8_sunny_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e8_sunny_snapshot.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/libchromatix_s5k5e8_sunny_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e8_sunny_zsl_preview_3a.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/libchromatix_s5k5e8_sunny_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e8_sunny_zsl_video_3a.so \
-    vendor/xiaomi/mido/proprietary/vendor/lib/libconfigdb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libconfigdb.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/libdiag.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdiag.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/libdisp-aba.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdisp-aba.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/libdrc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrc.so \
@@ -899,9 +875,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mido/proprietary/vendor/lib/libmmqjpeg_codec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmqjpeg_codec.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/libmmqjpegdma.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmqjpegdma.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmpbase.so \
-    vendor/xiaomi/mido/proprietary/vendor/lib/libnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnetmgr.so \
-    vendor/xiaomi/mido/proprietary/vendor/lib/libnetmgr_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnetmgr_common.so \
-    vendor/xiaomi/mido/proprietary/vendor/lib/libnlnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnlnetmgr.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/libois_lc898122.so:$(TARGET_COPY_OUT_VENDOR)/lib/libois_lc898122.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/liboptizoom.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboptizoom.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/libpdmapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpdmapper.so \
@@ -909,7 +882,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mido/proprietary/vendor/lib/libperfgluelayer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperfgluelayer.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperipheral_client.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/libqcci_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcci_legacy.so \
-    vendor/xiaomi/mido/proprietary/vendor/lib/libqcmaputils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcmaputils.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/libqdi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdi.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/libqdp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdp.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/libqmi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi.so \
@@ -923,7 +895,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mido/proprietary/vendor/lib/libqomx_jpegdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegdec.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/libqomx_jpegenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc_pipe.so \
-    vendor/xiaomi/mido/proprietary/vendor/lib/libqrtr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqrtr.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/libqti-perfd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-perfd-client.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/libqti-perfd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-perfd.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/libqti-util.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-util.so \
@@ -970,25 +941,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mido/proprietary/vendor/lib/vendor.qti.hardware.perf@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.perf@1.0.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/vendor.qti.hardware.perf@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.perf@2.0.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/vendor.qti.hardware.qdutils_disp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.qdutils_disp@1.0.so \
-    vendor/xiaomi/mido/proprietary/vendor/lib/vendor.qti.hardware.radio.am@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.am@1.0.so \
-    vendor/xiaomi/mido/proprietary/vendor/lib/vendor.qti.hardware.radio.atcmdfwd@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.atcmdfwd@1.0.so \
-    vendor/xiaomi/mido/proprietary/vendor/lib/vendor.qti.hardware.radio.ims@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.ims@1.0.so \
-    vendor/xiaomi/mido/proprietary/vendor/lib/vendor.qti.hardware.radio.ims@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.ims@1.1.so \
-    vendor/xiaomi/mido/proprietary/vendor/lib/vendor.qti.hardware.radio.ims@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.ims@1.2.so \
-    vendor/xiaomi/mido/proprietary/vendor/lib/vendor.qti.hardware.radio.ims@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.ims@1.3.so \
-    vendor/xiaomi/mido/proprietary/vendor/lib/vendor.qti.hardware.radio.ims@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.ims@1.4.so \
-    vendor/xiaomi/mido/proprietary/vendor/lib/vendor.qti.hardware.radio.lpa@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.lpa@1.0.so \
-    vendor/xiaomi/mido/proprietary/vendor/lib/vendor.qti.hardware.radio.qcrilhook@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.qcrilhook@1.0.so \
-    vendor/xiaomi/mido/proprietary/vendor/lib/vendor.qti.hardware.radio.qtiradio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.qtiradio@1.0.so \
-    vendor/xiaomi/mido/proprietary/vendor/lib/vendor.qti.hardware.radio.qtiradio@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.qtiradio@2.0.so \
-    vendor/xiaomi/mido/proprietary/vendor/lib/vendor.qti.hardware.radio.uim@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.uim@1.0.so \
-    vendor/xiaomi/mido/proprietary/vendor/lib/vendor.qti.hardware.radio.uim@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.uim@1.1.so \
-    vendor/xiaomi/mido/proprietary/vendor/lib/vendor.qti.hardware.radio.uim_remote_client@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.uim_remote_client@1.0.so \
-    vendor/xiaomi/mido/proprietary/vendor/lib/vendor.qti.hardware.radio.uim_remote_server@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.uim_remote_server@1.0.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/vendor.qti.hardware.tui_comm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.tui_comm@1.0.so \
-    vendor/xiaomi/mido/proprietary/vendor/lib/vendor.qti.ims.callinfo@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.ims.callinfo@1.0.so \
-    vendor/xiaomi/mido/proprietary/vendor/lib/vendor.qti.imsrtpservice@1.0-service-Impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.imsrtpservice@1.0-service-Impl.so \
-    vendor/xiaomi/mido/proprietary/vendor/lib/vendor.qti.imsrtpservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.imsrtpservice@1.0.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/vendor.qti.voiceprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.voiceprint@1.0.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/vndk-sp/libcutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk-sp/libcutils.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/vndk/libprocessgroup.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk/libprocessgroup.so \
