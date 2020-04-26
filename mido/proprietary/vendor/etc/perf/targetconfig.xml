@@ -79,8 +79,7 @@
              TotalNumCores="8"
              SocIds="349,350"
              SynCore="1"
-             MinCoreOnline="0"
-             GovInstanceType="1" />
+             MinCoreOnline="0" />
 
          <ClustersInfo Id="0" NumCores="4" Type="little" />
          <ClustersInfo Id="1" NumCores="4" Type="big" />
