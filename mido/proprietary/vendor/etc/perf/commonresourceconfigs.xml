@@ -247,5 +247,17 @@ need to be added just before the end of it's major group. -->
         <Minor OpcodeValue="0x10" Node="/sys/class/devfreq/soc:qcom,cpu4-llcc-ddr-lat/mem_latency/stall_floor" />
     <!-- memlat major end -->
 
+    <!-- npu major start -->
+    <Major OpcodeValue="0xE" />
+        <!-- ALl the following minors node path might change based on target. -->
+        <Minor OpcodeValue="0x0" Node="/sys/class/devfreq/soc:qcom,npu-npu-llcc-bw/bw_hwmon/sample_ms" />
+        <Minor OpcodeValue="0x1" Node="/sys/class/devfreq/soc:qcom,npu-npu-llcc-bw/bw_hwmon/io_percent" />
+        <Minor OpcodeValue="0x2" Node="SPECIAL_NODE - npu_llcbw_hwmon_hyst_opt" />
+        <!--Here onwards are the path for new opcodes to mark NPU_LLCC_DDR_BW nodes.-->
+        <Minor OpcodeValue="0x3" Node="/sys/class/devfreq/soc:qcom,npu-llcc-ddr-bw/bw_hwmon/sample_ms" />
+        <Minor OpcodeValue="0x4" Node="/sys/class/devfreq/soc:qcom,npu-llcc-ddr-bw/bw_hwmon/io_percent" />
+        <Minor OpcodeValue="0x5" Node="SPECIAL_NODE - npu_ddr_llcbw_hwmon_hyst_opt" />
+    <!-- npu major end -->
+
     </PerfResources>
 </ResourceConfigs>
