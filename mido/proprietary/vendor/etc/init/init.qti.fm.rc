@@ -1,6 +1,0 @@
-service vendor.fm /vendor/bin/init.qti.fm.sh
-    class late_start
-    user system
-    group system
-    disabled
-    oneshot
