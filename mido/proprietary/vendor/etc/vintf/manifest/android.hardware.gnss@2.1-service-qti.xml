@@ -1,4 +1,4 @@
-<!-- Copyright (c) 2019, The Linux Foundation. All rights reserved.
+<!-- Copyright (c) 2020, The Linux Foundation. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are
@@ -29,9 +29,8 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     <hal format="hidl">
         <name>android.hardware.gnss</name>
         <transport>hwbinder</transport>
-        <fqname>@1.0::IGnss/gnss_vendor</fqname>
         <fqname>@1.1::IGnss/default</fqname>
-        <fqname>@2.0::IGnss/default</fqname>
+        <fqname>@2.1::IGnss/default</fqname>
     </hal>
 </manifest>
 
