@@ -44,29 +44,32 @@ as anyway perflock calls of these resources would fail. -->
         by default as the recent target moved to schedutil. So, for older targets
         where interactive minors are supported they need to be enabled and schedutil
         minors are disabled. -->
-        <Config MajorValue="0x5" MinorValue="0x0" Node="/sys/devices/system/cpu/cpufreq/interactive/above_hispeed_delay" /> <!-- above_hispeed_delay -->
-        <Config MajorValue="0x5" MinorValue="0x1" Node="/sys/devices/system/cpu/cpufreq/interactive/boost" /> <!-- boost -->
-        <Config MajorValue="0x5" MinorValue="0x3" Node="/sys/devices/system/cpu/cpufreq/interactive/boostpulse_duration" /> <!-- boostpulse_duration -->
-        <Config MajorValue="0x5" MinorValue="0x4" Node="/sys/devices/system/cpu/cpufreq/interactive/go_hispeed_load" /> <!-- go_hispeed_load -->
-        <Config MajorValue="0x5" MinorValue="0x5" Node="/sys/devices/system/cpu/cpufreq/interactive/hispeed_freq" /> <!-- hispeed_freq -->
-        <Config MajorValue="0x5" MinorValue="0x6" Node="/sys/devices/system/cpu/cpufreq/interactive/io_is_busy" /> <!-- io_is_busy -->
-        <Config MajorValue="0x5" MinorValue="0x7" Node="/sys/devices/system/cpu/cpufreq/interactive/min_sample_time" /> <!-- min_sample_time -->
-        <Config MajorValue="0x5" MinorValue="0x8" Node="/sys/devices/system/cpu/cpufreq/interactive/target_loads" /> <!-- target_loads -->
-        <Config MajorValue="0x5" MinorValue="0x9" Node="/sys/devices/system/cpu/cpufreq/interactive/timer_rate" /> <!-- timer_rate -->
-        <Config MajorValue="0x5" MinorValue="0xA" Node="/sys/devices/system/cpu/cpufreq/interactive/timer_slack" /> <!-- timer_slack -->
-        <Config MajorValue="0x5" MinorValue="0xB" Node="/sys/devices/system/cpu/cpufreq/interactive/max_freq_hysteresis" /> <!-- max_freq_hysteresis -->
-        <Config MajorValue="0x5" MinorValue="0xC" Node="/sys/devices/system/cpu/cpufreq/interactive/use_sched_load" /> <!-- use_sched_load -->
-        <Config MajorValue="0x5" MinorValue="0xD" Node="/sys/devices/system/cpu/cpufreq/interactive/use_migration_notif" /> <!-- use_migration_notif -->
-        <Config MajorValue="0x5" MinorValue="0xE" Node="/sys/devices/system/cpu/cpufreq/interactive/ignore_hispeed_on_notif " /> <!-- ignore_hispeed_on_notif -->
-        <Config MajorValue="0x5" MinorValue="0xF" Supported="no" />
-        <Config MajorValue="0x5" MinorValue="0x10" Supported="no" />
-        <Config MajorValue="0x5" MinorValue="0x11" Supported="no" />
+        <Config MajorValue="0x5" MinorValue="0x0" Kernel="3.18" Node="/sys/devices/system/cpu/cpufreq/interactive/above_hispeed_delay" /> <!-- above_hispeed_delay -->
+        <Config MajorValue="0x5" MinorValue="0x1" Kernel="3.18" Node="/sys/devices/system/cpu/cpufreq/interactive/boost" /> <!-- boost -->
+        <Config MajorValue="0x5" MinorValue="0x3" Kernel="3.18" Node="/sys/devices/system/cpu/cpufreq/interactive/boostpulse_duration" /> <!-- boostpulse_duration -->
+        <Config MajorValue="0x5" MinorValue="0x4" Kernel="3.18" Node="/sys/devices/system/cpu/cpufreq/interactive/go_hispeed_load" /> <!-- go_hispeed_load -->
+        <Config MajorValue="0x5" MinorValue="0x5" Kernel="3.18" Node="/sys/devices/system/cpu/cpufreq/interactive/hispeed_freq" /> <!-- hispeed_freq -->
+        <Config MajorValue="0x5" MinorValue="0x6" Kernel="3.18" Node="/sys/devices/system/cpu/cpufreq/interactive/io_is_busy" /> <!-- io_is_busy -->
+        <Config MajorValue="0x5" MinorValue="0x7" Kernel="3.18" Node="/sys/devices/system/cpu/cpufreq/interactive/min_sample_time" /> <!-- min_sample_time -->
+        <Config MajorValue="0x5" MinorValue="0x8" Kernel="3.18" Node="/sys/devices/system/cpu/cpufreq/interactive/target_loads" /> <!-- target_loads -->
+        <Config MajorValue="0x5" MinorValue="0x9" Kernel="3.18" Node="/sys/devices/system/cpu/cpufreq/interactive/timer_rate" /> <!-- timer_rate -->
+        <Config MajorValue="0x5" MinorValue="0xA" Kernel="3.18" Node="/sys/devices/system/cpu/cpufreq/interactive/timer_slack" /> <!-- timer_slack -->
+        <Config MajorValue="0x5" MinorValue="0xB" Kernel="3.18" Node="/sys/devices/system/cpu/cpufreq/interactive/max_freq_hysteresis" /> <!-- max_freq_hysteresis -->
+        <Config MajorValue="0x5" MinorValue="0xC" Kernel="3.18" Node="/sys/devices/system/cpu/cpufreq/interactive/use_sched_load" /> <!-- use_sched_load -->
+        <Config MajorValue="0x5" MinorValue="0xD" Kernel="3.18" Node="/sys/devices/system/cpu/cpufreq/interactive/use_migration_notif" /> <!-- use_migration_notif -->
+        <Config MajorValue="0x5" MinorValue="0xE" Kernel="3.18" Node="/sys/devices/system/cpu/cpufreq/interactive/ignore_hispeed_on_notif " /> <!-- ignore_hispeed_on_notif -->
+        <Config MajorValue="0x5" MinorValue="0xF" Kernel="3.18" Supported="no" />
+        <Config MajorValue="0x5" MinorValue="0x10" Kernel="3.18" Supported="no" />
+        <Config MajorValue="0x5" MinorValue="0x11" Kernel="3.18" Supported="no" />
         <Config MajorValue="0x5" MinorValue="0xF" Target="sdm632" Supported="yes" />
         <Config MajorValue="0x5" MinorValue="0x10" Target="sdm632" Supported="yes" />
         <Config MajorValue="0x5" MinorValue="0x11" Target="sdm632" Supported="yes" />
         <Config MajorValue="0x5" MinorValue="0xF" Target="sdm450" Kernel="4.9" Supported="yes" Node="/sys/devices/system/cpu/cpufreq/schedutil/hispeed_freq" />
         <Config MajorValue="0x5" MinorValue="0x10" Target="sdm450" Kernel="4.9" Supported="yes" Node="/sys/devices/system/cpu/cpufreq/schedutil/hispeed_load" />
         <Config MajorValue="0x5" MinorValue="0x11" Target="sdm450" Kernel="4.9" Supported="yes" Node="/sys/devices/system/cpu/cpufreq/schedutil/pl" />
+        <Config MajorValue="0x5" MinorValue="0xF" Target="msm8953" Kernel="4.9" Supported="yes" Node="/sys/devices/system/cpu/cpufreq/schedutil/hispeed_freq" />
+        <Config MajorValue="0x5" MinorValue="0x10" Target="msm8953" Kernel="4.9" Supported="yes" Node="/sys/devices/system/cpu/cpufreq/schedutil/hispeed_load" />
+        <Config MajorValue="0x5" MinorValue="0x11" Target="msm8953" Kernel="4.9" Supported="yes" Node="/sys/devices/system/cpu/cpufreq/schedutil/pl" />
 
         <Config MajorValue="0x9" MinorValue="0x7" Supported="yes" /> <!-- cpu.notify_on_migrate -->
 
