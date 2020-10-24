@@ -28,7 +28,7 @@ on post-fs-data
 on property:persist.vendor.data.mode=disabled
     stop vendor.netmgrd
 
-service vendor.netmgrd /system/vendor/bin/netmgrd
+service vendor.netmgrd /vendor/bin/netmgrd
     class main
 
 on property:ro.vendor.use_data_netmgrd=false
