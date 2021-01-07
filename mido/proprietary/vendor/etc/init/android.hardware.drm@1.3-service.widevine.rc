@@ -1,6 +1,5 @@
 on property:init.svc.mediadrm=running
     mkdir /data/vendor/mediadrm 0770 media mediadrm
-    start vendor.move_data_sh
 
 service vendor.drm-widevine-hal-1-3 /vendor/bin/hw/android.hardware.drm@1.3-service.widevine
     interface android.hardware.drm@1.0::ICryptoFactory widevine
