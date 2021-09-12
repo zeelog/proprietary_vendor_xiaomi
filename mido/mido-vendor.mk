@@ -32,14 +32,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mido/proprietary/framework/com.qti.snapdragon.sdk.display.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.qti.snapdragon.sdk.display.jar \
     vendor/xiaomi/mido/proprietary/lib/libFileMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libFileMux.so \
     vendor/xiaomi/mido/proprietary/lib/libOmxMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libOmxMux.so \
-    vendor/xiaomi/mido/proprietary/vendor/lib/libsdm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdm-disp-apis.so \
     vendor/xiaomi/mido/proprietary/vendor/lib64/hw/fingerprint.goodix.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.goodix.so \
     vendor/xiaomi/mido/proprietary/vendor/lib64/hw/fingerprint.searchf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.searchf.so \
     vendor/xiaomi/mido/proprietary/vendor/lib64/hw/gxfingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gxfingerprint.default.so \
     vendor/xiaomi/mido/proprietary/vendor/lib64/libfp_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfp_client.so \
     vendor/xiaomi/mido/proprietary/vendor/lib64/libfpnav.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfpnav.so \
     vendor/xiaomi/mido/proprietary/vendor/lib64/libfpservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfpservice.so \
-    vendor/xiaomi/mido/proprietary/vendor/lib64/libsdm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdm-disp-apis.so \
     vendor/xiaomi/mido/proprietary/product/etc/permissions/telephony_product_privapp-permissions-qti.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/telephony_product_privapp-permissions-qti.xml \
     vendor/xiaomi/mido/proprietary/system_ext/bin/dpmd:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/dpmd \
     vendor/xiaomi/mido/proprietary/system_ext/etc/dpm/dpm.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/dpm/dpm.conf \
