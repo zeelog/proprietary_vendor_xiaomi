@@ -1,4 +1,4 @@
-#  @file    vendor.qti.hardware.perf@2.1-service.rc
+#  @file    vendor.qti.hardware.perf@2.2-service.rc
 #  @brief   Defination perf service
 #
 #  DESCRIPTION
@@ -7,7 +7,7 @@
 #       All Rights Reserved.
 #       Confidential and Proprietary - Qualcomm Technologies, Inc.
 #  ---------------------------------------------------------------------------
-service vendor.perf-hal-2-1 /vendor/bin/hw/vendor.qti.hardware.perf@2.1-service
+service perf-hal-2-2 /vendor/bin/hw/vendor.qti.hardware.perf@2.2-service
     class hal
     user root
     group root readproc oem_2907
