@@ -116,4 +116,5 @@
     <allow-in-power-save package="com.qualcomm.location" />
     <allow-in-power-save package="com.qualcomm.location.XT" />
     <allow-implicit-broadcast action="org.codeaurora.intent.action.CALL_COMPOSER_INFO" />
+    <allow-implicit-broadcast action="org.codeaurora.intent.action.PRE_ALERTING_CALL_INFO" />
 </config>
