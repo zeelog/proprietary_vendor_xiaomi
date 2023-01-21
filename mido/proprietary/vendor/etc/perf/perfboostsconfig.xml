@@ -35,6 +35,14 @@
                        ,0x42C10000, 0x1"
                 />
 
+    <!--excessive rendering boost-->
+        <!-- CPUBOOST_MIN_FREQ LITTLE Core resource opcode, value-->
+        <!-- GPU MIN_FREQUENCY resource opcode,value-->
+        <!-- Type="", excessive rendering boost -->
+        <Config
+            Id="0x000010A5" Enable="true" Timeout="0" Target="msm8953"
+            Resources="0x40800100, 1000, 0x4280C000, 596" />
+
         <!-- SCHEDBOOST resource opcode, value-->
         <!-- CPUBOOST_MIN_FREQ LITTLE Core resource opcode, value-->
         <!-- SCHED_SPILL_NR_RUN resource opcode, value-->
