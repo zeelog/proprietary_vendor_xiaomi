@@ -84,6 +84,16 @@
             </DATA_VIEW>
           </Block>
         </TOPOLOGY>
+        <TOPOLOGY name="AUDIO_RX_MONO_VOIP" ID="0x11000100" type="RX" NewAdded="true">
+          <Block name="AUDIO_HIGH_THD_RESAMPLER" ID="0x00010719" />
+          <Block name="RX_VOICE_FNS_V2" ID="0x00010F24" />
+          <Block name="AUDIO_TX_AIG" ID="0x00010716" />
+          <Block name="AUDIO_MBDRC2" ID="0x0001070B" />
+          <Block name="AUDIO_MULTICHAN_IIR" ID="0x0001031F" />
+          <Block name="AUDIO_SOFT_STEP_VOLUME" ID="0x00010BFE" />
+          <Block name="AUDIO_RX_CODEC_GAIN" ID="0x00010C37" />
+          <Block name="AUDIO_MBDRC_V3" ID="0x0001090B" />
+        </TOPOLOGY>
       </AREA>
       <AREA type="RX" name="AUDIO_POPP_RX">
         <TOPOLOGY name="AUDPROC_OFFLOAD_EFFECTS" ID="0x1000FFFF" type="RX" NewAdded="true" avcs_area="AUDIO">
@@ -183,6 +193,16 @@
             <INTERFACE I_id="0x00010C38" />
           </DATA_VIEW>
         </Block>
+      </TOPOLOGY>
+      <TOPOLOGY name="AUDIO_RX_MONO_VOIP" ID="0x11000100" type="RX" NewAdded="true">
+        <Block name="AUDIO_MULTICHAN_IIR" ID="0x0001031F" />
+        <Block name="AUDIO_MBDRC2" ID="0x0001070B" />
+        <Block name="AUDIO_TX_AIG" ID="0x00010716" />
+        <Block name="AUDIO_HIGH_THD_RESAMPLER" ID="0x00010719" />
+        <Block name="AUDIO_MBDRC_V3" ID="0x0001090B" />
+        <Block name="AUDIO_SOFT_STEP_VOLUME" ID="0x00010BFE" />
+        <Block name="AUDIO_RX_CODEC_GAIN" ID="0x00010C37" />
+        <Block name="RX_VOICE_FNS_V2" ID="0x00010F24" />
       </TOPOLOGY>
     </TOPOLOGY_LIST>
     <BLOCK_LIST>
